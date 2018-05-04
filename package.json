@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx run-p serve livereload watch",
     "build": "npm run style:build && node build.js",
+    "deploy": "npm run build && gh-pages -d dist",
     "build:dev": "npm run style:build && node build.js -d",
     "style:build": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o dist/",
     "serve": "npx http-server ./dist",
