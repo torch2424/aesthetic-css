@@ -1,0 +1,33 @@
+{
+  "name": "vapor",
+  "version": "1.0.0",
+  "description": "The most A E S T H E T I C CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx run-p serve livereload watch",
+    "build": "npm run style:build && node build.js",
+    "build:dev": "npm run style:build && node build.js -d",
+    "style:build": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o dist/",
+    "serve": "npx http-server ./dist",
+    "livereload": "npx livereload ./dist",
+    "watch": "npx watch 'npm run build:dev' ./src ./demo --interval=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torch2424/vapor.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torch2424/vapor/issues"
+  },
+  "homepage": "https://github.com/torch2424/vapor#readme",
+  "devDependencies": {
+    "livereload": "^0.7.0",
+    "minimist": "^1.2.0",
+    "mustache": "^2.3.0",
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2",
+    "watch": "^1.0.2"
+  }
+}
