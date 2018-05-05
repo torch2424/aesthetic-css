@@ -15,8 +15,10 @@ $vapor-light-blue: #94D0FF;
 // http://www.colourlovers.com/color/10D7AE/VAPOR_WAVE_GREEN
 $vapor-green: #10D7AE;
 
-$vapor-windows-grey: #DFDFDF;
-$vapor-windows-gray: #DFDFDF;
+$vapor-windows-grey: #BFBFBF;
+$vapor-windows-grey-border: #DFDFDF;
+$vapor-windows-gray: $vapor-windows-grey;
+$vapor-windows-gray-border: $vapor-windows-grey-border;
 
 // Our default font stack
 $vapor-font-stack: Times, Times New Roman, Georgia, serif;

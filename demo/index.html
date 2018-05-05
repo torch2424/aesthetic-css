@@ -31,6 +31,29 @@
           height: 100%;
           min-height: 100vh;
         }
+
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+
+        .container {
+          background-color: #BFBFBF;
+          border: 1px solid #DFDFDF;
+          box-shadow: 1px 1px 0 0 #020202;
+
+          padding: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          max-width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .header {
+          text-align: center;
+        }
       </style>
 
       <!-- Livereload script for development -->
@@ -44,7 +67,11 @@
 
   <body class="vapor-bg-gradient vapor-font">
     <div class="container">
-      <h1>VAPOR</h1>
+      <div class="header">
+        <h1>VAPOR</h1>
+        <p><i>The most A E S T H E T I C CSS Framework</i></p>
+      </div>
+
       <h1>FONTS</h1>
       <div>
         <h1 class="vapor-font">class="vapor-font"</h1>
@@ -64,23 +91,36 @@
       <h1>FONT MODIFIERS</h1>
       <div>
         <h2>OUTLINE</h2>
-        <h1 class="vapor-font-modifier-outline-black">class="vapor-font-modifier-outline-black"</h1>
-        <h1 class="vapor-font-modifier-outline-pink">class="vapor-font-modifier-outline-pink"</h1>
-        <h1 class="vapor-font-modifier-outline-purple">class="vapor-font-modifier-outline-purple"</h1>
+        <div>
+          <h1 class="vapor-font-modifier-outline-black">class="vapor-font-modifier-outline-black"</h1>
+          <h1 class="vapor-font-modifier-outline-pink">class="vapor-font-modifier-outline-pink"</h1>
+          <h1 class="vapor-font-modifier-outline-purple">class="vapor-font-modifier-outline-purple"</h1>
+        </div>
         <h2>GRADIENT</h2>
         <div>
-          <h1 class="vapor-font-modifier-gradient-pink-blue">class="vapor-font-modifier-gradient-pink-blue"</h1>
-        </div>
-        <div>
-          <h1 class="vapor-font-modifier-gradient-pink-green">class="vapor-font-modifier-gradient-pink-green"</h1>
-        </div>
-        <div>
-          <h1 class="vapor-font-modifier-gradient-green-pink">class="vapor-font-modifier-gradient-green-pink"</h1>
-        </div>
-        <div>
-          <h1 class="vapor-font-modifier-gradient-purple-blue">class="vapor-font-modifier-gradient-purple-blue"</h1>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-pink-blue">class="vapor-font-modifier-gradient-pink-blue"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-pink-green">class="vapor-font-modifier-gradient-pink-green"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-green-pink">class="vapor-font-modifier-gradient-green-pink"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-purple-blue">class="vapor-font-modifier-gradient-purple-blue"</h1>
+          </div>
         </div>
       </div>
     </div>
+
+    <footer class="center">
+      <div>
+        <i>Created by <a href="https://aaronthedev.com" target="_blank">Aaron Turner</a> and <a href="https://github.com/echo-exe" target="_blank">Daniel Gomez</a></i>
+      </div>
+      <div>
+        <b>LICENSE: MIT</b>
+      </div>
+    </footer>
   </body>
 </html>
