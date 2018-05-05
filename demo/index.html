@@ -21,7 +21,16 @@
         CSS must be embedded inline, Using mustache to replace the vaporcss
       -->
       <style amp-custom>
-        {{vaporcss}}
+        {{{vaporcss}}}
+
+        html {
+          height: 100%;
+        }
+
+        body {
+          height: 100%;
+          min-height: 100vh;
+        }
       </style>
 
       <!-- Livereload script for development -->
@@ -33,9 +42,9 @@
       <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   </head>
 
-  <body>
+  <body class="vapor-bg-gradient vapor-font-cinzel">
     <div class="container">
-      <h1>V A P O R</h1>
+      <h1>VAPOR</h1>
     </div>
   </body>
 </html>

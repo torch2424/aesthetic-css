@@ -1,7 +1,19 @@
+// Imports
+@import "variables";
+@import "gradients";
 
-@import "test";
+// Default font
+@mixin vapor-font {
+  font-family: $vapor-font-stack;
+  font-weight: lighter;
 
-.container {
-  height: 200px;
-  background-color: yellow;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+  }
 }
+.vapor-font {
+  @include vapor-font
+}
+
+// Fonts will be an optional import at some point
+@import "fonts";
