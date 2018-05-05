@@ -1,0 +1,73 @@
+// Modifiers to make fonts look crazier
+
+// Font Outlines
+
+@mixin vapor-font-modifier-outline {
+  font-weight: bold;
+  color: $vapor-white;
+
+  // How to do the outline:
+  // https://stackoverflow.com/questions/4919076/outline-effect-to-text
+}
+
+.vapor-font-modifier-outline-black {
+  @include vapor-font-modifier-outline;
+
+  text-shadow:
+    -1px -1px 1px $vapor-black,
+    1px -1px 1px $vapor-black,
+    -1px 1px 1px $vapor-black,
+    1px 1px 1px $vapor-black;
+}
+
+.vapor-font-modifier-outline-pink {
+  @include vapor-font-modifier-outline;
+
+  text-shadow:
+    -1px -1px 1px $vapor-pink,
+    1px -1px 1px $vapor-pink,
+    -1px 1px 1px $vapor-pink,
+    1px 1px 1px $vapor-pink;
+}
+
+.vapor-font-modifier-outline-purple {
+  @include vapor-font-modifier-outline;
+
+  text-shadow:
+    -1px -1px 1px $vapor-purple,
+    1px -1px 1px $vapor-purple,
+    -1px 1px 1px $vapor-purple,
+    1px 1px 1px $vapor-purple;
+}
+
+// Font Gradients
+@mixin vapor-font-modifier-gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+}
+
+.vapor-font-modifier-gradient-pink-blue {
+  @include vapor-font-modifier-gradient;
+
+  background-image: linear-gradient(to right, $vapor-pink, $vapor-blue);
+}
+
+.vapor-font-modifier-gradient-pink-green {
+  @include vapor-font-modifier-gradient;
+
+  background-image: linear-gradient(to right, $vapor-pink, $vapor-green);
+}
+
+.vapor-font-modifier-gradient-green-pink {
+  @include vapor-font-modifier-gradient;
+
+  background-image: linear-gradient(to right, $vapor-green, $vapor-pink);
+}
+
+.vapor-font-modifier-gradient-purple-blue {
+  @include vapor-font-modifier-gradient;
+
+  background-image: linear-gradient(to right, $vapor-purple, $vapor-blue);
+}

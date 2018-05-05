@@ -9,6 +9,5 @@
 // Default gradient
 .vapor-bg-gradient {
   @include gradient-no-repeat;
-
   background: linear-gradient($vapor-purple, $vapor-light-blue);
 }
