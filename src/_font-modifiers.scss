@@ -48,6 +48,12 @@
   display: inline;
 }
 
+.vapor-font-modifier-gradient-arizona {
+  @include vapor-font-modifier-gradient;
+
+  background-image: linear-gradient(to left, $vapor-arizona-pink, $vapor-arizona-lime, $vapor-arizona-green, $vapor-arizona-blue);
+}
+
 .vapor-font-modifier-gradient-pink-blue {
   @include vapor-font-modifier-gradient;
 
