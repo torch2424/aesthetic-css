@@ -1,0 +1,57 @@
+// CRT Effect
+// https://codepen.io/lbebber/pen/XJRdrV
+
+$ease-out-quint: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+$ease-in-quint: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+$screen-background: #121010;
+
+@keyframes flicker{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      opacity:random();
+    }
+  }
+}
+
+.vapor-effect-crt {
+
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $screen-background;
+
+  // flicker
+  &::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: transparentize($screen-background,0.9);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+  }
+
+  // scanlines
+  &::before {
+
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(transparentize($screen-background, 1) 50%, transparentize(darken($screen-background, 10), 0.75) 50%), linear-gradient(90deg,transparentize(#ff0000,0.94),transparentize(#00ff00, 0.98),transparentize(#0000ff, 0.94));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
+}

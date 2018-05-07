@@ -1,0 +1,88 @@
+// Just went google fonts (open source and free!) and found the following
+// https://fonts.google.com/specimen/Cinzel
+// https://fonts.google.com/specimen/Playfair+Display+SC
+// https://fonts.google.com/specimen/Monoton
+// https://fonts.google.com/specimen/VT323
+// https://fonts.google.com/specimen/Press+Start+2P
+// https://fonts.google.com/specimen/Limelight
+// https://fonts.google.com/specimen/Share+Tech+Mono
+// https://fonts.google.com/specimen/Six+Caps
+// https://fonts.google.com/specimen/Cutive+Mono
+// https://fonts.google.com/specimen/Spectral+SC
+// https://fonts.google.com/specimen/Mate+SC
+// https://fonts.google.com/specimen/IM+Fell+French+Canon+SC
+
+// Import our fonts
+// Only using fast load time fonts
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel'); // font-family: 'Cinzel'
+.vapor-font-cinzel {
+  @include vapor-font;
+  font-family: 'Cinzel', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC'); // font-family: 'Playfair Display SC'
+.vapor-font-playfair {
+  @include vapor-font;
+  font-family: 'Playfair Display SC', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Monoton'); // font-family: 'Monoton'
+.vapor-font-monoton {
+  @include vapor-font;
+  font-family: 'Monoton', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=VT323'); // font-family: 'VT323'
+.vapor-font-VT323 {
+  @include vapor-font;
+  font-family: 'VT323', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P'); // font-family: 'Press Start 2P'
+.vapor-font-press-start {
+  @include vapor-font;
+  font-family: 'Press Start 2P', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Limelight'); // font-family: 'Limelight'
+.vapor-font-limelight {
+  @include vapor-font;
+  font-family: 'Limelight', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono'); // font-family: 'Share Tech Mono'
+.vapor-font-share-tech-mono {
+  @include vapor-font;
+  font-family: 'Share Tech Mono', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Six+Caps'); // font-family: 'Six Caps'
+.vapor-font-six-caps {
+  @include vapor-font;
+  font-family: 'Six Caps', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono'); // font-family: 'Cutive Mono'
+.vapor-font-cutive-mono {
+  @include vapor-font;
+  font-family: 'Cutive Mono', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC'); // font-family: 'Spectral SC'
+.vapor-font-spectral {
+  @include vapor-font;
+  font-family: 'Spectral SC', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mate+SC'); // font-family: 'Mate SC'
+.vapor-font-mate {
+  @include vapor-font;
+  font-family: 'Mate SC', $vapor-font-stack;
+}
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC'); // font-family: 'IM Fell French Canon SC'
+.vapor-font-im-fell-french-canon {
+  @include vapor-font;
+  font-family: 'IM Fell French Canon SC', $vapor-font-stack;
+}

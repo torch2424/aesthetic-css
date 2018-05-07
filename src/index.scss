@@ -1,94 +1,29 @@
+// Imports
+@import "variables";
+@import "gradients";
+@import "colors";
+@import "font-modifiers";
+@import "effects/effects";
+@import "containers";
+@import "loading";
+@import "dropdowns";
+@import "input";
 
-@import "test";
+// Default font
+@mixin vapor-font {
+  font-family: $vapor-font-stack;
+  font-weight: lighter;
 
-.container {
-  height: 200px;
-  background-color: yellow;
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: lighter;
+  }
 }
 
-.windows-button-ok {
-  color: #070707;
-  background: #bfbfbf;
-  border: 1px solid;
-  border-top-color: #dfdfdf;
-  border-left-color: #dfdfdf;
-  border-bottom-color: grey;
-  border-right-color: grey;
-  box-shadow: 1px 1px 0 0 #000;
-  text-align: center;
-  outline: 0;
-  padding: 4px;
-  width: 75px; 
+
+.vapor-font {
+  @include vapor-font
 }
 
-.windows-title-bar-button-close {
-  color: #070707;
-  background: #bfbfbf;
-  border: 1px solid;
-  border-top-color: #dfdfdf;
-  border-left-color: #dfdfdf;
-  border-bottom-color: grey;
-  border-right-color: grey;
-  box-shadow: 1px 1px 0 0 #000;
-  text-align: center;
-  outline: 0;
-  padding: 2px;
-  width: 14px;
-  height: 14px;
-  font-size: 8px;
-}
-
-.windows-modal{
-  background: #bfbfbf;
-  border: 1px solid;
-  border-top-color: #dfdfdf;
-  border-left-color: #dfdfdf;
-  border-bottom-color: grey;
-  border-right-color: grey;
-  box-shadow: 1px 1px 0 0 #000;
-  outline: 0;
-  width: 400px;
-  height: 400px;
-}
-
-.windows-modal-title-bar {
-  text-align: left;
-  background: #dbdbdb;
-  border: 1px solid;
-  border-top-color: #dbdbdb;
-  border-left-color: #dbdbdb;
-  border-bottom-color: grey;
-  border-right-color: grey;
-  box-shadow: 1px;
-  outline: 0;
-  margin-top: 4px;
-  margin-left: 4px;
-  height: 18px;
-  width: 390px;
-  display: flex;
-  align-items: center;
-}
-
-.windows-modal-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.title-text {
-  font-size: 12px;
-  margin-left: 8px;
-  margin: 0px;
-  margin-top: 2px;
-}
-
-.right-align {
-  text-align: right;
-  margin-right: 10px;
-}
-
-.corner-close {
-  text-align: right;
-  margin-right: 6px;
-  margin-bottom: 6px;
-  flex-grow: 1;
-}
+// Fonts will be an optional import at some point
+@import "fonts";
+@import "daniel";

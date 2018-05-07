@@ -21,9 +21,53 @@
         CSS must be embedded inline, Using mustache to replace the vaporcss
       -->
       <style amp-custom>
-        {{vaporcss}}
-        
-        
+        {{{vaporcss}}}
+
+        html {
+          height: 100%;
+        }
+
+        body {
+          height: 100%;
+          min-height: 100vh;
+        }
+
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+        }
+
+        .container {
+
+          padding: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          max-width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .header {
+          text-align: center;
+        }
+
+        .crt-image {
+          width: 100%;
+          max-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .color-container {
+          width: 50px;
+          height: 25px;
+          border: 1px solid #020202;
+        }
+
+        .margin-top {
+          margin-top: 10px;
+        }
       </style>
 
       <!-- Livereload script for development -->
@@ -35,35 +79,276 @@
       <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   </head>
 
-  <body>
-    <div class="container">
-      <h1>V A P O R</h1>
-    </div>
-    <button class="windows-button-ok">
-      OK
-    </button>
-    <button class="windows-title-bar-button-close">
-      X
-    </button>
-    <div class="windows-modal-wrapper">
-      <div class="windows-modal">
-          <div class="windows-modal-title-bar">
-            <h1 class= "title-text">America Online</h1>
-              <div class="corner-close">
-                <button class="windows-title-bar-button-close">
-                  X
-                </button>
-              </div>  
-          </div>
-        <p class="modal-text">
-          This is the A E S T H E T I C you need yeahhhhhhh
-        </p>
-            <div class="right-align">
-              <button class="windows-button-ok">
-               OK
-              </button>
-            </div>
+  <body class="vapor-bg-gradient vapor-font">
+    <div class="container vapor-windows-95-container">
+      <div class="header">
+        <h1>VAPOR</h1>
+        <p><i>The most A E S T H E T I C CSS Framework</i></p>
       </div>
-    </div>  
+
+      <h1>ELEMENTS</h1>
+      <div>
+
+        {{{daniel}}}
+
+        <h2>Windows 95 Boot Loader</h2>
+        <div class="vapor-windows-95-boot-loader">
+          <div></div>
+        </div>
+
+        <h2>Windows XP Loader</h2>
+        <div class="vapor-windows-xp-loader">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <h2>Windows 95 Loader</h2>
+        <div class="vapor-windows-95-loader">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <h2>Dropdown</h2>
+        <div class="vapor-windows-95-dropdown">
+          <button class="vapor-windows-95-dropdown-trigger">
+            File
+          </button>
+          <div class="vapor-windows-95-dropdown-menu">
+            <div class="vapor-windows-95-dropdown-menu-item">
+              Menu Item
+            </div>
+          </div>
+        </div>
+
+        <h2>Text Input</h2>
+        <div>
+          <input class="vapor-windows-95-text-input" type="text" value="c:\vapor\src" />
+        </div>
+        <div class="margin-top">
+          <textarea class="vapor-windows-95-text-input"></textarea>
+        </div>
+
+        <h2>Checkbox</h2>
+        <label class="vapor-windows-95-checkbox">Checkbox
+          <input type="checkbox" />
+          <span class="vapor-windows-95-checkmark"></span>
+        </label>
+
+        <h2>Radio</h2>
+        <div>
+          <label class="vapor-windows-95-radio">Option 1
+            <input type="radio" name="my-vapor-windows-95-radio" />
+            <span class="vapor-windows-95-checkmark"></span>
+          </label>
+        </div>
+        <div>
+          <label class="vapor-windows-95-radio">Option 2
+            <input type="radio" name="my-vapor-windows-95-radio" />
+            <span class="vapor-windows-95-checkmark"></span>
+          </label>
+        </div>
+        <div>
+          <label class="vapor-windows-95-radio">Option 3
+            <input type="radio" name="my-vapor-windows-95-radio" />
+            <span class="vapor-windows-95-checkmark"></span>
+          </label>
+        </div>
+
+        <h2>Container</h2>
+        <div class="vapor-windows-95-container">
+          I am some contained element
+        </div>
+
+      </div>
+
+      <h1>EFFECTS</h1>
+      <div>
+        <h2>CRT</h2>
+        <p><i>class="vapor-effect-crt"</i></p>
+        <div class="vapor-effect-crt crt-image">
+          <amp-img alt="Cowboy Bebop gif"
+          src="https://media.giphy.com/media/gQbVzXQQbGO7C/giphy.gif"
+          width="400"
+          height="300"
+          layout="fixed">
+          </amp-img>
+        </div>
+        <h2>TEXT GLITCH</h2>
+        <p><i>class="vapor-effect-text-glitch" data-glitch="INNER_TEXT_HERE"</i></p>
+        <div>
+          <h1 class="vapor-effect-text-glitch" data-glitch="LINEs">LINEs</h1>
+        </div>
+
+        <h2>ELEMENT GLITCH</h2>
+        <p><i>class="vapor-effect-element-glitch", You must duplicate the inner element 3 times</i></p>
+        <div class="vapor-effect-element-glitch">
+          <amp-img alt="Anime gif"
+          src="https://i.pinimg.com/originals/50/4a/60/504a609b7340e1caa3f77b38658be14f.gif"
+          width="400"
+          height="300"
+          layout="fixed">
+          </amp-img>
+          <amp-img alt="Anime gif"
+          src="https://i.pinimg.com/originals/50/4a/60/504a609b7340e1caa3f77b38658be14f.gif"
+          width="400"
+          height="300"
+          layout="fixed">
+          </amp-img>
+          <amp-img alt="Anime gif"
+          src="https://i.pinimg.com/originals/50/4a/60/504a609b7340e1caa3f77b38658be14f.gif"
+          width="400"
+          height="300"
+          layout="fixed">
+          </amp-img>
+        </div>
+      </div>
+
+      <h1>COLORS</h1>
+      <p>Colors have both a font and background color class. To use the font color, use the class: "vapor-COLOR_NAME_HERE-color". To use the background color, use the class: "vapor-COLOR_NAME_HERE-bg-color"</p>
+      <div>
+        <h2>Vapor colors</h2>
+        <div>
+          <h3>vapor-white</h3>
+          <div class="color-container vapor-white-bg-color">
+          </div>
+          <h3>vapor-black</h3>
+          <div class="color-container vapor-black-bg-color">
+          </div>
+          <h3>vapor-25-transparent</h3>
+          <div class="color-container vapor-25-transparent-bg-color">
+          </div>
+          <h3>vapor-50-transparent</h3>
+          <div class="color-container vapor-50-transparent-bg-color">
+          </div>
+          <h3>vapor-75-transparent</h3>
+          <div class="color-container vapor-75-transparent-bg-color">
+          </div>
+          <h3>vapor-purple</h3>
+          <div class="color-container vapor-purple-bg-color">
+          </div>
+          <h3>vapor-light-purple</h3>
+          <div class="color-container vapor-light-purple-bg-color">
+          </div>
+          <h3>vapor-pink</h3>
+          <div class="color-container vapor-pink-bg-color">
+          </div>
+          <h3>vapor-blue</h3>
+          <div class="color-container vapor-blue-bg-color">
+          </div>
+          <h3>vapor-light-blue</h3>
+          <div class="color-container vapor-light-blue-bg-color">
+          </div>
+          <h3>vapor-green</h3>
+          <div class="color-container vapor-green-bg-color">
+          </div>
+        </div>
+
+        <h2>Arizona colors</h2>
+        <div>
+          <h3>vapor-arizona-pink</h3>
+          <div class="color-container vapor-arizona-pink-bg-color">
+          </div>
+          <h3>vapor-arizona-black</h3>
+          <div class="color-container vapor-arizona-black-bg-color">
+          </div>
+          <h3>vapor-arizona-lime</h3>
+          <div class="color-container vapor-arizona-lime-bg-color">
+          </div>
+          <h3>vapor-arizona-green</h3>
+          <div class="color-container vapor-arizona-green-bg-color">
+          </div>
+          <h3>vapor-arizona-blue</h3>
+          <div class="color-container vapor-arizona-blue-bg-color">
+          </div>
+        </div>
+
+        <h2>Pepsi colors</h2>
+        <div>
+          <h3>vapor-pepsi-blue</h3>
+          <div class="color-container vapor-pepsi-blue-bg-color">
+          </div>
+          <h3>vapor-pepsi-red</h3>
+          <div class="color-container vapor-pepsi-red-bg-color">
+          </div>
+          <h3>vapor-pepsi-white</h3>
+          <div class="color-container vapor-pepsi-white-bg-color">
+          </div>
+          <h3>vapor-pepsi-cola</h3>
+          <div class="color-container vapor-pepsi-cola-bg-color">
+          </div>
+          <h3>vapor-pepsi-grey</h3>
+          <div class="color-container vapor-pepsi-grey-bg-color">
+          </div>
+        </div>
+
+        <h2>Windows (95ish) colors</h2>
+        <div>
+          <h3>vapor-windows-95-grey</h3>
+          <div class="color-container vapor-windows-95-grey-bg-color">
+          </div>
+          <h3>vapor-windows-95-grey-border</h3>
+          <div class="color-container vapor-windows-95-grey-border-bg-color">
+          </div>
+          <h3>vapor-windows-95-green</h3>
+          <div class="color-container vapor-windows-95-green-bg-color">
+          </div>
+        </div>
+      </div>
+
+      <h1>FONTS</h1>
+      <div>
+        <h1 class="vapor-font">class="vapor-font"</h1>
+        <h1 class="vapor-font-cinzel">class="vapor-font-cinzel"</h1>
+        <h1 class="vapor-font-playfair">class="vapor-font-playfair"</h1>
+        <h1 class="vapor-font-monoton">class="vapor-font-monoton"</h1>
+        <h1 class="vapor-font-VT323">class="vapor-font-VT323"</h1>
+        <h1 class="vapor-font-press-start">class="vapor-font-press-start"</h1>
+        <h1 class="vapor-font-limelight">class="vapor-font-limelight"</h1>
+        <h1 class="vapor-font-share-tech-mono">class="vapor-font-share-tech-mono"</h1>
+        <h1 class="vapor-font-six-caps">class="vapor-font-six-caps"</h1>
+        <h1 class="vapor-font-cutive-mono">class="vapor-font-cutive-mono"</h1>
+        <h1 class="vapor-font-spectral">class="vapor-font-spectral"</h1>
+        <h1 class="vapor-font-mate">class="vapor-font-mate"</h1>
+        <h1 class="vapor-font-im-fell-french-canon">class="vapor-font-im-fell-french-canon"</h1>
+      </div>
+      <h1>FONT MODIFIERS</h1>
+      <div>
+        <h2>OUTLINE</h2>
+        <div>
+          <h1 class="vapor-font-modifier-outline-black">class="vapor-font-modifier-outline-black"</h1>
+          <h1 class="vapor-font-modifier-outline-pink">class="vapor-font-modifier-outline-pink"</h1>
+          <h1 class="vapor-font-modifier-outline-purple">class="vapor-font-modifier-outline-purple"</h1>
+        </div>
+        <h2>GRADIENT</h2>
+        <div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-arizona">class="vapor-font-modifier-gradient-arizona"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-pink-blue">class="vapor-font-modifier-gradient-pink-blue"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-pink-green">class="vapor-font-modifier-gradient-pink-green"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-green-pink">class="vapor-font-modifier-gradient-green-pink"</h1>
+          </div>
+          <div>
+            <h1 class="vapor-font-modifier-gradient-purple-blue">class="vapor-font-modifier-gradient-purple-blue"</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="center">
+      <div>
+        <i>Created by <a href="https://aaronthedev.com" target="_blank">Aaron Turner</a> and <a href="https://github.com/echo-exe" target="_blank">Daniel Gomez</a></i>
+      </div>
+      <div>
+        <b>LICENSE: MIT</b>
+      </div>
+    </footer>
   </body>
 </html>
