@@ -1,11 +1,11 @@
 // Windows XP loading bar
 // https://codepen.io/duptitung/pen/XMVNyZ
-@keyframes vapor-windows-xp-loader {
+@keyframes vapor-windows-infinite-loader {
   0% {
-    transform: translate(-30px);
+    transform: translate(-40px);
   }
   100% {
-    transform: translate(150px);
+    transform: translate(160px);
   }
 }
 
@@ -18,12 +18,39 @@
   overflow: hidden;
   font-size: 0;
 }
+
 .vapor-windows-xp-loader > * {
   width: 9px;
   height: 100%;
   background: linear-gradient(to bottom, #2838c7 0%,#5979ef 17%,#869ef3 32%,#869ef3 45%,#5979ef 59%,#2838c7 100%);
   display: inline-block;
   margin-right: 2px;
-  animation: vapor-windows-xp-loader 2.5s infinite;
+  animation: vapor-windows-infinite-loader 3.5s infinite;
+  animation-timing-function: linear;
+}
+
+.vapor-windows-loader {
+  width: 150px;
+  height: 20px;
+  border-top: 1px solid $vapor-windows-black;
+  border-left: 1px solid $vapor-windows-black;
+  border-right: 1px solid $vapor-windows-grey-border;
+  border-bottom: 1px solid $vapor-windows-grey-border;
+  border-radius: 0px;
+  padding: 1px 1px;
+  background-color: $vapor-windows-gray;
+
+  overflow: hidden;
+  font-size: 0;
+}
+
+.vapor-windows-loader > * {
+  width: 12px;
+  height: 100%;
+  // TODO: Replace with windows 95 loading blue
+  background: blue;
+  display: inline-block;
+  margin-right: 1px;
+  animation: vapor-windows-infinite-loader 3.5s infinite;
   animation-timing-function: linear;
 }

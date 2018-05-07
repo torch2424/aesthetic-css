@@ -39,9 +39,6 @@
         }
 
         .container {
-          background-color: #BFBFBF;
-          border: 1px solid #DFDFDF;
-          box-shadow: 1px 1px 0 0 #020202;
 
           padding: 10px;
           margin-top: 10px;
@@ -67,6 +64,10 @@
           height: 25px;
           border: 1px solid #020202;
         }
+
+        .margin-top {
+          margin-top: 10px;
+        }
       </style>
 
       <!-- Livereload script for development -->
@@ -79,7 +80,7 @@
   </head>
 
   <body class="vapor-bg-gradient vapor-font">
-    <div class="container">
+    <div class="container vapor-windows-container">
       <div class="header">
         <h1>VAPOR</h1>
         <p><i>The most A E S T H E T I C CSS Framework</i></p>
@@ -87,6 +88,13 @@
 
       <h1>ELEMENTS</h1>
       <div>
+
+        <h2>Windows 95 Loader</h2>
+        <div class="vapor-windows-loader">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
 
         <h2>Windows XP Loader</h2>
         <div class="vapor-windows-xp-loader">
@@ -109,13 +117,36 @@
 
         <h2>Text Input</h2>
         <div>
-          <input class="vapor-windows-input" type="text" value="c:\vapor\src" />
+          <input class="vapor-windows-text-input" type="text" value="c:\vapor\src" />
+        </div>
+        <div class="margin-top">
+          <textarea class="vapor-windows-text-input"></textarea>
         </div>
 
         <h2>Checkbox</h2>
-        <div class="vapor-windows-checkbox">
-          <input type="checkbox" id="my-vapor-windows-checkbox" />
-          <label for="my-vapor-windows-checkbox"></label>
+        <label class="vapor-windows-checkbox">Checkbox
+          <input type="checkbox" />
+          <span class="vapor-windows-checkmark"></span>
+        </label>
+
+        <h2>Radio</h2>
+        <div>
+          <label class="vapor-windows-radio">Option 1
+            <input type="radio" name="my-vapor-windows-radio" />
+            <span class="vapor-windows-checkmark"></span>
+          </label>
+        </div>
+        <div>
+          <label class="vapor-windows-radio">Option 2
+            <input type="radio" name="my-vapor-windows-radio" />
+            <span class="vapor-windows-checkmark"></span>
+          </label>
+        </div>
+        <div>
+          <label class="vapor-windows-radio">Option 3
+            <input type="radio" name="my-vapor-windows-radio" />
+            <span class="vapor-windows-checkmark"></span>
+          </label>
         </div>
 
       </div>
@@ -138,9 +169,9 @@
           <h1 class="vapor-effect-text-glitch" data-glitch="LINEs">LINEs</h1>
         </div>
 
-        <h2>IMG GLITCH</h2>
-        <p><i>class="vapor-effect-image-glitch", You must duplicate the inner element 3 times</i></p>
-        <div class="vapor-effect-image-glitch">
+        <h2>ELEMENT GLITCH</h2>
+        <p><i>class="vapor-effect-element-glitch", You must duplicate the inner element 3 times</i></p>
+        <div class="vapor-effect-element-glitch">
           <amp-img alt="Anime gif"
           src="https://i.pinimg.com/originals/50/4a/60/504a609b7340e1caa3f77b38658be14f.gif"
           width="400"

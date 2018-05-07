@@ -1,4 +1,4 @@
-.vapor-windows-input {
+.vapor-windows-text-input {
   border-top: 1px solid $vapor-windows-black;
   border-left: 1px solid $vapor-windows-black;
   border-right: 1px solid $vapor-windows-grey-border;
@@ -8,26 +8,28 @@
 $vapor-windows-checkbox-size: 12px;
 
 .vapor-windows-checkbox {
-  border-top: 1px solid $vapor-windows-black;
-  border-left: 1px solid $vapor-windows-black;
-  border-right: 1px solid $vapor-windows-grey-border;
-  border-bottom: 1px solid $vapor-windows-grey-border;
 
-  width: $vapor-windows-checkbox-size;
-  height: $vapor-windows-checkbox-size;
+  cursor: pointer;
   position: relative;
+  padding-left: calc(#{$vapor-windows-checkbox-size} + 5px);
 
-  label {
+  .vapor-windows-checkmark {
     cursor: pointer;
+
     position: absolute;
     width: $vapor-windows-checkbox-size;
     height: $vapor-windows-checkbox-size;
     top: 0;
     left: 0;
+
+    border-top: 1px solid $vapor-windows-black;
+    border-left: 1px solid $vapor-windows-black;
+    border-right: 1px solid $vapor-windows-grey-border;
+    border-bottom: 1px solid $vapor-windows-grey-border;
     background: $vapor-windows-white;
   }
 
-  label:after {
+  .vapor-windows-checkmark:after {
     display: none;
     content: '';
     position: absolute;
@@ -47,7 +49,38 @@ $vapor-windows-checkbox-size: 12px;
     display: none;
   }
 
-  input[type="checkbox"]:checked + label:after {
+  input[type="checkbox"]:checked + .vapor-windows-checkmark:after {
+    display: block;
+  }
+}
+
+.vapor-windows-radio {
+  @extend .vapor-windows-checkbox;
+
+  border-radius: 25px;
+
+  .vapor-windows-checkmark {
+    border-radius: 25px;
+  }
+
+  .vapor-windows-checkmark:after {
+    content: '';
+    position: absolute;
+    background-color: $vapor-windows-black;
+    border-radius: 25px;
+
+    top: 3px;
+    left: 3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(0deg);
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]:checked + .vapor-windows-checkmark:after {
     display: block;
   }
 }

@@ -22,7 +22,7 @@
 
   .vapor-windows-dropdown-trigger:focus {
     // TODO: Make this a windows blue
-    background-color: $vapor-blue;
+    background-color: blue;
   }
 
   .vapor-windows-dropdown-trigger:focus ~ .vapor-windows-dropdown-menu{
@@ -54,7 +54,7 @@
 
     .vapor-windows-dropdown-menu-item:hover {
       // TODO: Make this a windows blue
-      background-color: $vapor-blue;
+      background-color: blue;
     }
   }
 }
