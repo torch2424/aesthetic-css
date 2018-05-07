@@ -16,7 +16,8 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
 
 const mustacheData = {
   vaporcss: fs.readFileSync('./dist/index.css', 'utf8'),
-  livereload: argv.dev ? livereloadHtmlScript : ''
+  livereload: argv.dev ? livereloadHtmlScript : '',
+  daniel: fs.readFileSync('./demo/daniel.html', 'utf8')
 }
 
 const demoWithCss = Mustache.render(fs.readFileSync('./demo/index.html', 'utf8'), mustacheData);
