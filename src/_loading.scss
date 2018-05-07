@@ -1,0 +1,29 @@
+// Windows XP loading bar
+// https://codepen.io/duptitung/pen/XMVNyZ
+@keyframes vapor-windows-xp-loader {
+  0% {
+    transform: translate(-30px);
+  }
+  100% {
+    transform: translate(150px);
+  }
+}
+
+.vapor-windows-xp-loader {
+  width: 150px;
+  height: 10px;
+  border: 2px solid #b2b2b2;
+  border-radius: 7px;
+  padding: 2px 1px;
+  overflow: hidden;
+  font-size: 0;
+}
+.vapor-windows-xp-loader > * {
+  width: 9px;
+  height: 100%;
+  background: linear-gradient(to bottom, #2838c7 0%,#5979ef 17%,#869ef3 32%,#869ef3 45%,#5979ef 59%,#2838c7 100%);
+  display: inline-block;
+  margin-right: 2px;
+  animation: vapor-windows-xp-loader 2.5s infinite;
+  animation-timing-function: linear;
+}

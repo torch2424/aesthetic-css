@@ -1,9 +1,10 @@
 // Imports
 @import "variables";
 @import "gradients";
+@import "colors";
 @import "font-modifiers";
 @import "effects/effects";
-@import "colors";
+@import "loading";
 
 // Default font
 @mixin vapor-font {
