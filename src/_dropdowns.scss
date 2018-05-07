@@ -1,0 +1,60 @@
+// https://www.w3schools.com/css/css_dropdowns.asp
+// https://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack
+
+@mixin no-button-styles {
+  // https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.vapor-windows-dropdown {
+  position: relative;
+  display: inline-block;
+
+  .vapor-windows-dropdown-trigger {
+    @include no-button-styles;
+    padding: 1px 4px;
+  }
+
+  .vapor-windows-dropdown-trigger:focus {
+    // TODO: Make this a windows blue
+    background-color: $vapor-blue;
+  }
+
+  .vapor-windows-dropdown-trigger:focus ~ .vapor-windows-dropdown-menu{
+    display: block
+  }
+
+  .vapor-windows-dropdown-menu:hover, .vapor-windows-dropdown-menu:focus {
+    display: block
+  }
+
+  .vapor-windows-dropdown-menu {
+
+    display: none;
+    position: absolute;
+
+    background-color: $vapor-windows-grey;
+    border-top: 1px solid $vapor-windows-grey-border;
+    border-left: 1px solid $vapor-windows-grey-border;
+
+    min-width: 150px;
+    padding: 4px;
+    z-index: 1;
+
+    .vapor-windows-dropdown-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+    }
+
+    .vapor-windows-dropdown-menu-item:hover {
+      // TODO: Make this a windows blue
+      background-color: $vapor-blue;
+    }
+  }
+}
