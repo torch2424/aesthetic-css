@@ -21,7 +21,9 @@
         CSS must be embedded inline, Using mustache to replace the vaporcss
       -->
       <style amp-custom>
-        {{{vaporcss}}}
+        {{{vaporCss}}}
+
+        {{{highlightJsCss}}}
 
         html {
           height: 100%;
@@ -60,6 +62,10 @@
         }
 
         .color-container {
+            display: block;
+        }
+
+        .color-container h3 + div[class] {
           width: 50px;
           height: 25px;
           border: 1px solid #020202;
@@ -68,10 +74,19 @@
         .margin-top {
           margin-top: 10px;
         }
+
+        .snippet-container {
+          margin-top: 10px;
+        }
+
+        pre {
+          margin: 0px;
+          display: inline-flex;
+        }
       </style>
 
       <!-- Livereload script for development -->
-      {{{livereload}}}
+      {{{liveReload}}}
 
       <!--
         The AMP boilerplate.
@@ -91,42 +106,44 @@
 
         {{{daniel}}}
 
-        {{{windows95Loaders}}}
+        {{{elementsWindows95Loaders}}}
 
-        {{{windowsXPLoaders}}}
+        {{{elementsWindowsXpLoaders}}}
 
-        {{{windows95Dropdowns}}}
+        {{{elementsWindows95Dropdowns}}}
 
-        {{{windows95TextInput}}}
+        {{{elementsWindows95TextInput}}}
 
-        {{{windows95Checkbox}}}
+        {{{elementsWindows95Checkbox}}}
 
-        {{{windows95Radio}}}
+        {{{elementsWindows95Radio}}}
 
-        {{{windows95Container}}}
+        {{{elementsWindows95Container}}}
 
       </div>
 
       <h1>EFFECTS</h1>
       <div>
 
-        {{{crt}}}
+        {{{effectsCrt}}}
 
-        {{{textGlitch}}}
+        {{{effectsTextGlitch}}}
 
-        {{{elementGlitch}}}
+        {{{effectsElementGlitch}}}
 
       </div>
 
       <h1>COLORS</h1>
       <p>Colors have both a font and background color class. To use the font color, use the class: "vapor-COLOR_NAME_HERE-color". To use the background color, use the class: "vapor-COLOR_NAME_HERE-bg-color"</p>
-      {{{colors}}}
+      <div class="color-container">
+        {{{colorsColors}}}
+      </div>
 
       <h1>FONTS</h1>
-      {{{fonts}}}
+      {{{fontsFonts}}}
 
       <h1>FONT MODIFIERS</h1>
-      {{{fontModifiers}}}
+      {{{fontsFontModifiers}}}
 
     </div>
 
