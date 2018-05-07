@@ -1,7 +1,11 @@
-.vapor-windows-container {
-  background-color: $vapor-windows-grey;
-  box-shadow: 1px 1px 0 0 $vapor-windows-black;
+.vapor-windows-95-container {
+  display: block;
 
-  border-top: 1px solid $vapor-windows-grey-border;
-  border-left: 1px solid $vapor-windows-grey-border;
+  background-color: $vapor-windows-95-grey;
+  box-shadow: 1px 1px 0 0 $vapor-windows-95-black;
+
+  border-top: 1px solid $vapor-windows-95-grey-border;
+  border-left: 1px solid $vapor-windows-95-grey-border;
+
+  padding: 4px;
 }

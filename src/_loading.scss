@@ -1,8 +1,36 @@
+@keyframes vapor-windows-95-boot-infinite-loader {
+  0% {
+    transform: translate(-160%);
+  }
+  100% {
+    transform: translate(160%);
+  }
+}
+
+.vapor-windows-95-boot-loader {
+  width: 100%;
+  height: 20px;
+  background-color: $vapor-windows-95-gray;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.vapor-windows-95-boot-loader > * {
+  width: 60%;
+  height: 100%;
+  // TODO: Replace with windows 95 loading blue
+  background: linear-gradient(to right, $vapor-windows-95-grey 0%, blue 10%, blue 90%, $vapor-windows-95-gray 100%);
+  display: inline-block;
+  margin-right: 1px;
+  animation: vapor-windows-95-boot-infinite-loader 3.5s infinite;
+  animation-timing-function: linear;
+}
+
 // Windows XP loading bar
 // https://codepen.io/duptitung/pen/XMVNyZ
-@keyframes vapor-windows-infinite-loader {
+@keyframes vapor-windows-xp-infinite-loader {
   0% {
-    transform: translate(-40px);
+    transform: translate(-20px);
   }
   100% {
     transform: translate(160px);
@@ -25,32 +53,32 @@
   background: linear-gradient(to bottom, #2838c7 0%,#5979ef 17%,#869ef3 32%,#869ef3 45%,#5979ef 59%,#2838c7 100%);
   display: inline-block;
   margin-right: 2px;
-  animation: vapor-windows-infinite-loader 3.5s infinite;
+  animation: vapor-windows-xp-infinite-loader 3.5s infinite;
   animation-timing-function: linear;
 }
 
-.vapor-windows-loader {
+.vapor-windows-95-loader {
   width: 150px;
   height: 20px;
-  border-top: 1px solid $vapor-windows-black;
-  border-left: 1px solid $vapor-windows-black;
-  border-right: 1px solid $vapor-windows-grey-border;
-  border-bottom: 1px solid $vapor-windows-grey-border;
+  border-top: 1px solid $vapor-windows-95-black;
+  border-left: 1px solid $vapor-windows-95-black;
+  border-right: 1px solid $vapor-windows-95-grey-border;
+  border-bottom: 1px solid $vapor-windows-95-grey-border;
   border-radius: 0px;
   padding: 1px 1px;
-  background-color: $vapor-windows-gray;
+  background-color: $vapor-windows-95-gray;
 
   overflow: hidden;
   font-size: 0;
 }
 
-.vapor-windows-loader > * {
+.vapor-windows-95-loader > * {
   width: 12px;
   height: 100%;
   // TODO: Replace with windows 95 loading blue
   background: blue;
   display: inline-block;
   margin-right: 1px;
-  animation: vapor-windows-infinite-loader 3.5s infinite;
+  animation: vapor-windows-xp-infinite-loader 3.5s infinite;
   animation-timing-function: linear;
 }
