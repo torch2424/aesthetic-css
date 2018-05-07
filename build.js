@@ -38,10 +38,12 @@ recursive('./demo', ['index.html', 'daniel.html', '*.css']).then((files) => {
     // Highlight the HTML and append it to the fileText
     const highlightedFileText = highlightJs.fixMarkup(highlightJs.highlight('html', fileText).value);
     const elementAndSnippet = `${fileText}
-    <div class="vapor-windows-95-container snippet-container">
-      <pre>
-        <code class="vapor-font">${highlightedFileText.trim()}</code>
-      </pre>
+    <div class="vapor-windows-95-container margin-top">
+      <div class="snippet-container">
+        <pre>
+          <code class="vapor-font">${highlightedFileText.trim()}</code>
+        </pre>
+      </div>
     </div>`;
 
     // Get our filePath as camel case. Replace / and - with _
