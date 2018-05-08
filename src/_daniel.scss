@@ -17,9 +17,14 @@
   margin-top: 8px;
 }
 
+.windows-button-ok:active {
+  transform: translateY(1px);
+  box-shadow: 1px 1px #000;
+}
+
 .windows-title-bar-button-close {
   color: #070707;
-  font-type: bold;
+  font-weight: bold;
   background: #bfbfbf;
   border: 1px solid;
   border-top-color: #dfdfdf;
@@ -33,6 +38,11 @@
   width: 14px;
   height: 14px;
   font-size: 8px;
+}
+
+.windows-title-bar-button-close:active {
+  transform: translatey(1px);
+  box-shadow: 1px 1px 0 0 #000;
 }
 
 .windows-modal{
@@ -106,10 +116,12 @@
   height: 300px;
 }
 
-.windows-modal-tab-nav {
+.windows-modal-tab-general {
   color: #070707;
   background: #bfbfbf;
   border: 1px solid;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
   border-top-color: #dfdfdf;
   border-left-color: #dfdfdf;
   border-bottom-color: #bfbfbf;
@@ -118,16 +130,185 @@
   text-align: center;
   outline: 0;
   padding: 4px;
-  width: 60px;
   height: 25px;
   margin-top: 4px;
   margin-left: 6px;
   z-index: 1;
-  position: absolute;
+}
+
+.windows-modal-tab-vapor {
+  color: #070707;
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-bottom-color: #dfdfdf;
+  border-right-color: grey;
+  box-shadow: 1px 0 0 0 #000;
+  text-align: center;
+  outline: 0;
+  padding: 4px;
+  height: 25px;
+  margin-top: 4px;
+  left: 65px;
+  z-index: 0;
 }
 
 .windows-tab-cont {
-  position: relative;
+  display: flex;
+  height: 28px;
+  width: 100%;
+}
+
+.windows-modal-tab-macintosh {
+  color: #070707;
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-bottom-color: #dfdfdf;
+  border-right-color: grey;
+  box-shadow: 1px 0 0 0 #000;
+  text-align: center;
+  outline: 0;
+  padding: 4px;
+  height: 25px;
+  margin-top: 4px;
+  left: 65px;
+  z-index: 0;
+}
+
+.windows-modal-tab-anime {
+  color: #070707;
+  background: #bfbfbf;
+  border: 1px solid;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-color: #dfdfdf;
+  border-left-color: #dfdfdf;
+  border-bottom-color: #dfdfdf;
+  border-right-color: grey;
+  box-shadow: 1px 0 0 0 #000;
+  text-align: center;
+  outline: 0;
+  padding: 4px;
+  height: 25px;
+  margin-top: 4px;
+  left: 65px;
+  z-index: 0;
+}
+
+.modal-text {
+  margin-left: 4px;
+}
+
+.xp-modal-wrapper {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.xp-modal {
+  background: #ece9d6;
+  border: 3px solid;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-color: #005cf5;
+  outline: 0;
+  width: 400px;
+  height: 400px;
+}
+
+.xp-title-bar {
+  text-align: left;
+  color: white;
+  background: #005cf5;
+  box-shadow: 1px;
+  outline: 0;
+  height: 26px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.xp-title-text {
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+.xp-close-button {
+  color: #ece9d6;
+  background: #e26725;
+  border: 1px solid;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  text-align: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 2px;
+  margin-bottom: 6px;
+}
+
+.xp-modal-main  {
+  background: #f8f4f1;
+  border: 1px solid;
+  border-top-color: #c9cac4;
+  border-left-color: #c9cac4;
+  border-bottom-color: grey;
+  border-right-color: grey;
+  box-shadow: 1px 1px 0 0 #c9cac4;
+  outline: 0;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 6px;
+  width: 385px;
+  height: 300px;
+}
+
+.xp-ok-button {
+  color: #070707;
+  background: #f8f4f1;
+  border: 2px solid;
+  border-radius: 4px;
+  border-color: #8aa2cb;
+  text-align: center;
+  outline: 0;
+  width: 75px;
+  height: 20px;
+  display: flex;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: 20px;
+  padding-left: 26px;
+}
+
+.xp-cancel-button {
+  color: #070707;
+  background: #f8f4f1;
+  border: 2px solid;
+  border-radius: 4px;
+  border-color: #8aa2cb;
+  text-align: center;
+  outline: 0;
+  width: 75px;
+  height: 20px;
+  display: flex;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: 20px;
+  padding-left: 26px;
+}
+
+.xp-button-cont {
+  display: flex;
   height: 28px;
   width: 100%;
 }
