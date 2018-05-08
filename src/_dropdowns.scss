@@ -23,13 +23,11 @@
   .vapor-windows-95-dropdown-trigger:focus {
     // TODO: Make this a windows blue
     background-color: blue;
+    color: $vapor-windows-95-white;
+    outline: none;
   }
 
-  .vapor-windows-95-dropdown-trigger:focus ~ .vapor-windows-95-dropdown-menu{
-    display: block
-  }
-
-  .vapor-windows-95-dropdown-menu:hover, .vapor-windows-95-dropdown-menu:focus {
+  .vapor-windows-95-dropdown-trigger:focus ~ .vapor-windows-95-dropdown-menu {
     display: block
   }
 
@@ -37,6 +35,8 @@
 
     display: none;
     position: absolute;
+    margin: 0;
+    list-style-type: none;
 
     background-color: $vapor-windows-95-grey;
     border-top: 1px solid $vapor-windows-95-grey-border;
@@ -47,15 +47,22 @@
     padding: 4px;
     z-index: 1;
 
+    &:hover, &:focus {
+      display: block
+    }
+
     .vapor-windows-95-dropdown-menu-item {
       padding-top: 1px;
       padding-bottom: 1px;
       padding-left: 10px;
-    }
+      cursor: pointer;
 
-    .vapor-windows-95-dropdown-menu-item:hover {
-      // TODO: Make this a windows blue
-      background-color: blue;
+      &:hover, &:focus {
+        // TODO: Make this a windows blue
+        background-color: blue;
+        color: $vapor-windows-95-white;
+        outline: none;
+      }
     }
   }
 }
