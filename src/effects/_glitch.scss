@@ -36,8 +36,8 @@
       }
     }
   }
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: attr(data-glitch);
     position: absolute;
     top: 0;
@@ -45,12 +45,12 @@
     width: 100%;
     clip: rect(0, 0, 0, 0);
   }
-  &:after {
+  &::after {
     left: 2px;
     text-shadow: -1px 0 $highlightColor1;
     animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
   }
-  &:before {
+  &::before {
     left: -2px;
     text-shadow: 2px 0 $highlightColor2;
     animation: #{$name}-anim-2 3s infinite linear alternate-reverse;

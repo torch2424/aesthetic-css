@@ -29,7 +29,7 @@ $vapor-windows-95-checkbox-size: 12px;
     background: $vapor-windows-95-white;
   }
 
-  .vapor-windows-95-checkmark:after {
+  .vapor-windows-95-checkmark::after {
     display: none;
     content: '';
     position: absolute;
@@ -49,7 +49,7 @@ $vapor-windows-95-checkbox-size: 12px;
     display: none;
   }
 
-  input[type="checkbox"]:checked + .vapor-windows-95-checkmark:after {
+  input[type="checkbox"]:checked + .vapor-windows-95-checkmark::after {
     display: block;
   }
 }
@@ -63,7 +63,7 @@ $vapor-windows-95-checkbox-size: 12px;
     border-radius: 25px;
   }
 
-  .vapor-windows-95-checkmark:after {
+  .vapor-windows-95-checkmark::after {
     content: '';
     position: absolute;
     background-color: $vapor-windows-95-black;
