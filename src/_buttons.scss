@@ -28,3 +28,14 @@
     outline: none;
   }
 }
+
+.vapor-windows-95-button-title {
+  @extend .vapor-windows-95-button;
+  width: 14px;
+  font-size: smaller;
+  padding: 1px;
+
+  button {
+    padding: 1px;
+  }
+}
