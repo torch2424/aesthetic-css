@@ -1,0 +1,27 @@
+.vapor-windows-95-button {
+  @include windows-95-pop-out;
+  color: $vapor-windows-95-black;
+  background-color: $vapor-windows-95-grey;
+  text-align: center;
+  display: inline-block;
+  padding: 2px;
+
+  button {
+    @include no-button-styles;
+    padding: 2px;
+    width: 75px;
+
+    &:focus {
+      @include windows-95-focus-outline;
+    }
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px #000;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
