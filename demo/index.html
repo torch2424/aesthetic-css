@@ -83,12 +83,15 @@
         @keyframes boot-animation {
           0% {
             opacity: 1;
+            pointer-events: all;
           }
           75% {
             opacity: 1;
+            pointer-events: all;
           }
           100% {
             opacity: 0;
+            pointer-events: none;
           }
         }
 
@@ -101,6 +104,8 @@
           justify-content: center;
           align-items: center;
           flex-direction: column;
+
+          pointer-events: none;
 
           width: 100vw;
           height: 100vh;
