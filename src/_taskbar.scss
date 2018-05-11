@@ -9,10 +9,7 @@
   padding: 5px;
 
   .vapor-windows-95-taskbar-start {
-    @include no-button-styles;
-    @include windows-95-pop-out;
-
-    cursor: pointer;
+    @extend .vapor-windows-95-button;
   }
 
   .vapor-windows-95-taskbar-start-menu {

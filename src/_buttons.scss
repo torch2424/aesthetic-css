@@ -3,13 +3,16 @@
   color: $vapor-windows-95-black;
   background-color: $vapor-windows-95-grey;
   text-align: center;
-  display: inline-block;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 2px;
 
   button {
     @include no-button-styles;
     padding: 2px;
-    width: 75px;
+    width: 100%;
 
     &:focus {
       @include windows-95-focus-outline;
