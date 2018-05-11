@@ -13,7 +13,12 @@
 }
 
 @mixin windows-95-pop-out {
-
+  border: 1px solid;
+  border-top-color: $vapor-windows-95-grey-border;
+  border-left-color: $vapor-windows-95-grey-border;
+  border-bottom-color: $vapor-windows-95-grey-border-shadow;
+  border-right-color: $vapor-windows-95-grey-border-shadow;
+  box-shadow: 1px 1px 0 0 $vapor-windows-95-black;
 }
 
 @mixin windows-95-push-in {

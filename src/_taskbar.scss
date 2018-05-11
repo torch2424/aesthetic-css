@@ -1,0 +1,68 @@
+.vapor-windows-95-taskbar {
+  position: relative;
+  background-color: $vapor-windows-95-gray;
+  border-top: 1px solid $vapor-windows-95-grey-border;
+
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  padding: 5px;
+
+  .vapor-windows-95-taskbar-start {
+    @include no-button-styles;
+    @include windows-95-pop-out;
+
+    cursor: pointer;
+  }
+
+  .vapor-windows-95-taskbar-start-menu {
+    @include windows-95-pop-out;
+    display: none;
+    position: absolute;
+    bottom: calc(100% - 5px);
+    left: 10px;
+    background-color: $vapor-windows-95-grey;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    &.is-active {
+      display: block;
+    }
+
+    .vapor-windows-95-taskbar-start-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      cursor: pointer;
+
+      button {
+        @include no-button-styles;
+      }
+
+      &:hover, &:focus, &:focus-within {
+
+        @include windows-95-focus-outline;
+
+        // TODO: Make this a windows blue
+        background-color: blue;
+        color: $vapor-windows-95-white;
+      }
+    }
+  }
+
+  .vapor-windows-95-taskbar-services {
+    @include windows-95-push-in;
+
+    padding: 5px;
+
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+}
