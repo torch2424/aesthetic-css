@@ -1,8 +1,9 @@
 .vapor-windows-95-text-input {
-  border-top: 1px solid $vapor-windows-95-black;
-  border-left: 1px solid $vapor-windows-95-black;
-  border-right: 1px solid $vapor-windows-95-grey-border;
-  border-bottom: 1px solid $vapor-windows-95-grey-border;
+  @include windows-95-push-in;
+
+  &:focus {
+    @include windows-95-focus-outline;
+  }
 }
 
 $vapor-windows-95-checkbox-size: 12px;
@@ -13,6 +14,10 @@ $vapor-windows-95-checkbox-size: 12px;
   position: relative;
   padding-left: calc(#{$vapor-windows-95-checkbox-size} + 7px);
 
+  &:focus, &:focus-within {
+    @include windows-95-focus-outline;
+  }
+
   .vapor-windows-95-checkmark {
     cursor: pointer;
 
@@ -22,10 +27,7 @@ $vapor-windows-95-checkbox-size: 12px;
     top: 0;
     left: 0;
 
-    border-top: 1px solid $vapor-windows-95-black;
-    border-left: 1px solid $vapor-windows-95-black;
-    border-right: 1px solid $vapor-windows-95-grey-border;
-    border-bottom: 1px solid $vapor-windows-95-grey-border;
+    @include windows-95-push-in;
     background: $vapor-windows-95-white;
   }
 
@@ -46,7 +48,7 @@ $vapor-windows-95-checkbox-size: 12px;
   }
 
   input[type="checkbox"] {
-    display: none;
+    opacity: 0;
   }
 
   input[type="checkbox"]:checked + .vapor-windows-95-checkmark::after {
@@ -58,6 +60,10 @@ $vapor-windows-95-checkbox-size: 12px;
   @extend .vapor-windows-95-checkbox;
 
   border-radius: 25px;
+
+  &:nth-child(1) {
+    margin-bottom: 100px;
+  }
 
   .vapor-windows-95-checkmark {
     border-radius: 25px;
@@ -77,7 +83,7 @@ $vapor-windows-95-checkbox-size: 12px;
   }
 
   input[type="radio"] {
-    display: none;
+    opacity: 0;
   }
 
   input[type="radio"]:checked + .vapor-windows-95-checkmark:after {

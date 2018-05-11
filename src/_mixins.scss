@@ -1,0 +1,30 @@
+@mixin no-button-styles {
+  // https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+@mixin windows-95-focus-outline {
+  outline: 1px dashed $vapor-windows-95-black;
+}
+
+@mixin windows-95-pop-out {
+
+}
+
+@mixin windows-95-push-in {
+  border-top: 1px solid $vapor-windows-95-black;
+  border-left: 1px solid $vapor-windows-95-black;
+  border-right: 1px solid $vapor-windows-95-grey-border;
+  border-bottom: 1px solid $vapor-windows-95-grey-border;
+}
+
+@mixin windows-95-hover-over {
+  box-shadow: 1px 1px 0 0 $vapor-windows-95-black;
+  border-top: 1px solid $vapor-windows-95-grey-border;
+  border-left: 1px solid $vapor-windows-95-grey-border;
+}

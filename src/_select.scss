@@ -1,13 +1,10 @@
 // http://filamentgroup.github.io/select-css/demo/
 .vapor-windows-95-select {
+  @include windows-95-push-in;
 
   position: relative;
   overflow: hidden;
   display: block;
-  border-top: 1px solid $vapor-windows-95-black;
-  border-left: 1px solid $vapor-windows-95-black;
-  border-right: 1px solid $vapor-windows-95-grey-border;
-  border-bottom: 1px solid $vapor-windows-95-grey-border;
   background-color: $vapor-windows-95-white;
   cursor: pointer;
 
@@ -51,8 +48,10 @@
     margin-left: -5px;
     width: calc(100% + 5px);
 
-    &:focus {
-      outline: none;
+    &:focus, &:focus-within {
+
+      @include windows-95-focus-outline;
+
       // TODO: Replace with actual 95 blue
       background-color: blue;
       color: $vapor-windows-95-white;
