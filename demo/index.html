@@ -80,6 +80,41 @@
           margin-bottom: 10px;
         }
 
+        @keyframes boot-animation {
+          0% {
+            opacity: 1;
+          }
+          75% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+
+        .boot-animation {
+          position: fixed;
+          top: 0;
+          left: 0;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+          width: 100vw;
+          height: 100vh;
+          opacity: 0;
+
+          animation: boot-animation 7s;
+          background-color: black;
+          z-index: 10000;
+        }
+
+        .boot-animation * {
+          color: #FFF;
+        }
+
         .snippet-container {
           padding: 5px;
 
@@ -106,6 +141,30 @@
   </head>
 
   <body class="vapor-bg-gradient vapor-font">
+
+    <!-- Boot Animation on reload -->
+    <div class="boot-animation">
+      <!-- Giphy Link: https://giphy.com/gifs/loop-vaporwave-net-art-xT9IgwvIzQOUIeVxAI -->
+      <amp-video alt="Vapor Loading"
+      src="https://media.giphy.com/media/xT9IgwvIzQOUIeVxAI/giphy.mp4"
+      width="300"
+      height="200"
+      layout="fixed"
+      autoplay
+      loop>
+    </amp-video>
+
+      <h1><i>V A P O R</i></h1>
+
+      <div class="vapor-windows-xp-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <h3>Initializing start-up sequence...</h3>
+    </div>
+
     <div class="container vapor-windows-95-container">
       <div class="header">
         <h1>VAPOR</h1>
@@ -142,10 +201,12 @@
       <h1>EFFECTS</h1>
       <div>
 
+        <!-- Giphy Link: https://giphy.com/gifs/bored-cowboy-bebop-gQbVzXQQbGO7C -->
         {{{effectsCrt}}}
 
         {{{effectsTextGlitch}}}
 
+        <!-- Giphy Link: https://giphy.com/gifs/loop-vaporwave-net-art-xT9IgwvIzQOUIeVxAI -->
         {{{effectsElementGlitch}}}
 
       </div>
