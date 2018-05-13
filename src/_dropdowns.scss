@@ -18,8 +18,7 @@
   .aesthetic-windows-95-dropdown-trigger:focus {
     @include windows-95-focus-outline;
 
-    // TODO: Make this a windows blue
-    background-color: blue;
+    background-color: $aesthetic-windows-95-blue;
     color: $aesthetic-windows-95-white;
   }
 
@@ -46,6 +45,10 @@
       display: block
     }
 
+    hr {
+      border-color: $aesthetic-windows-95-divider;
+    }
+
     .aesthetic-windows-95-dropdown-menu-item {
       padding-top: 1px;
       padding-bottom: 1px;
@@ -60,9 +63,80 @@
 
         @include windows-95-focus-outline;
 
-        // TODO: Make this a windows blue
-        background-color: blue;
+        background-color: $aesthetic-windows-95-blue;
         color: $aesthetic-windows-95-white;
+      }
+    }
+  }
+}
+
+.aesthetic-windows-xp-dropdown {
+  position: relative;
+  display: inline-block;
+
+  &:focus-within .aesthetic-windows-xp-dropdown-menu {
+    // Fixes a11y on every browser except chrome
+    display: block;
+  }
+
+  .aesthetic-windows-xp-dropdown-trigger {
+    @include no-button-styles;
+    padding: 1px 4px;
+  }
+
+  .aesthetic-windows-xp-dropdown-trigger:focus {
+    @include windows-95-focus-outline;
+
+    background-color: $aesthetic-windows-xp-blue;
+    color: $aesthetic-windows-xp-white;
+  }
+
+  .aesthetic-windows-xp-dropdown-trigger:focus ~ .aesthetic-windows-xp-dropdown-menu {
+    display: block
+  }
+
+  .aesthetic-windows-xp-dropdown-menu {
+
+    @include windows-xp-hover-over;
+
+    // Has a slightly darked and moved box shadow
+    box-shadow: 2px 2px 1px 0px $aesthetic-windows-xp-shadow-dark;
+
+    display: none;
+    position: absolute;
+    margin: 0;
+    list-style-type: none;
+
+    background-color: $aesthetic-windows-xp-white;
+
+    min-width: 150px;
+    padding: 4px;
+    z-index: 1;
+
+    &:hover, &:focus, &:focus-within {
+      display: block
+    }
+
+    hr {
+      border-color: $aesthetic-windows-xp-divider;
+    }
+
+    .aesthetic-windows-xp-dropdown-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      cursor: pointer;
+
+      button {
+        @include no-button-styles;
+      }
+
+      &:hover, &:focus, &:focus-within {
+
+        @include windows-xp-focus-outline;
+
+        background-color: $aesthetic-windows-xp-blue;
+        color: $aesthetic-windows-xp-white;
       }
     }
   }

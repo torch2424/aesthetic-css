@@ -5,3 +5,10 @@
   background-color: $aesthetic-windows-95-grey;
   padding: 4px;
 }
+
+.aesthetic-windows-xp-container {
+  @include windows-xp-hover-over;
+  display: block;
+  background-color: $aesthetic-windows-xp-white;
+  padding: 4px;
+}

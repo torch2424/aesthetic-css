@@ -19,8 +19,7 @@
   width: 75%;
   height: 100%;
   opacity: 0.5;
-  // TODO: Replace with windows 95 loading blue
-  background: linear-gradient(to right, $aesthetic-windows-95-grey 0%, blue 15%, blue 85%, $aesthetic-windows-95-gray 100%);
+  background: linear-gradient(to right, $aesthetic-windows-95-grey 0%, $aesthetic-windows-95-blue 15%, $aesthetic-windows-95-blue 85%, $aesthetic-windows-95-gray 100%);
   display: inline-block;
   margin-right: 1px;
   animation: aesthetic-windows-95-boot-infinite-loader 4.5s infinite;
@@ -76,8 +75,7 @@
 .aesthetic-windows-95-loader > * {
   width: 12px;
   height: 100%;
-  // TODO: Replace with windows 95 loading blue
-  background: blue;
+  background: $aesthetic-windows-95-blue;
   display: inline-block;
   margin-right: 1px;
   animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;

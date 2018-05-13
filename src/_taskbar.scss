@@ -42,8 +42,7 @@
 
         @include windows-95-focus-outline;
 
-        // TODO: Make this a windows blue
-        background-color: blue;
+        background-color: $aesthetic-windows-95-blue;
         color: $aesthetic-windows-95-white;
       }
     }

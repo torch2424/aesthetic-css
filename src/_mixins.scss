@@ -12,6 +12,10 @@
   outline: 1px dashed $aesthetic-windows-95-black;
 }
 
+@mixin windows-xp-focus-outline {
+  outline: 1px dashed $aesthetic-windows-xp-black;
+}
+
 @mixin windows-95-pop-out {
   border: 1px solid;
   border-top-color: $aesthetic-windows-95-grey-border;
