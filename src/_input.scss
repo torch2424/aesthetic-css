@@ -90,3 +90,98 @@ $aesthetic-windows-95-checkbox-size: 12px;
     display: block;
   }
 }
+
+$aesthetic-windows-xp-checkbox-size: 12px;
+$aesthetic-windows-xp-input-border: 2px solid $aesthetic-windows-xp-light-blue;
+
+.aesthetic-windows-xp-text-input {
+  border: $aesthetic-windows-xp-input-border;
+
+  &:focus {
+    @include windows-xp-focus-outline;
+  }
+}
+
+.aesthetic-windows-xp-checkbox {
+
+  cursor: pointer;
+  position: relative;
+  padding-left: calc(#{$aesthetic-windows-95-checkbox-size} + 7px);
+
+  &:focus, &:focus-within {
+    @include windows-xp-focus-outline;
+  }
+
+  .aesthetic-windows-xp-checkmark {
+    cursor: pointer;
+
+    position: absolute;
+    width: $aesthetic-windows-xp-checkbox-size;
+    height: $aesthetic-windows-xp-checkbox-size;
+    top: 0;
+    left: 0;
+
+    border: $aesthetic-windows-xp-input-border;
+
+    background: $aesthetic-windows-xp-white;
+  }
+
+  .aesthetic-windows-xp-checkmark::after {
+    display: none;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    background: transparent;
+    top: 2px;
+    left: 2px;
+    border: 3px solid $aesthetic-windows-xp-black;
+    border-top: none;
+    border-right: none;
+
+    transform: rotate(-45deg);
+  }
+
+  input[type="checkbox"] {
+    opacity: 0;
+  }
+
+  input[type="checkbox"]:checked + .aesthetic-windows-xp-checkmark::after {
+    display: block;
+  }
+}
+
+.aesthetic-windows-xp-radio {
+  @extend .aesthetic-windows-xp-checkbox;
+
+  border-radius: 25px;
+
+  &:nth-child(1) {
+    margin-bottom: 100px;
+  }
+
+  .aesthetic-windows-xp-checkmark {
+    border-radius: 25px;
+  }
+
+  .aesthetic-windows-xp-checkmark::after {
+    content: '';
+    position: absolute;
+    background-color: $aesthetic-windows-xp-black;
+    border-radius: 25px;
+
+    top: 3px;
+    left: 3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(0deg);
+  }
+
+  input[type="radio"] {
+    opacity: 0;
+  }
+
+  input[type="radio"]:checked + .aesthetic-windows-xp-checkmark:after {
+    display: block;
+  }
+}
