@@ -35,3 +35,12 @@
   border-top: 1px solid $aesthetic-windows-95-grey-border;
   border-left: 1px solid $aesthetic-windows-95-grey-border;
 }
+
+@mixin windows-xp-hover-over {
+  border: 1px solid;
+  box-shadow: 1px 1px 0 0 $aesthetic-windows-xp-shadow;
+  border-top: 1px solid $aesthetic-windows-xp-border-light;
+  border-left: 1px solid $aesthetic-windows-xp-border-light;
+  border-bottom: 1px solid $aesthetic-windows-xp-border-dark;
+  border-right: 1px solid $aesthetic-windows-xp-border-dark;
+}
