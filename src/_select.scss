@@ -75,3 +75,50 @@
     pointer-events: none;
   }
 }
+
+.aesthetic-windows-xp-select {
+  @extend .aesthetic-windows-95-select;
+
+  select {
+    width: 102%;
+    padding-top: 4px;
+  }
+
+  &:after {
+    content: "V";
+    font-family: sans-serif;
+    color: $aesthetic-windows-xp-dark-blue;
+    font-weight: bold;
+
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+
+    width: 0;
+    height: 0;
+    border: none;
+    margin-top: -3px;
+
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    z-index: 2;
+
+    cursor: pointer;
+  	pointer-events: none;
+  }
+
+  .aesthetic-windows-xp-select-checkmark-container {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 15px;
+    height: 16px;
+
+    background: linear-gradient(to bottom right, $aesthetic-windows-xp-white 0%, $aesthetic-windows-xp-light-blue 50%);
+    border: 1px solid $aesthetic-windows-xp-light-blue;
+
+    cursor: pointer;
+    pointer-events: none;
+  }
+}
