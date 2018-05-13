@@ -29,11 +29,13 @@
   }
 }
 
-.vapor-windows-95-button-title {
+.vapor-windows-95-button-title-bar {
   @extend .vapor-windows-95-button;
   width: 14px;
-  font-size: smaller;
+  font-size: 0.5rem;
   padding: 1px;
+  font-family: sans-serif;
+  font-weight: bold;
 
   button {
     padding: 1px;

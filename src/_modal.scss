@@ -11,14 +11,24 @@
     padding-left: 4px;
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-right: 2px;
+    padding-right: 4px;
 
-    width: 95%;
     height: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    .vapor-windows-95-modal-title-bar-controls {
+      margin-left: auto;
+    }
+  }
+
+  .vapor-windows-95-modal-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
