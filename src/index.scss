@@ -16,8 +16,8 @@
 @import "modal";
 
 // Default font
-@mixin vapor-font {
-  font-family: $vapor-font-stack;
+@mixin aesthetic-font {
+  font-family: $aesthetic-font-stack;
   font-weight: lighter;
 
   h1, h2, h3, h4, h5, h6 {
@@ -26,8 +26,8 @@
 }
 
 
-.vapor-font {
-  @include vapor-font
+.aesthetic-font {
+  @include aesthetic-font
 }
 
 // Fonts will be an optional import at some point

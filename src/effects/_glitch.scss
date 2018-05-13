@@ -57,88 +57,88 @@
   }
 }
 
-.vapor-effect-text-glitch {
-  @include textGlitch("vapor-effect-text-glitch", 17, white, red, blue, 450, 115);
+.aesthetic-effect-text-glitch {
+  @include textGlitch("aesthetic-effect-text-glitch", 17, white, red, blue, 450, 115);
 }
 
-@mixin vapor-effect-element-glitch-transform {
+@mixin aesthetic-effect-element-glitch-transform {
   transform: skew( calc(calc(#{random(150)+deg} / 100 ) - calc(#{random(150)+deg} / 100 )), calc(calc(#{random(150)+deg} / 100 ) - calc(#{random(150)+deg} / 100 ))  );
 }
 
-@mixin vapor-effect-element-glitch-opacity {
+@mixin aesthetic-effect-element-glitch-opacity {
   opacity: calc(#{random(100)} / 75);
 }
 
 // Create our image glitch animation
-@mixin vapor-effect-element-glitch-animation {
+@mixin aesthetic-effect-element-glitch-animation {
   @at-root {
     // We need three different ones
     @for $i from 1 through 3 {
-      @keyframes vapor-effect-element-glitch-animation-#{$i} {
+      @keyframes aesthetic-effect-element-glitch-animation-#{$i} {
         0% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         7% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         10% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         27% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         30% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         35% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         52% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         55% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         50% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         72% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         75% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         80% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
         100% {
-          @include vapor-effect-element-glitch-transform;
-          @include vapor-effect-element-glitch-opacity;
+          @include aesthetic-effect-element-glitch-transform;
+          @include aesthetic-effect-element-glitch-opacity;
         }
       }
     }
   }
 }
 
-@mixin vapor-effect-element-child-background {
+@mixin aesthetic-effect-element-child-background {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-@keyframes vapor-effect-element-glitch-background {
+@keyframes aesthetic-effect-element-glitch-background {
   0% {
     background-color: red;
   }
@@ -147,26 +147,26 @@
   }
 }
 
-.vapor-effect-element-glitch {
+.aesthetic-effect-element-glitch {
 
-  @include vapor-effect-element-glitch-animation;
+  @include aesthetic-effect-element-glitch-animation;
 
   position: relative;
   display: inline-block;
 
-  animation: vapor-effect-element-glitch-background 0.25s infinite;
+  animation: aesthetic-effect-element-glitch-background 0.25s infinite;
 
   :nth-child(1) {
     opacity: 0.7;
   }
 
   :nth-child(2) {
-    @include vapor-effect-element-child-background;
-    animation: vapor-effect-element-glitch-animation-2 2.5s infinite;
+    @include aesthetic-effect-element-child-background;
+    animation: aesthetic-effect-element-glitch-animation-2 2.5s infinite;
   }
 
   :nth-child(3) {
-    @include vapor-effect-element-child-background;
-    animation: vapor-effect-element-glitch-animation-3 1s infinite;
+    @include aesthetic-effect-element-child-background;
+    animation: aesthetic-effect-element-glitch-animation-3 1s infinite;
   }
 }

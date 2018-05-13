@@ -9,29 +9,29 @@
 }
 
 @mixin windows-95-focus-outline {
-  outline: 1px dashed $vapor-windows-95-black;
+  outline: 1px dashed $aesthetic-windows-95-black;
 }
 
 @mixin windows-95-pop-out {
   border: 1px solid;
-  border-top-color: $vapor-windows-95-grey-border;
-  border-left-color: $vapor-windows-95-grey-border;
-  border-bottom-color: $vapor-windows-95-grey-border-shadow;
-  border-right-color: $vapor-windows-95-grey-border-shadow;
-  box-shadow: 1px 1px 0 0 $vapor-windows-95-black;
+  border-top-color: $aesthetic-windows-95-grey-border;
+  border-left-color: $aesthetic-windows-95-grey-border;
+  border-bottom-color: $aesthetic-windows-95-grey-border-shadow;
+  border-right-color: $aesthetic-windows-95-grey-border-shadow;
+  box-shadow: 1px 1px 0 0 $aesthetic-windows-95-black;
 }
 
 @mixin windows-95-push-in {
   border: 1px solid;
-  border-top: 1px solid $vapor-windows-95-black;
-  border-left: 1px solid $vapor-windows-95-black;
-  border-right: 1px solid $vapor-windows-95-grey-border;
-  border-bottom: 1px solid $vapor-windows-95-grey-border;
+  border-top: 1px solid $aesthetic-windows-95-black;
+  border-left: 1px solid $aesthetic-windows-95-black;
+  border-right: 1px solid $aesthetic-windows-95-grey-border;
+  border-bottom: 1px solid $aesthetic-windows-95-grey-border;
 }
 
 @mixin windows-95-hover-over {
   border: 1px solid;
-  box-shadow: 1px 1px 0 0 $vapor-windows-95-black;
-  border-top: 1px solid $vapor-windows-95-grey-border;
-  border-left: 1px solid $vapor-windows-95-grey-border;
+  box-shadow: 1px 1px 0 0 $aesthetic-windows-95-black;
+  border-top: 1px solid $aesthetic-windows-95-grey-border;
+  border-left: 1px solid $aesthetic-windows-95-grey-border;
 }

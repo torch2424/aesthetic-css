@@ -1,33 +1,33 @@
 // https://www.w3schools.com/css/css_dropdowns.asp
 // https://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack
 
-.vapor-windows-95-dropdown {
+.aesthetic-windows-95-dropdown {
   position: relative;
   display: inline-block;
 
-  &:focus-within .vapor-windows-95-dropdown-menu {
+  &:focus-within .aesthetic-windows-95-dropdown-menu {
     // Fixes a11y on every browser except chrome
     display: block;
   }
 
-  .vapor-windows-95-dropdown-trigger {
+  .aesthetic-windows-95-dropdown-trigger {
     @include no-button-styles;
     padding: 1px 4px;
   }
 
-  .vapor-windows-95-dropdown-trigger:focus {
+  .aesthetic-windows-95-dropdown-trigger:focus {
     @include windows-95-focus-outline;
 
     // TODO: Make this a windows blue
     background-color: blue;
-    color: $vapor-windows-95-white;
+    color: $aesthetic-windows-95-white;
   }
 
-  .vapor-windows-95-dropdown-trigger:focus ~ .vapor-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown-trigger:focus ~ .aesthetic-windows-95-dropdown-menu {
     display: block
   }
 
-  .vapor-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown-menu {
 
     @include windows-95-hover-over;
 
@@ -36,7 +36,7 @@
     margin: 0;
     list-style-type: none;
 
-    background-color: $vapor-windows-95-grey;
+    background-color: $aesthetic-windows-95-grey;
 
     min-width: 150px;
     padding: 4px;
@@ -46,7 +46,7 @@
       display: block
     }
 
-    .vapor-windows-95-dropdown-menu-item {
+    .aesthetic-windows-95-dropdown-menu-item {
       padding-top: 1px;
       padding-bottom: 1px;
       padding-left: 10px;
@@ -62,7 +62,7 @@
 
         // TODO: Make this a windows blue
         background-color: blue;
-        color: $vapor-windows-95-white;
+        color: $aesthetic-windows-95-white;
       }
     }
   }

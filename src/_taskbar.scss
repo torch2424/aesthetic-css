@@ -1,24 +1,24 @@
-.vapor-windows-95-taskbar {
+.aesthetic-windows-95-taskbar {
   position: relative;
-  background-color: $vapor-windows-95-gray;
-  border-top: 1px solid $vapor-windows-95-grey-border;
+  background-color: $aesthetic-windows-95-gray;
+  border-top: 1px solid $aesthetic-windows-95-grey-border;
 
   width: 100%;
   height: 4vh;
   display: flex;
   padding: 5px;
 
-  .vapor-windows-95-taskbar-start {
-    @extend .vapor-windows-95-button;
+  .aesthetic-windows-95-taskbar-start {
+    @extend .aesthetic-windows-95-button;
   }
 
-  .vapor-windows-95-taskbar-start-menu {
+  .aesthetic-windows-95-taskbar-start-menu {
     @include windows-95-pop-out;
     display: none;
     position: absolute;
     bottom: calc(100% - 5px);
     left: 10px;
-    background-color: $vapor-windows-95-grey;
+    background-color: $aesthetic-windows-95-grey;
 
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
       display: block;
     }
 
-    .vapor-windows-95-taskbar-start-menu-item {
+    .aesthetic-windows-95-taskbar-start-menu-item {
       padding-top: 1px;
       padding-bottom: 1px;
       padding-left: 10px;
@@ -44,12 +44,12 @@
 
         // TODO: Make this a windows blue
         background-color: blue;
-        color: $vapor-windows-95-white;
+        color: $aesthetic-windows-95-white;
       }
     }
   }
 
-  .vapor-windows-95-taskbar-services {
+  .aesthetic-windows-95-taskbar-services {
     @include windows-95-push-in;
 
     padding: 5px;

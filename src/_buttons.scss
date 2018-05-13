@@ -1,7 +1,7 @@
-.vapor-windows-95-button {
+.aesthetic-windows-95-button {
   @include windows-95-pop-out;
-  color: $vapor-windows-95-black;
-  background-color: $vapor-windows-95-grey;
+  color: $aesthetic-windows-95-black;
+  background-color: $aesthetic-windows-95-grey;
   text-align: center;
   width: 75px;
   display: flex;
@@ -29,8 +29,8 @@
   }
 }
 
-.vapor-windows-95-button-title-bar {
-  @extend .vapor-windows-95-button;
+.aesthetic-windows-95-button-title-bar {
+  @extend .aesthetic-windows-95-button;
   width: 14px;
   font-size: 0.5rem;
   padding: 1px;
