@@ -1,0 +1,43 @@
+.vapor-windows-95-button {
+  @include windows-95-pop-out;
+  color: $vapor-windows-95-black;
+  background-color: $vapor-windows-95-grey;
+  text-align: center;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+
+  button {
+    @include no-button-styles;
+    padding: 2px;
+    width: 100%;
+
+    &:focus {
+      @include windows-95-focus-outline;
+    }
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px #000;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.vapor-windows-95-button-title-bar {
+  @extend .vapor-windows-95-button;
+  width: 14px;
+  font-size: 0.5rem;
+  padding: 1px;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  button {
+    padding: 1px;
+  }
+}

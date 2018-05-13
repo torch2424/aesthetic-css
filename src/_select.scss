@@ -1,0 +1,78 @@
+// http://filamentgroup.github.io/select-css/demo/
+.vapor-windows-95-select {
+  @include windows-95-push-in;
+
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-color: $vapor-windows-95-white;
+  cursor: pointer;
+
+  &:after {
+    content: " ";
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 7px solid $vapor-windows-95-black;
+    margin-top: -3px;
+
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    z-index: 2;
+
+    cursor: pointer;
+  	pointer-events: none;
+  }
+
+  select {
+    cursor: pointer;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+    display: inline;
+
+    // Don't show rounded corners on background
+    margin-left: -5px;
+    width: calc(100% + 5px);
+
+    &:focus, &:focus-within {
+
+      @include windows-95-focus-outline;
+
+      // TODO: Replace with actual 95 blue
+      background-color: blue;
+      color: $vapor-windows-95-white;
+    }
+  }
+
+  .vapor-windows-95-select-checkmark-container {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 15px;
+    height: 16px;
+
+    background: linear-gradient(to bottom right, $vapor-windows-95-white 0%, $vapor-windows-95-grey 2%, $vapor-windows-95-grey 94%, $vapor-windows-95-black 100%);
+    border-top: 2px solid $vapor-windows-95-grey-border;
+    border-left: 2px solid $vapor-windows-95-grey-border;
+    border-right: 1px solid $vapor-windows-95-black;
+    border-bottom: 1px solid $vapor-windows-95-black;
+
+    cursor: pointer;
+    pointer-events: none;
+  }
+}
