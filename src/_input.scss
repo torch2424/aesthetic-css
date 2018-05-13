@@ -92,10 +92,9 @@ $aesthetic-windows-95-checkbox-size: 12px;
 }
 
 $aesthetic-windows-xp-checkbox-size: 12px;
-$aesthetic-windows-xp-input-border: 2px solid $aesthetic-windows-xp-light-blue;
 
 .aesthetic-windows-xp-text-input {
-  border: $aesthetic-windows-xp-input-border;
+  border: 2px solid $aesthetic-windows-xp-light-blue;
 
   &:focus {
     @include windows-xp-focus-outline;
@@ -121,9 +120,9 @@ $aesthetic-windows-xp-input-border: 2px solid $aesthetic-windows-xp-light-blue;
     top: 0;
     left: 0;
 
-    border: $aesthetic-windows-xp-input-border;
+    border: 1px solid $aesthetic-windows-xp-blue;
 
-    background: $aesthetic-windows-xp-white;
+    background: linear-gradient(to bottom right, $aesthetic-windows-xp-shadow 0%, $aesthetic-windows-xp-white 75%);
   }
 
   .aesthetic-windows-xp-checkmark::after {
@@ -135,7 +134,7 @@ $aesthetic-windows-xp-input-border: 2px solid $aesthetic-windows-xp-light-blue;
     background: transparent;
     top: 2px;
     left: 2px;
-    border: 3px solid $aesthetic-windows-xp-black;
+    border: 3px solid $aesthetic-windows-xp-green;
     border-top: none;
     border-right: none;
 
@@ -167,7 +166,7 @@ $aesthetic-windows-xp-input-border: 2px solid $aesthetic-windows-xp-light-blue;
   .aesthetic-windows-xp-checkmark::after {
     content: '';
     position: absolute;
-    background-color: $aesthetic-windows-xp-black;
+    background-color: $aesthetic-windows-xp-green;
     border-radius: 25px;
 
     top: 3px;
