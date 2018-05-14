@@ -8,28 +8,6 @@
   background-color: $aesthetic-windows-95-white;
   cursor: pointer;
 
-  &:after {
-    content: " ";
-    width: 100px;
-    height: 100px;
-    z-index: 100;
-
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 7px solid $aesthetic-windows-95-black;
-    margin-top: -3px;
-
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    z-index: 2;
-
-    cursor: pointer;
-  	pointer-events: none;
-  }
-
   select {
     cursor: pointer;
     padding-left: 8px;
@@ -57,7 +35,7 @@
     }
   }
 
-  .aesthetic-windows-95-select-checkmark-container {
+  .aesthetic-windows-95-select-checkmark {
 
     position: absolute;
     top: 0px;
@@ -73,49 +51,116 @@
 
     cursor: pointer;
     pointer-events: none;
+
+    &:after {
+      content: " ";
+      width: 100px;
+      height: 100px;
+      z-index: 100;
+
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 7px solid $aesthetic-windows-95-black;
+      margin-top: -3px;
+
+      position: absolute;
+      top: 50%;
+      right: 4px;
+      z-index: 2;
+
+      cursor: pointer;
+    	pointer-events: none;
+    }
   }
 }
 
 .aesthetic-windows-xp-select {
-  @extend .aesthetic-windows-95-select;
+
+  border: 2px solid $aesthetic-windows-xp-light-blue;
+  position: relative;
+  overflow: hidden;
+  display: block;
+
+  background-color: $aesthetic-windows-95-white;
+  cursor: pointer;
 
   select {
-    width: 102%;
+    cursor: pointer;
+    padding-left: 8px;
     padding-top: 4px;
+    padding-bottom: 3px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+    display: inline;
+
+    // Don't show rounded corners on background
+    margin-left: -5px;
+    width: calc(102% + 5px);
+
+    &:focus, &:focus-within {
+
+      @include windows-xp-focus-outline;
+
+      background-color: $aesthetic-windows-xp-blue;
+      color: $aesthetic-windows-xp-white;
+    }
   }
 
   &:after {
-    content: "^";
-    transform: rotate(180deg) translate(0px, -9px);
-    font-family: sans-serif;
-    color: $aesthetic-windows-xp-dark-blue;
-    font-weight: bold;
+    content: " ";
+    width: 21px;
+    height: 25px;
 
-    width: 100px;
-    height: 100px;
-    z-index: 100;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 
-    width: 0;
-    height: 0;
-    border: none;
-
-    z-index: 2;
-
-    cursor: pointer;
-  	pointer-events: none;
+    background-color: $aesthetic-windows-xp-white;
   }
 
-  .aesthetic-windows-xp-select-checkmark-container {
+  .aesthetic-windows-xp-select-checkmark {
     position: absolute;
     top: 1px;
     right: 1px;
     width: 15px;
     height: 16px;
 
-    background: linear-gradient(to bottom right, $aesthetic-windows-xp-white 0%, $aesthetic-windows-xp-light-blue 50%);
+    transform: rotate(180deg);
+    background: linear-gradient(to top left, $aesthetic-windows-xp-white 0%, $aesthetic-windows-xp-light-blue 50%);
     border: 1px solid $aesthetic-windows-xp-light-blue;
 
     cursor: pointer;
     pointer-events: none;
+
+    z-index: 1;
+
+    &:after {
+      content: "^";
+      font-family: sans-serif;
+      color: $aesthetic-windows-xp-dark-blue;
+      font-weight: bold;
+
+      width: 100px;
+      height: 100px;
+      z-index: 100;
+
+      width: 0;
+      height: 0;
+      border: none;
+
+      position: absolute;
+      top: 2px;
+      left: 2px;
+
+      cursor: pointer;
+    	pointer-events: none;
+    }
   }
 }
