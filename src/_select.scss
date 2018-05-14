@@ -85,7 +85,8 @@
   }
 
   &:after {
-    content: "V";
+    content: "^";
+    transform: rotate(180deg) translate(0px, -9px);
     font-family: sans-serif;
     color: $aesthetic-windows-xp-dark-blue;
     font-weight: bold;
@@ -97,11 +98,7 @@
     width: 0;
     height: 0;
     border: none;
-    margin-top: -3px;
 
-    position: absolute;
-    top: 5px;
-    right: 15px;
     z-index: 2;
 
     cursor: pointer;
