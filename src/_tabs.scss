@@ -56,6 +56,47 @@
 
     }
   }
+}
 
+.aesthetic-windows-xp-tabbed-container {
+
+  .aesthetic-windows-xp-tabbed-container-tabs {
+
+    display: flex;
+    height: 28px;
+    width: 100%;
+
+    .aesthetic-windows-xp-tabbed-container-tabs-button {
+
+      background-color: $aesthetic-windows-xp-white;
+
+      border: 1px solid;
+      border-color: $aesthetic-windows-xp-border-light;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-color: transparent;
+
+      padding-left: 10px;
+      padding-right: 10px;
+
+      text-align: center;
+      outline: 0;
+
+      &.is-active {
+      }
+
+      button {
+        @include no-button-styles;
+        padding: 2px;
+        width: 100%;
+
+        &:focus {
+          @include windows-xp-focus-outline;
+        }
+      }
+
+    }
+
+  }
 
 }
