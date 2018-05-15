@@ -83,6 +83,15 @@
       outline: 0;
 
       &.is-active {
+
+        position: relative;
+        height: 30px;
+        bottom: 3px;
+
+        border-top: 2px solid;
+        border-top-color: $aesthetic-windows-xp-light-orange;
+
+        z-index: 1;
       }
 
       button {
