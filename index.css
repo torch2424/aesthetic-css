@@ -10,199 +10,283 @@
 @import url("https://fonts.googleapis.com/css?family=Spectral+SC");
 @import url("https://fonts.googleapis.com/css?family=Mate+SC");
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC");
-.vapor-bg-gradient {
+.aesthetic-bg-gradient {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: linear-gradient(#C774E8, #94D0FF); }
 
-.vapor-white-color {
+.aesthetic-white-color {
   color: #FAFAFA; }
 
-.vapor-white-bg-color {
+.aesthetic-white-bg-color {
   background-color: #FAFAFA; }
 
-.vapor-black-color {
+.aesthetic-black-color {
   color: #020202; }
 
-.vapor-black-bg-color {
+.aesthetic-black-bg-color {
   background-color: #020202; }
 
-.vapor-25-transparent-color {
+.aesthetic-25-transparent-color {
   color: rgba(0, 0, 0, 0.25); }
 
-.vapor-25-transparent-bg-color {
+.aesthetic-25-transparent-bg-color {
   background-color: rgba(0, 0, 0, 0.25); }
 
-.vapor-50-transparent-color {
+.aesthetic-50-transparent-color {
   color: rgba(0, 0, 0, 0.5); }
 
-.vapor-50-transparent-bg-color {
+.aesthetic-50-transparent-bg-color {
   background-color: rgba(0, 0, 0, 0.5); }
 
-.vapor-75-transparent-color {
+.aesthetic-75-transparent-color {
   color: rgba(0, 0, 0, 0.75); }
 
-.vapor-75-transparent-bg-color {
+.aesthetic-75-transparent-bg-color {
   background-color: rgba(0, 0, 0, 0.75); }
 
-.vapor-purple-color {
+.aesthetic-purple-color {
   color: #C774E8; }
 
-.vapor-purple-bg-color {
+.aesthetic-purple-bg-color {
   background-color: #C774E8; }
 
-.vapor-light-purple-color {
+.aesthetic-light-purple-color {
   color: #AD8CFF; }
 
-.vapor-light-purple-bg-color {
+.aesthetic-light-purple-bg-color {
   background-color: #AD8CFF; }
 
-.vapor-pink-color {
+.aesthetic-pink-color {
   color: #FF6AD5; }
 
-.vapor-pink-bg-color {
+.aesthetic-pink-bg-color {
   background-color: #FF6AD5; }
 
-.vapor-blue-color {
+.aesthetic-blue-color {
   color: #8795E8; }
 
-.vapor-blue-bg-color {
+.aesthetic-blue-bg-color {
   background-color: #8795E8; }
 
-.vapor-light-blue-color {
+.aesthetic-light-blue-color {
   color: #94D0FF; }
 
-.vapor-light-blue-bg-color {
+.aesthetic-light-blue-bg-color {
   background-color: #94D0FF; }
 
-.vapor-green-color {
+.aesthetic-green-color {
   color: #10D7AE; }
 
-.vapor-green-bg-color {
+.aesthetic-green-bg-color {
   background-color: #10D7AE; }
 
-.vapor-arizona-pink-color {
+.aesthetic-arizona-pink-color {
   color: #FA7785; }
 
-.vapor-arizona-pink-bg-color {
+.aesthetic-arizona-pink-bg-color {
   background-color: #FA7785; }
 
-.vapor-arizona-black-color {
+.aesthetic-arizona-black-color {
   color: #24211A; }
 
-.vapor-arizona-black-bg-color {
+.aesthetic-arizona-black-bg-color {
   background-color: #24211A; }
 
-.vapor-arizona-lime-color {
+.aesthetic-arizona-lime-color {
   color: #D5D87D; }
 
-.vapor-arizona-lime-bg-color {
+.aesthetic-arizona-lime-bg-color {
   background-color: #D5D87D; }
 
-.vapor-arizona-green-color {
+.aesthetic-arizona-green-color {
   color: #B1D4B6; }
 
-.vapor-arizona-green-bg-color {
+.aesthetic-arizona-green-bg-color {
   background-color: #B1D4B6; }
 
-.vapor-arizona-blue-color {
+.aesthetic-arizona-blue-color {
   color: #53CBBF; }
 
-.vapor-arizona-blue-bg-color {
+.aesthetic-arizona-blue-bg-color {
   background-color: #53CBBF; }
 
-.vapor-pepsi-blue-color {
+.aesthetic-pepsi-blue-color {
   color: #123DFF; }
 
-.vapor-pepsi-blue-bg-color {
+.aesthetic-pepsi-blue-bg-color {
   background-color: #123DFF; }
 
-.vapor-pepsi-red-color {
+.aesthetic-pepsi-red-color {
   color: #E11C2D; }
 
-.vapor-pepsi-red-bg-color {
+.aesthetic-pepsi-red-bg-color {
   background-color: #E11C2D; }
 
-.vapor-pepsi-white-color {
+.aesthetic-pepsi-white-color {
   color: #FFFFFF; }
 
-.vapor-pepsi-white-bg-color {
+.aesthetic-pepsi-white-bg-color {
   background-color: #FFFFFF; }
 
-.vapor-pepsi-cola-color {
+.aesthetic-pepsi-cola-color {
   color: #490104; }
 
-.vapor-pepsi-cola-bg-color {
+.aesthetic-pepsi-cola-bg-color {
   background-color: #490104; }
 
-.vapor-pepsi-grey-color {
+.aesthetic-pepsi-grey-color {
   color: #C0C0C0; }
 
-.vapor-pepsi-grey-bg-color {
+.aesthetic-pepsi-grey-bg-color {
   background-color: #C0C0C0; }
 
-.vapor-windows-95-grey-color {
+.aesthetic-windows-95-grey-color {
   color: #BFBFBF; }
 
-.vapor-windows-95-grey-bg-color {
+.aesthetic-windows-95-grey-bg-color {
   background-color: #BFBFBF; }
 
-.vapor-windows-95-grey-border-color {
+.aesthetic-windows-95-grey-border-color {
   color: #DFDFDF; }
 
-.vapor-windows-95-grey-border-bg-color {
+.aesthetic-windows-95-grey-border-bg-color {
   background-color: #DFDFDF; }
 
-.vapor-windows-95-green-color {
+.aesthetic-windows-95-green-color {
   color: #218763; }
 
-.vapor-windows-95-green-bg-color {
+.aesthetic-windows-95-green-bg-color {
   background-color: #218763; }
 
-.vapor-font-modifier-outline-black {
+.aesthetic-windows-95-blue-color {
+  color: #000084; }
+
+.aesthetic-windows-95-blue-bg-color {
+  background-color: #000084; }
+
+.aesthetic-windows-xp-green-color {
+  color: #419642; }
+
+.aesthetic-windows-xp-green-bg-color {
+  background-color: #419642; }
+
+.aesthetic-windows-xp-blue-color {
+  color: #005cf5; }
+
+.aesthetic-windows-xp-blue-bg-color {
+  background-color: #005cf5; }
+
+.aesthetic-windows-xp-light-blue-color {
+  color: #8aa2cb; }
+
+.aesthetic-windows-xp-light-blue-bg-color {
+  background-color: #8aa2cb; }
+
+.aesthetic-windows-xp-dark-blue-color {
+  color: #044cdc; }
+
+.aesthetic-windows-xp-dark-blue-bg-color {
+  background-color: #044cdc; }
+
+.aesthetic-windows-xp-orange-color {
+  color: #e26725; }
+
+.aesthetic-windows-xp-orange-bg-color {
+  background-color: #e26725; }
+
+.aesthetic-windows-xp-light-orange-color {
+  color: #efc47b; }
+
+.aesthetic-windows-xp-light-orange-bg-color {
+  background-color: #efc47b; }
+
+.aesthetic-windows-xp-dark-orange-color {
+  color: #b7371a; }
+
+.aesthetic-windows-xp-dark-orange-bg-color {
+  background-color: #b7371a; }
+
+.aesthetic-windows-xp-beige-color {
+  color: #ece9d6; }
+
+.aesthetic-windows-xp-beige-bg-color {
+  background-color: #ece9d6; }
+
+.aesthetic-windows-xp-white-color {
+  color: #f8f4f1; }
+
+.aesthetic-windows-xp-white-bg-color {
+  background-color: #f8f4f1; }
+
+.aesthetic-windows-xp-black-color {
+  color: #070707; }
+
+.aesthetic-windows-xp-black-bg-color {
+  background-color: #070707; }
+
+.aesthetic-windows-xp-border-light-color {
+  color: #c9cac4; }
+
+.aesthetic-windows-xp-border-light-bg-color {
+  background-color: #c9cac4; }
+
+.aesthetic-windows-xp-border-dark-color {
+  color: #808080; }
+
+.aesthetic-windows-xp-border-dark-bg-color {
+  background-color: #808080; }
+
+.aesthetic-windows-xp-shadow-color {
+  color: #c9cac4; }
+
+.aesthetic-windows-xp-shadow-bg-color {
+  background-color: #c9cac4; }
+
+.aesthetic-font-modifier-outline-black {
   font-weight: bold;
   color: #FAFAFA;
   text-shadow: -1px -1px 1px #020202, 1px -1px 1px #020202, -1px 1px 1px #020202, 1px 1px 1px #020202; }
 
-.vapor-font-modifier-outline-pink {
+.aesthetic-font-modifier-outline-pink {
   font-weight: bold;
   color: #FAFAFA;
   text-shadow: -1px -1px 1px #FF6AD5, 1px -1px 1px #FF6AD5, -1px 1px 1px #FF6AD5, 1px 1px 1px #FF6AD5; }
 
-.vapor-font-modifier-outline-purple {
+.aesthetic-font-modifier-outline-purple {
   font-weight: bold;
   color: #FAFAFA;
   text-shadow: -1px -1px 1px #C774E8, 1px -1px 1px #C774E8, -1px 1px 1px #C774E8, 1px 1px 1px #C774E8; }
 
-.vapor-font-modifier-gradient-arizona {
+.aesthetic-font-modifier-gradient-arizona {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   display: inline;
   background-image: linear-gradient(to left, #FA7785, #D5D87D, #B1D4B6, #53CBBF); }
 
-.vapor-font-modifier-gradient-pink-blue {
+.aesthetic-font-modifier-gradient-pink-blue {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   display: inline;
   background-image: linear-gradient(to right, #FF6AD5, #8795E8); }
 
-.vapor-font-modifier-gradient-pink-green {
+.aesthetic-font-modifier-gradient-pink-green {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   display: inline;
   background-image: linear-gradient(to right, #FF6AD5, #10D7AE); }
 
-.vapor-font-modifier-gradient-green-pink {
+.aesthetic-font-modifier-gradient-green-pink {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   display: inline;
   background-image: linear-gradient(to right, #10D7AE, #FF6AD5); }
 
-.vapor-font-modifier-gradient-purple-blue {
+.aesthetic-font-modifier-gradient-purple-blue {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -211,49 +295,49 @@
 
 @keyframes flicker {
   0% {
-    opacity: 0.93882; }
+    opacity: 0.48861; }
   5% {
-    opacity: 0.17392; }
+    opacity: 0.01053; }
   10% {
-    opacity: 0.87653; }
+    opacity: 0.19217; }
   15% {
-    opacity: 0.9287; }
+    opacity: 0.23784; }
   20% {
-    opacity: 0.32717; }
+    opacity: 0.67207; }
   25% {
-    opacity: 0.0417; }
+    opacity: 0.95747; }
   30% {
-    opacity: 0.95139; }
+    opacity: 0.70673; }
   35% {
-    opacity: 0.26481; }
+    opacity: 0.3409; }
   40% {
-    opacity: 0.95075; }
+    opacity: 0.91753; }
   45% {
-    opacity: 0.72302; }
+    opacity: 0.12638; }
   50% {
-    opacity: 0.70007; }
+    opacity: 0.2667; }
   55% {
-    opacity: 0.0741; }
+    opacity: 0.71258; }
   60% {
-    opacity: 0.52698; }
+    opacity: 0.49977; }
   65% {
-    opacity: 0.69052; }
+    opacity: 0.93116; }
   70% {
-    opacity: 0.40519; }
+    opacity: 0.96448; }
   75% {
-    opacity: 0.95301; }
+    opacity: 0.1044; }
   80% {
-    opacity: 0.60415; }
+    opacity: 0.12596; }
   85% {
-    opacity: 0.75945; }
+    opacity: 0.93375; }
   90% {
-    opacity: 0.76187; }
+    opacity: 0.39052; }
   95% {
-    opacity: 0.5575; }
+    opacity: 0.114; }
   100% {
-    opacity: 0.63344; } }
+    opacity: 0.65396; } }
 
-.vapor-effect-crt {
+.aesthetic-effect-crt {
   display: inline-block;
   position: relative;
   top: 0;
@@ -261,7 +345,7 @@
   right: 0;
   bottom: 0;
   background: #121010; }
-  .vapor-effect-crt::after {
+  .aesthetic-effect-crt::after {
     content: " ";
     display: block;
     position: absolute;
@@ -274,7 +358,7 @@
     z-index: 2;
     pointer-events: none;
     animation: flicker 0.15s infinite; }
-  .vapor-effect-crt::before {
+  .aesthetic-effect-crt::before {
     content: " ";
     display: block;
     position: absolute;
@@ -298,248 +382,248 @@
   7. Width (px)
   8. Height (px)
 */
-.vapor-effect-text-glitch {
+.aesthetic-effect-text-glitch {
   color: white;
   position: relative; }
 
-@keyframes vapor-effect-text-glitch-anim-1 {
+@keyframes aesthetic-effect-text-glitch-anim-1 {
   0% {
-    clip: rect(31px, 450px, 78px, 0); }
+    clip: rect(93px, 450px, 54px, 0); }
   5.88235% {
-    clip: rect(4px, 450px, 83px, 0); }
+    clip: rect(22px, 450px, 43px, 0); }
   11.76471% {
-    clip: rect(95px, 450px, 25px, 0); }
+    clip: rect(63px, 450px, 115px, 0); }
   17.64706% {
-    clip: rect(42px, 450px, 22px, 0); }
+    clip: rect(60px, 450px, 32px, 0); }
   23.52941% {
-    clip: rect(78px, 450px, 46px, 0); }
+    clip: rect(90px, 450px, 101px, 0); }
   29.41176% {
-    clip: rect(67px, 450px, 70px, 0); }
+    clip: rect(77px, 450px, 42px, 0); }
   35.29412% {
-    clip: rect(110px, 450px, 66px, 0); }
+    clip: rect(50px, 450px, 73px, 0); }
   41.17647% {
-    clip: rect(26px, 450px, 87px, 0); }
+    clip: rect(90px, 450px, 96px, 0); }
   47.05882% {
-    clip: rect(55px, 450px, 14px, 0); }
+    clip: rect(95px, 450px, 108px, 0); }
   52.94118% {
-    clip: rect(88px, 450px, 114px, 0); }
+    clip: rect(104px, 450px, 93px, 0); }
   58.82353% {
-    clip: rect(25px, 450px, 30px, 0); }
+    clip: rect(79px, 450px, 29px, 0); }
   64.70588% {
-    clip: rect(24px, 450px, 24px, 0); }
+    clip: rect(41px, 450px, 50px, 0); }
   70.58824% {
-    clip: rect(81px, 450px, 80px, 0); }
+    clip: rect(105px, 450px, 65px, 0); }
   76.47059% {
-    clip: rect(103px, 450px, 79px, 0); }
+    clip: rect(94px, 450px, 18px, 0); }
   82.35294% {
-    clip: rect(78px, 450px, 38px, 0); }
+    clip: rect(35px, 450px, 69px, 0); }
   88.23529% {
-    clip: rect(30px, 450px, 21px, 0); }
+    clip: rect(15px, 450px, 108px, 0); }
   94.11765% {
-    clip: rect(41px, 450px, 83px, 0); }
+    clip: rect(81px, 450px, 103px, 0); }
   100% {
-    clip: rect(53px, 450px, 81px, 0); } }
+    clip: rect(28px, 450px, 20px, 0); } }
 
-@keyframes vapor-effect-text-glitch-anim-2 {
+@keyframes aesthetic-effect-text-glitch-anim-2 {
   0% {
-    clip: rect(4px, 450px, 103px, 0); }
+    clip: rect(93px, 450px, 52px, 0); }
   5.88235% {
-    clip: rect(95px, 450px, 73px, 0); }
+    clip: rect(46px, 450px, 87px, 0); }
   11.76471% {
-    clip: rect(98px, 450px, 17px, 0); }
+    clip: rect(87px, 450px, 30px, 0); }
   17.64706% {
-    clip: rect(79px, 450px, 107px, 0); }
+    clip: rect(66px, 450px, 86px, 0); }
   23.52941% {
-    clip: rect(70px, 450px, 12px, 0); }
+    clip: rect(62px, 450px, 103px, 0); }
   29.41176% {
-    clip: rect(113px, 450px, 13px, 0); }
+    clip: rect(54px, 450px, 1px, 0); }
   35.29412% {
-    clip: rect(29px, 450px, 9px, 0); }
+    clip: rect(66px, 450px, 18px, 0); }
   41.17647% {
-    clip: rect(84px, 450px, 63px, 0); }
+    clip: rect(63px, 450px, 107px, 0); }
   47.05882% {
-    clip: rect(85px, 450px, 33px, 0); }
+    clip: rect(32px, 450px, 64px, 0); }
   52.94118% {
-    clip: rect(30px, 450px, 1px, 0); }
+    clip: rect(55px, 450px, 60px, 0); }
   58.82353% {
-    clip: rect(65px, 450px, 21px, 0); }
+    clip: rect(114px, 450px, 29px, 0); }
   64.70588% {
-    clip: rect(85px, 450px, 110px, 0); }
+    clip: rect(11px, 450px, 42px, 0); }
   70.58824% {
-    clip: rect(50px, 450px, 51px, 0); }
+    clip: rect(62px, 450px, 99px, 0); }
   76.47059% {
-    clip: rect(30px, 450px, 52px, 0); }
+    clip: rect(20px, 450px, 16px, 0); }
   82.35294% {
-    clip: rect(95px, 450px, 105px, 0); }
+    clip: rect(11px, 450px, 103px, 0); }
   88.23529% {
-    clip: rect(110px, 450px, 58px, 0); }
+    clip: rect(90px, 450px, 57px, 0); }
   94.11765% {
-    clip: rect(113px, 450px, 84px, 0); }
+    clip: rect(31px, 450px, 109px, 0); }
   100% {
-    clip: rect(60px, 450px, 97px, 0); } }
-  .vapor-effect-text-glitch::before, .vapor-effect-text-glitch::after {
+    clip: rect(79px, 450px, 9px, 0); } }
+  .aesthetic-effect-text-glitch::before, .aesthetic-effect-text-glitch::after {
     content: attr(data-glitch);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     clip: rect(0, 0, 0, 0); }
-  .vapor-effect-text-glitch::after {
+  .aesthetic-effect-text-glitch::after {
     left: 2px;
     text-shadow: -1px 0 red;
-    animation: vapor-effect-text-glitch-anim-1 2s infinite linear alternate-reverse; }
-  .vapor-effect-text-glitch::before {
+    animation: aesthetic-effect-text-glitch-anim-1 2s infinite linear alternate-reverse; }
+  .aesthetic-effect-text-glitch::before {
     left: -2px;
     text-shadow: 2px 0 blue;
-    animation: vapor-effect-text-glitch-anim-2 3s infinite linear alternate-reverse; }
+    animation: aesthetic-effect-text-glitch-anim-2 3s infinite linear alternate-reverse; }
 
-@keyframes vapor-effect-element-glitch-background {
+@keyframes aesthetic-effect-element-glitch-background {
   0% {
     background-color: red; }
   100% {
     background-color: blue; } }
 
-.vapor-effect-element-glitch {
+.aesthetic-effect-element-glitch {
   position: relative;
   display: inline-block;
-  animation: vapor-effect-element-glitch-background 0.25s infinite; }
+  animation: aesthetic-effect-element-glitch-background 0.25s infinite; }
 
-@keyframes vapor-effect-element-glitch-animation-1 {
+@keyframes aesthetic-effect-element-glitch-animation-1 {
   0% {
-    transform: skew(calc(calc(100deg / 100 ) - calc(53deg / 100 )), calc(calc(130deg / 100 ) - calc(120deg / 100 )));
-    opacity: calc(35 / 75); }
-  7% {
-    transform: skew(calc(calc(117deg / 100 ) - calc(65deg / 100 )), calc(calc(60deg / 100 ) - calc(8deg / 100 )));
-    opacity: calc(53 / 75); }
-  10% {
-    transform: skew(calc(calc(53deg / 100 ) - calc(144deg / 100 )), calc(calc(76deg / 100 ) - calc(8deg / 100 )));
-    opacity: calc(12 / 75); }
-  27% {
-    transform: skew(calc(calc(79deg / 100 ) - calc(101deg / 100 )), calc(calc(62deg / 100 ) - calc(120deg / 100 )));
-    opacity: calc(76 / 75); }
-  30% {
-    transform: skew(calc(calc(137deg / 100 ) - calc(94deg / 100 )), calc(calc(90deg / 100 ) - calc(144deg / 100 )));
-    opacity: calc(74 / 75); }
-  35% {
-    transform: skew(calc(calc(114deg / 100 ) - calc(38deg / 100 )), calc(calc(13deg / 100 ) - calc(56deg / 100 )));
-    opacity: calc(50 / 75); }
-  52% {
-    transform: skew(calc(calc(78deg / 100 ) - calc(48deg / 100 )), calc(calc(128deg / 100 ) - calc(147deg / 100 )));
-    opacity: calc(69 / 75); }
-  55% {
-    transform: skew(calc(calc(126deg / 100 ) - calc(135deg / 100 )), calc(calc(58deg / 100 ) - calc(120deg / 100 )));
-    opacity: calc(69 / 75); }
-  50% {
-    transform: skew(calc(calc(4deg / 100 ) - calc(89deg / 100 )), calc(calc(33deg / 100 ) - calc(42deg / 100 )));
-    opacity: calc(39 / 75); }
-  72% {
-    transform: skew(calc(calc(48deg / 100 ) - calc(56deg / 100 )), calc(calc(107deg / 100 ) - calc(102deg / 100 )));
-    opacity: calc(59 / 75); }
-  75% {
-    transform: skew(calc(calc(13deg / 100 ) - calc(27deg / 100 )), calc(calc(126deg / 100 ) - calc(53deg / 100 )));
-    opacity: calc(3 / 75); }
-  80% {
-    transform: skew(calc(calc(103deg / 100 ) - calc(71deg / 100 )), calc(calc(53deg / 100 ) - calc(28deg / 100 )));
-    opacity: calc(40 / 75); }
-  100% {
-    transform: skew(calc(calc(139deg / 100 ) - calc(9deg / 100 )), calc(calc(120deg / 100 ) - calc(136deg / 100 )));
-    opacity: calc(16 / 75); } }
-
-@keyframes vapor-effect-element-glitch-animation-2 {
-  0% {
-    transform: skew(calc(calc(88deg / 100 ) - calc(119deg / 100 )), calc(calc(57deg / 100 ) - calc(22deg / 100 )));
-    opacity: calc(100 / 75); }
-  7% {
-    transform: skew(calc(calc(43deg / 100 ) - calc(68deg / 100 )), calc(calc(83deg / 100 ) - calc(33deg / 100 )));
-    opacity: calc(29 / 75); }
-  10% {
-    transform: skew(calc(calc(144deg / 100 ) - calc(16deg / 100 )), calc(calc(81deg / 100 ) - calc(39deg / 100 )));
-    opacity: calc(78 / 75); }
-  27% {
-    transform: skew(calc(calc(2deg / 100 ) - calc(69deg / 100 )), calc(calc(101deg / 100 ) - calc(110deg / 100 )));
-    opacity: calc(70 / 75); }
-  30% {
-    transform: skew(calc(calc(119deg / 100 ) - calc(114deg / 100 )), calc(calc(6deg / 100 ) - calc(142deg / 100 )));
-    opacity: calc(5 / 75); }
-  35% {
-    transform: skew(calc(calc(45deg / 100 ) - calc(117deg / 100 )), calc(calc(141deg / 100 ) - calc(62deg / 100 )));
-    opacity: calc(13 / 75); }
-  52% {
-    transform: skew(calc(calc(23deg / 100 ) - calc(145deg / 100 )), calc(calc(27deg / 100 ) - calc(29deg / 100 )));
-    opacity: calc(34 / 75); }
-  55% {
-    transform: skew(calc(calc(46deg / 100 ) - calc(31deg / 100 )), calc(calc(62deg / 100 ) - calc(34deg / 100 )));
-    opacity: calc(4 / 75); }
-  50% {
-    transform: skew(calc(calc(21deg / 100 ) - calc(100deg / 100 )), calc(calc(2deg / 100 ) - calc(29deg / 100 )));
-    opacity: calc(44 / 75); }
-  72% {
-    transform: skew(calc(calc(96deg / 100 ) - calc(96deg / 100 )), calc(calc(53deg / 100 ) - calc(48deg / 100 )));
-    opacity: calc(40 / 75); }
-  75% {
-    transform: skew(calc(calc(45deg / 100 ) - calc(103deg / 100 )), calc(calc(50deg / 100 ) - calc(21deg / 100 )));
-    opacity: calc(17 / 75); }
-  80% {
-    transform: skew(calc(calc(145deg / 100 ) - calc(47deg / 100 )), calc(calc(132deg / 100 ) - calc(100deg / 100 )));
-    opacity: calc(27 / 75); }
-  100% {
-    transform: skew(calc(calc(87deg / 100 ) - calc(131deg / 100 )), calc(calc(113deg / 100 ) - calc(58deg / 100 )));
-    opacity: calc(52 / 75); } }
-
-@keyframes vapor-effect-element-glitch-animation-3 {
-  0% {
-    transform: skew(calc(calc(51deg / 100 ) - calc(48deg / 100 )), calc(calc(70deg / 100 ) - calc(98deg / 100 )));
-    opacity: calc(42 / 75); }
-  7% {
-    transform: skew(calc(calc(35deg / 100 ) - calc(147deg / 100 )), calc(calc(129deg / 100 ) - calc(33deg / 100 )));
-    opacity: calc(56 / 75); }
-  10% {
-    transform: skew(calc(calc(1deg / 100 ) - calc(113deg / 100 )), calc(calc(5deg / 100 ) - calc(140deg / 100 )));
-    opacity: calc(21 / 75); }
-  27% {
-    transform: skew(calc(calc(136deg / 100 ) - calc(15deg / 100 )), calc(calc(46deg / 100 ) - calc(99deg / 100 )));
-    opacity: calc(31 / 75); }
-  30% {
-    transform: skew(calc(calc(81deg / 100 ) - calc(20deg / 100 )), calc(calc(115deg / 100 ) - calc(54deg / 100 )));
-    opacity: calc(6 / 75); }
-  35% {
-    transform: skew(calc(calc(21deg / 100 ) - calc(40deg / 100 )), calc(calc(106deg / 100 ) - calc(54deg / 100 )));
-    opacity: calc(4 / 75); }
-  52% {
-    transform: skew(calc(calc(83deg / 100 ) - calc(121deg / 100 )), calc(calc(14deg / 100 ) - calc(106deg / 100 )));
-    opacity: calc(85 / 75); }
-  55% {
-    transform: skew(calc(calc(141deg / 100 ) - calc(3deg / 100 )), calc(calc(120deg / 100 ) - calc(146deg / 100 )));
-    opacity: calc(37 / 75); }
-  50% {
-    transform: skew(calc(calc(135deg / 100 ) - calc(93deg / 100 )), calc(calc(5deg / 100 ) - calc(40deg / 100 )));
+    transform: skew(calc(calc(102deg / 100 ) - calc(32deg / 100 )), calc(calc(58deg / 100 ) - calc(33deg / 100 )));
     opacity: calc(64 / 75); }
+  7% {
+    transform: skew(calc(calc(105deg / 100 ) - calc(4deg / 100 )), calc(calc(66deg / 100 ) - calc(29deg / 100 )));
+    opacity: calc(84 / 75); }
+  10% {
+    transform: skew(calc(calc(33deg / 100 ) - calc(36deg / 100 )), calc(calc(59deg / 100 ) - calc(61deg / 100 )));
+    opacity: calc(85 / 75); }
+  27% {
+    transform: skew(calc(calc(78deg / 100 ) - calc(65deg / 100 )), calc(calc(17deg / 100 ) - calc(86deg / 100 )));
+    opacity: calc(49 / 75); }
+  30% {
+    transform: skew(calc(calc(39deg / 100 ) - calc(31deg / 100 )), calc(calc(143deg / 100 ) - calc(63deg / 100 )));
+    opacity: calc(29 / 75); }
+  35% {
+    transform: skew(calc(calc(76deg / 100 ) - calc(8deg / 100 )), calc(calc(86deg / 100 ) - calc(53deg / 100 )));
+    opacity: calc(66 / 75); }
+  52% {
+    transform: skew(calc(calc(127deg / 100 ) - calc(38deg / 100 )), calc(calc(147deg / 100 ) - calc(49deg / 100 )));
+    opacity: calc(32 / 75); }
+  55% {
+    transform: skew(calc(calc(120deg / 100 ) - calc(86deg / 100 )), calc(calc(74deg / 100 ) - calc(121deg / 100 )));
+    opacity: calc(33 / 75); }
+  50% {
+    transform: skew(calc(calc(134deg / 100 ) - calc(40deg / 100 )), calc(calc(1deg / 100 ) - calc(106deg / 100 )));
+    opacity: calc(37 / 75); }
   72% {
-    transform: skew(calc(calc(3deg / 100 ) - calc(12deg / 100 )), calc(calc(105deg / 100 ) - calc(43deg / 100 )));
-    opacity: calc(50 / 75); }
+    transform: skew(calc(calc(13deg / 100 ) - calc(76deg / 100 )), calc(calc(140deg / 100 ) - calc(98deg / 100 )));
+    opacity: calc(55 / 75); }
   75% {
-    transform: skew(calc(calc(80deg / 100 ) - calc(93deg / 100 )), calc(calc(130deg / 100 ) - calc(29deg / 100 )));
-    opacity: calc(88 / 75); }
+    transform: skew(calc(calc(101deg / 100 ) - calc(96deg / 100 )), calc(calc(130deg / 100 ) - calc(116deg / 100 )));
+    opacity: calc(10 / 75); }
   80% {
-    transform: skew(calc(calc(97deg / 100 ) - calc(75deg / 100 )), calc(calc(101deg / 100 ) - calc(132deg / 100 )));
-    opacity: calc(100 / 75); }
+    transform: skew(calc(calc(149deg / 100 ) - calc(15deg / 100 )), calc(calc(144deg / 100 ) - calc(56deg / 100 )));
+    opacity: calc(65 / 75); }
   100% {
-    transform: skew(calc(calc(102deg / 100 ) - calc(1deg / 100 )), calc(calc(150deg / 100 ) - calc(115deg / 100 )));
-    opacity: calc(30 / 75); } }
-  .vapor-effect-element-glitch :nth-child(1) {
-    opacity: 0.7; }
-  .vapor-effect-element-glitch :nth-child(2) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: vapor-effect-element-glitch-animation-2 2.5s infinite; }
-  .vapor-effect-element-glitch :nth-child(3) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: vapor-effect-element-glitch-animation-3 1s infinite; }
+    transform: skew(calc(calc(47deg / 100 ) - calc(62deg / 100 )), calc(calc(13deg / 100 ) - calc(124deg / 100 )));
+    opacity: calc(26 / 75); } }
 
-.vapor-windows-95-container, .vapor-windows-95-modal {
+@keyframes aesthetic-effect-element-glitch-animation-2 {
+  0% {
+    transform: skew(calc(calc(112deg / 100 ) - calc(129deg / 100 )), calc(calc(29deg / 100 ) - calc(80deg / 100 )));
+    opacity: calc(92 / 75); }
+  7% {
+    transform: skew(calc(calc(129deg / 100 ) - calc(28deg / 100 )), calc(calc(13deg / 100 ) - calc(134deg / 100 )));
+    opacity: calc(54 / 75); }
+  10% {
+    transform: skew(calc(calc(127deg / 100 ) - calc(102deg / 100 )), calc(calc(133deg / 100 ) - calc(47deg / 100 )));
+    opacity: calc(20 / 75); }
+  27% {
+    transform: skew(calc(calc(5deg / 100 ) - calc(90deg / 100 )), calc(calc(114deg / 100 ) - calc(134deg / 100 )));
+    opacity: calc(44 / 75); }
+  30% {
+    transform: skew(calc(calc(72deg / 100 ) - calc(4deg / 100 )), calc(calc(146deg / 100 ) - calc(124deg / 100 )));
+    opacity: calc(52 / 75); }
+  35% {
+    transform: skew(calc(calc(26deg / 100 ) - calc(8deg / 100 )), calc(calc(82deg / 100 ) - calc(17deg / 100 )));
+    opacity: calc(57 / 75); }
+  52% {
+    transform: skew(calc(calc(88deg / 100 ) - calc(41deg / 100 )), calc(calc(115deg / 100 ) - calc(76deg / 100 )));
+    opacity: calc(55 / 75); }
+  55% {
+    transform: skew(calc(calc(105deg / 100 ) - calc(111deg / 100 )), calc(calc(97deg / 100 ) - calc(110deg / 100 )));
+    opacity: calc(74 / 75); }
+  50% {
+    transform: skew(calc(calc(112deg / 100 ) - calc(63deg / 100 )), calc(calc(145deg / 100 ) - calc(114deg / 100 )));
+    opacity: calc(37 / 75); }
+  72% {
+    transform: skew(calc(calc(15deg / 100 ) - calc(42deg / 100 )), calc(calc(100deg / 100 ) - calc(40deg / 100 )));
+    opacity: calc(75 / 75); }
+  75% {
+    transform: skew(calc(calc(22deg / 100 ) - calc(130deg / 100 )), calc(calc(139deg / 100 ) - calc(149deg / 100 )));
+    opacity: calc(45 / 75); }
+  80% {
+    transform: skew(calc(calc(112deg / 100 ) - calc(37deg / 100 )), calc(calc(126deg / 100 ) - calc(139deg / 100 )));
+    opacity: calc(37 / 75); }
+  100% {
+    transform: skew(calc(calc(2deg / 100 ) - calc(33deg / 100 )), calc(calc(10deg / 100 ) - calc(45deg / 100 )));
+    opacity: calc(96 / 75); } }
+
+@keyframes aesthetic-effect-element-glitch-animation-3 {
+  0% {
+    transform: skew(calc(calc(90deg / 100 ) - calc(30deg / 100 )), calc(calc(58deg / 100 ) - calc(94deg / 100 )));
+    opacity: calc(74 / 75); }
+  7% {
+    transform: skew(calc(calc(84deg / 100 ) - calc(71deg / 100 )), calc(calc(34deg / 100 ) - calc(131deg / 100 )));
+    opacity: calc(35 / 75); }
+  10% {
+    transform: skew(calc(calc(34deg / 100 ) - calc(129deg / 100 )), calc(calc(49deg / 100 ) - calc(140deg / 100 )));
+    opacity: calc(70 / 75); }
+  27% {
+    transform: skew(calc(calc(26deg / 100 ) - calc(112deg / 100 )), calc(calc(64deg / 100 ) - calc(95deg / 100 )));
+    opacity: calc(80 / 75); }
+  30% {
+    transform: skew(calc(calc(149deg / 100 ) - calc(79deg / 100 )), calc(calc(50deg / 100 ) - calc(64deg / 100 )));
+    opacity: calc(40 / 75); }
+  35% {
+    transform: skew(calc(calc(124deg / 100 ) - calc(84deg / 100 )), calc(calc(128deg / 100 ) - calc(94deg / 100 )));
+    opacity: calc(35 / 75); }
+  52% {
+    transform: skew(calc(calc(149deg / 100 ) - calc(123deg / 100 )), calc(calc(23deg / 100 ) - calc(46deg / 100 )));
+    opacity: calc(48 / 75); }
+  55% {
+    transform: skew(calc(calc(33deg / 100 ) - calc(67deg / 100 )), calc(calc(79deg / 100 ) - calc(144deg / 100 )));
+    opacity: calc(53 / 75); }
+  50% {
+    transform: skew(calc(calc(104deg / 100 ) - calc(140deg / 100 )), calc(calc(16deg / 100 ) - calc(128deg / 100 )));
+    opacity: calc(37 / 75); }
+  72% {
+    transform: skew(calc(calc(100deg / 100 ) - calc(40deg / 100 )), calc(calc(61deg / 100 ) - calc(103deg / 100 )));
+    opacity: calc(8 / 75); }
+  75% {
+    transform: skew(calc(calc(126deg / 100 ) - calc(7deg / 100 )), calc(calc(37deg / 100 ) - calc(87deg / 100 )));
+    opacity: calc(33 / 75); }
+  80% {
+    transform: skew(calc(calc(33deg / 100 ) - calc(69deg / 100 )), calc(calc(40deg / 100 ) - calc(75deg / 100 )));
+    opacity: calc(73 / 75); }
+  100% {
+    transform: skew(calc(calc(101deg / 100 ) - calc(68deg / 100 )), calc(calc(143deg / 100 ) - calc(77deg / 100 )));
+    opacity: calc(9 / 75); } }
+  .aesthetic-effect-element-glitch :nth-child(1) {
+    opacity: 0.7; }
+  .aesthetic-effect-element-glitch :nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: aesthetic-effect-element-glitch-animation-2 2.5s infinite; }
+  .aesthetic-effect-element-glitch :nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: aesthetic-effect-element-glitch-animation-3 1s infinite; }
+
+.aesthetic-windows-95-container, .aesthetic-windows-95-modal {
   border: 1px solid;
   box-shadow: 1px 1px 0 0 #000;
   border-top: 1px solid #DFDFDF;
@@ -548,36 +632,47 @@
   background-color: #BFBFBF;
   padding: 4px; }
 
-@keyframes vapor-windows-95-boot-infinite-loader {
+.aesthetic-windows-xp-container {
+  border: 1px solid;
+  box-shadow: 1px 1px 0 0 #c9cac4;
+  border-top: 1px solid #c9cac4;
+  border-left: 1px solid #c9cac4;
+  border-bottom: 1px solid #808080;
+  border-right: 1px solid #808080;
+  display: block;
+  background-color: #f8f4f1;
+  padding: 4px; }
+
+@keyframes aesthetic-windows-95-boot-infinite-loader {
   0% {
     transform: translate(-220%); }
   100% {
     transform: translate(160%); } }
 
-.vapor-windows-95-boot-loader {
+.aesthetic-windows-95-boot-loader {
   width: 100%;
   height: 20px;
   background-color: #BFBFBF;
   overflow: hidden;
   font-size: 0; }
 
-.vapor-windows-95-boot-loader > * {
+.aesthetic-windows-95-boot-loader > * {
   width: 75%;
   height: 100%;
   opacity: 0.5;
-  background: linear-gradient(to right, #BFBFBF 0%, blue 15%, blue 85%, #BFBFBF 100%);
+  background: linear-gradient(to right, #BFBFBF 0%, #000084 15%, #000084 85%, #BFBFBF 100%);
   display: inline-block;
   margin-right: 1px;
-  animation: vapor-windows-95-boot-infinite-loader 4.5s infinite;
+  animation: aesthetic-windows-95-boot-infinite-loader 4.5s infinite;
   animation-timing-function: linear; }
 
-@keyframes vapor-windows-xp-infinite-loader {
+@keyframes aesthetic-windows-xp-infinite-loader {
   0% {
     transform: translate(-50px); }
   100% {
     transform: translate(160px); } }
 
-.vapor-windows-xp-loader {
+.aesthetic-windows-xp-loader {
   width: 150px;
   height: 10px;
   border: 2px solid #b2b2b2;
@@ -586,16 +681,16 @@
   overflow: hidden;
   font-size: 0; }
 
-.vapor-windows-xp-loader > * {
+.aesthetic-windows-xp-loader > * {
   width: 9px;
   height: 100%;
   background: linear-gradient(to bottom, #2838c7 0%, #5979ef 17%, #869ef3 32%, #869ef3 45%, #5979ef 59%, #2838c7 100%);
   display: inline-block;
   margin-right: 2px;
-  animation: vapor-windows-xp-infinite-loader 3.5s infinite;
+  animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;
   animation-timing-function: linear; }
 
-.vapor-windows-95-loader {
+.aesthetic-windows-95-loader {
   width: 150px;
   height: 20px;
   border-top: 1px solid #000;
@@ -608,16 +703,16 @@
   overflow: hidden;
   font-size: 0; }
 
-.vapor-windows-95-loader > * {
+.aesthetic-windows-95-loader > * {
   width: 12px;
   height: 100%;
-  background: blue;
+  background: #000084;
   display: inline-block;
   margin-right: 1px;
-  animation: vapor-windows-xp-infinite-loader 3.5s infinite;
+  animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;
   animation-timing-function: linear; }
 
-.vapor-windows-95-button, .vapor-windows-95-button-title-bar, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start {
+.aesthetic-windows-95-button, .aesthetic-windows-95-button-title-bar, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start {
   border: 1px solid;
   border-top-color: #DFDFDF;
   border-left-color: #DFDFDF;
@@ -632,7 +727,7 @@
   justify-content: center;
   align-items: center;
   padding: 2px; }
-  .vapor-windows-95-button button, .vapor-windows-95-button-title-bar button, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start button {
+  .aesthetic-windows-95-button button, .aesthetic-windows-95-button-title-bar button, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start button {
     background: none;
     color: inherit;
     border: none;
@@ -641,29 +736,67 @@
     outline: none;
     padding: 2px;
     width: 100%; }
-    .vapor-windows-95-button button:focus, .vapor-windows-95-button-title-bar button:focus, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start button:focus {
+    .aesthetic-windows-95-button button:focus, .aesthetic-windows-95-button-title-bar button:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start button:focus {
       outline: 1px dashed #000; }
-  .vapor-windows-95-button:active, .vapor-windows-95-button-title-bar:active, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start:active {
+  .aesthetic-windows-95-button:active, .aesthetic-windows-95-button-title-bar:active, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start:active {
     transform: translateY(1px);
     box-shadow: 1px 1px #000; }
-  .vapor-windows-95-button:focus, .vapor-windows-95-button-title-bar:focus, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start:focus {
+  .aesthetic-windows-95-button:focus, .aesthetic-windows-95-button-title-bar:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start:focus {
     outline: none; }
 
-.vapor-windows-95-button-title-bar {
+.aesthetic-windows-95-button-title-bar {
   width: 14px;
   font-size: 0.5rem;
   padding: 1px;
   font-family: sans-serif;
   font-weight: bold; }
-  .vapor-windows-95-button-title-bar button {
+  .aesthetic-windows-95-button-title-bar button {
     padding: 1px; }
 
-.vapor-windows-95-dropdown {
+.aesthetic-windows-xp-button, .aesthetic-windows-xp-button-title-bar, .aesthetic-windows-xp-button-title-bar-close {
+  width: 75px;
+  height: 20px;
+  text-align: center;
+  color: #070707;
+  background: #f8f4f1;
+  border: 2px solid;
+  border-radius: 4px;
+  border-color: #8aa2cb; }
+  .aesthetic-windows-xp-button:hover, .aesthetic-windows-xp-button-title-bar:hover, .aesthetic-windows-xp-button-title-bar-close:hover {
+    border-bottom-color: #efc47b; }
+  .aesthetic-windows-xp-button button, .aesthetic-windows-xp-button-title-bar button, .aesthetic-windows-xp-button-title-bar-close button {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 100%; }
+    .aesthetic-windows-xp-button button:focus, .aesthetic-windows-xp-button-title-bar button:focus, .aesthetic-windows-xp-button-title-bar-close button:focus {
+      outline: 1px dashed #000; }
+
+.aesthetic-windows-xp-button-title-bar, .aesthetic-windows-xp-button-title-bar-close {
+  width: 20px;
+  color: #f8f4f1;
+  padding: 1px;
+  font-family: sans-serif;
+  border-color: #f8f4f1;
+  background: linear-gradient(to bottom right, #8aa2cb 0%, #005cf5 25%, #005cf5 75%, #044cdc 100%); }
+  .aesthetic-windows-xp-button-title-bar:hover, .aesthetic-windows-xp-button-title-bar-close:hover {
+    border-color: #f8f4f1; }
+  .aesthetic-windows-xp-button-title-bar button, .aesthetic-windows-xp-button-title-bar-close button {
+    padding: 1px; }
+
+.aesthetic-windows-xp-button-title-bar-close {
+  background: linear-gradient(to bottom right, #efc47b 0%, #e26725 25%, #e26725 75%, #b7371a 100%); }
+
+.aesthetic-windows-95-dropdown {
   position: relative;
   display: inline-block; }
-  .vapor-windows-95-dropdown:focus-within .vapor-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown:focus-within .aesthetic-windows-95-dropdown-menu {
     display: block; }
-  .vapor-windows-95-dropdown .vapor-windows-95-dropdown-trigger {
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-trigger {
     background: none;
     color: inherit;
     border: none;
@@ -671,13 +804,13 @@
     cursor: pointer;
     outline: none;
     padding: 1px 4px; }
-  .vapor-windows-95-dropdown .vapor-windows-95-dropdown-trigger:focus {
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-trigger:focus {
     outline: 1px dashed #000;
-    background-color: blue;
+    background-color: #000084;
     color: #FFF; }
-  .vapor-windows-95-dropdown .vapor-windows-95-dropdown-trigger:focus ~ .vapor-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-trigger:focus ~ .aesthetic-windows-95-dropdown-menu {
     display: block; }
-  .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu {
     border: 1px solid;
     box-shadow: 1px 1px 0 0 #000;
     border-top: 1px solid #DFDFDF;
@@ -690,41 +823,99 @@
     min-width: 150px;
     padding: 4px;
     z-index: 1; }
-    .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu:hover, .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu:focus, .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu:focus-within {
+    .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu:hover, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu:focus, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu:focus-within {
       display: block; }
-    .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu .vapor-windows-95-dropdown-menu-item {
+    .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu hr {
+      border-color: #dbdcd8; }
+    .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item {
       padding-top: 1px;
       padding-bottom: 1px;
       padding-left: 10px;
       cursor: pointer; }
-      .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu .vapor-windows-95-dropdown-menu-item button {
+      .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item button {
         background: none;
         color: inherit;
         border: none;
         font: inherit;
         cursor: pointer;
         outline: none; }
-      .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu .vapor-windows-95-dropdown-menu-item:hover, .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu .vapor-windows-95-dropdown-menu-item:focus, .vapor-windows-95-dropdown .vapor-windows-95-dropdown-menu .vapor-windows-95-dropdown-menu-item:focus-within {
+      .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item:hover, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item:focus, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item:focus-within {
         outline: 1px dashed #000;
-        background-color: blue;
+        background-color: #000084;
         color: #FFF; }
 
-.vapor-windows-95-text-input {
+.aesthetic-windows-xp-dropdown {
+  position: relative;
+  display: inline-block; }
+  .aesthetic-windows-xp-dropdown:focus-within .aesthetic-windows-xp-dropdown-menu {
+    display: block; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-trigger {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: 1px 4px; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-trigger:focus {
+    outline: 1px dashed #000;
+    background-color: #005cf5;
+    color: #f8f4f1; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-trigger:focus ~ .aesthetic-windows-xp-dropdown-menu {
+    display: block; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu {
+    border: 1px solid;
+    box-shadow: 1px 1px 0 0 #c9cac4;
+    border-top: 1px solid #c9cac4;
+    border-left: 1px solid #c9cac4;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    box-shadow: 2px 2px 1px 0px #969892;
+    display: none;
+    position: absolute;
+    margin: 0;
+    list-style-type: none;
+    background-color: #f8f4f1;
+    min-width: 150px;
+    padding: 4px;
+    z-index: 1; }
+    .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu:hover, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu:focus, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu:focus-within {
+      display: block; }
+    .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu hr {
+      border-color: #dbdcd8; }
+    .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      cursor: pointer; }
+      .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item button {
+        background: none;
+        color: inherit;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: none; }
+      .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item:hover, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item:focus, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item:focus-within {
+        outline: 1px dashed #070707;
+        background-color: #005cf5;
+        color: #f8f4f1; }
+
+.aesthetic-windows-95-text-input {
   border: 1px solid;
   border-top: 1px solid #000;
   border-left: 1px solid #000;
   border-right: 1px solid #DFDFDF;
   border-bottom: 1px solid #DFDFDF; }
-  .vapor-windows-95-text-input:focus {
+  .aesthetic-windows-95-text-input:focus {
     outline: 1px dashed #000; }
 
-.vapor-windows-95-checkbox, .vapor-windows-95-radio {
+.aesthetic-windows-95-checkbox, .aesthetic-windows-95-radio {
   cursor: pointer;
   position: relative;
   padding-left: calc(12px + 7px); }
-  .vapor-windows-95-checkbox:focus, .vapor-windows-95-radio:focus, .vapor-windows-95-checkbox:focus-within, .vapor-windows-95-radio:focus-within {
+  .aesthetic-windows-95-checkbox:focus, .aesthetic-windows-95-radio:focus, .aesthetic-windows-95-checkbox:focus-within, .aesthetic-windows-95-radio:focus-within {
     outline: 1px dashed #000; }
-  .vapor-windows-95-checkbox .vapor-windows-95-checkmark, .vapor-windows-95-radio .vapor-windows-95-checkmark {
+  .aesthetic-windows-95-checkbox .aesthetic-windows-95-checkmark, .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark {
     cursor: pointer;
     position: absolute;
     width: 12px;
@@ -737,7 +928,7 @@
     border-right: 1px solid #DFDFDF;
     border-bottom: 1px solid #DFDFDF;
     background: #FFF; }
-  .vapor-windows-95-checkbox .vapor-windows-95-checkmark::after, .vapor-windows-95-radio .vapor-windows-95-checkmark::after {
+  .aesthetic-windows-95-checkbox .aesthetic-windows-95-checkmark::after, .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark::after {
     display: none;
     content: '';
     position: absolute;
@@ -750,18 +941,18 @@
     border-top: none;
     border-right: none;
     transform: rotate(-45deg); }
-  .vapor-windows-95-checkbox input[type="checkbox"], .vapor-windows-95-radio input[type="checkbox"] {
+  .aesthetic-windows-95-checkbox input[type="checkbox"], .aesthetic-windows-95-radio input[type="checkbox"] {
     opacity: 0; }
-  .vapor-windows-95-checkbox input[type="checkbox"]:checked + .vapor-windows-95-checkmark::after, .vapor-windows-95-radio input[type="checkbox"]:checked + .vapor-windows-95-checkmark::after {
+  .aesthetic-windows-95-checkbox input[type="checkbox"]:checked + .aesthetic-windows-95-checkmark::after, .aesthetic-windows-95-radio input[type="checkbox"]:checked + .aesthetic-windows-95-checkmark::after {
     display: block; }
 
-.vapor-windows-95-radio {
+.aesthetic-windows-95-radio {
   border-radius: 25px; }
-  .vapor-windows-95-radio:nth-child(1) {
+  .aesthetic-windows-95-radio:nth-child(1) {
     margin-bottom: 100px; }
-  .vapor-windows-95-radio .vapor-windows-95-checkmark {
+  .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark {
     border-radius: 25px; }
-  .vapor-windows-95-radio .vapor-windows-95-checkmark::after {
+  .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark::after {
     content: '';
     position: absolute;
     background-color: #000;
@@ -771,12 +962,71 @@
     width: 3px;
     height: 3px;
     transform: rotate(0deg); }
-  .vapor-windows-95-radio input[type="radio"] {
+  .aesthetic-windows-95-radio input[type="radio"] {
     opacity: 0; }
-  .vapor-windows-95-radio input[type="radio"]:checked + .vapor-windows-95-checkmark:after {
+  .aesthetic-windows-95-radio input[type="radio"]:checked + .aesthetic-windows-95-checkmark:after {
     display: block; }
 
-.vapor-windows-95-select {
+.aesthetic-windows-xp-text-input {
+  border: 2px solid #8aa2cb; }
+  .aesthetic-windows-xp-text-input:focus {
+    outline: 1px dashed #070707; }
+
+.aesthetic-windows-xp-checkbox, .aesthetic-windows-xp-radio {
+  cursor: pointer;
+  position: relative;
+  padding-left: calc(12px + 7px); }
+  .aesthetic-windows-xp-checkbox:focus, .aesthetic-windows-xp-radio:focus, .aesthetic-windows-xp-checkbox:focus-within, .aesthetic-windows-xp-radio:focus-within {
+    outline: 1px dashed #070707; }
+  .aesthetic-windows-xp-checkbox .aesthetic-windows-xp-checkmark, .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark {
+    cursor: pointer;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    border: 1px solid #005cf5;
+    background: linear-gradient(to bottom right, #c9cac4 0%, #f8f4f1 75%); }
+  .aesthetic-windows-xp-checkbox .aesthetic-windows-xp-checkmark::after, .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark::after {
+    display: none;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    background: transparent;
+    top: 2px;
+    left: 2px;
+    border: 3px solid #419642;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg); }
+  .aesthetic-windows-xp-checkbox input[type="checkbox"], .aesthetic-windows-xp-radio input[type="checkbox"] {
+    opacity: 0; }
+  .aesthetic-windows-xp-checkbox input[type="checkbox"]:checked + .aesthetic-windows-xp-checkmark::after, .aesthetic-windows-xp-radio input[type="checkbox"]:checked + .aesthetic-windows-xp-checkmark::after {
+    display: block; }
+
+.aesthetic-windows-xp-radio {
+  border-radius: 25px; }
+  .aesthetic-windows-xp-radio:nth-child(1) {
+    margin-bottom: 100px; }
+  .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark {
+    border-radius: 25px; }
+  .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark::after {
+    content: '';
+    position: absolute;
+    background-color: #419642;
+    border-radius: 25px;
+    top: 3px;
+    left: 3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(0deg); }
+  .aesthetic-windows-xp-radio input[type="radio"] {
+    opacity: 0; }
+  .aesthetic-windows-xp-radio input[type="radio"]:checked + .aesthetic-windows-xp-checkmark:after {
+    display: block; }
+
+.aesthetic-windows-95-select {
   border: 1px solid;
   border-top: 1px solid #000;
   border-left: 1px solid #000;
@@ -787,24 +1037,7 @@
   display: block;
   background-color: #FFF;
   cursor: pointer; }
-  .vapor-windows-95-select:after {
-    content: " ";
-    width: 100px;
-    height: 100px;
-    z-index: 100;
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 7px solid #000;
-    margin-top: -3px;
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    z-index: 2;
-    cursor: pointer;
-    pointer-events: none; }
-  .vapor-windows-95-select select {
+  .aesthetic-windows-95-select select {
     cursor: pointer;
     padding-left: 8px;
     padding-top: 3px;
@@ -819,11 +1052,11 @@
     display: inline;
     margin-left: -5px;
     width: calc(100% + 5px); }
-    .vapor-windows-95-select select:focus, .vapor-windows-95-select select:focus-within {
+    .aesthetic-windows-95-select select:focus, .aesthetic-windows-95-select select:focus-within {
       outline: 1px dashed #000;
-      background-color: blue;
+      background-color: #000084;
       color: #FFF; }
-  .vapor-windows-95-select .vapor-windows-95-select-checkmark-container {
+  .aesthetic-windows-95-select .aesthetic-windows-95-select-checkmark {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -836,8 +1069,88 @@
     border-bottom: 1px solid #000;
     cursor: pointer;
     pointer-events: none; }
+    .aesthetic-windows-95-select .aesthetic-windows-95-select-checkmark:after {
+      content: " ";
+      width: 100px;
+      height: 100px;
+      z-index: 100;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 7px solid #000;
+      margin-top: -3px;
+      position: absolute;
+      top: 50%;
+      right: 4px;
+      z-index: 2;
+      cursor: pointer;
+      pointer-events: none; }
 
-.vapor-windows-95-taskbar {
+.aesthetic-windows-xp-select {
+  border: 2px solid #8aa2cb;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-color: #FFF;
+  cursor: pointer; }
+  .aesthetic-windows-xp-select select {
+    cursor: pointer;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline;
+    margin-left: -5px;
+    width: calc(102% + 5px); }
+    .aesthetic-windows-xp-select select:focus, .aesthetic-windows-xp-select select:focus-within {
+      outline: 1px dashed #070707;
+      background-color: #005cf5;
+      color: #f8f4f1; }
+  .aesthetic-windows-xp-select:after {
+    content: " ";
+    width: 21px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #f8f4f1; }
+  .aesthetic-windows-xp-select .aesthetic-windows-xp-select-checkmark {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 15px;
+    height: 16px;
+    transform: rotate(180deg);
+    background: linear-gradient(to top left, #f8f4f1 0%, #8aa2cb 50%);
+    border: 1px solid #8aa2cb;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 1; }
+    .aesthetic-windows-xp-select .aesthetic-windows-xp-select-checkmark:after {
+      content: "^";
+      font-family: sans-serif;
+      color: #044cdc;
+      font-weight: bold;
+      width: 100px;
+      height: 100px;
+      z-index: 100;
+      width: 0;
+      height: 0;
+      border: none;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      cursor: pointer;
+      pointer-events: none; }
+
+.aesthetic-windows-95-taskbar {
   position: relative;
   background-color: #BFBFBF;
   border-top: 1px solid #DFDFDF;
@@ -845,7 +1158,7 @@
   height: 4vh;
   display: flex;
   padding: 5px; }
-  .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu {
+  .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu {
     border: 1px solid;
     border-top-color: #DFDFDF;
     border-left-color: #DFDFDF;
@@ -860,25 +1173,25 @@
     margin: 0;
     padding: 0;
     list-style-type: none; }
-    .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu.is-active {
+    .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu.is-active {
       display: block; }
-    .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu .vapor-windows-95-taskbar-start-menu-item {
+    .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item {
       padding-top: 1px;
       padding-bottom: 1px;
       padding-left: 10px;
       cursor: pointer; }
-      .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu .vapor-windows-95-taskbar-start-menu-item button {
+      .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item button {
         background: none;
         color: inherit;
         border: none;
         font: inherit;
         cursor: pointer;
         outline: none; }
-      .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu .vapor-windows-95-taskbar-start-menu-item:hover, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu .vapor-windows-95-taskbar-start-menu-item:focus, .vapor-windows-95-taskbar .vapor-windows-95-taskbar-start-menu .vapor-windows-95-taskbar-start-menu-item:focus-within {
+      .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item:hover, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item:focus-within {
         outline: 1px dashed #000;
-        background-color: blue;
+        background-color: #000084;
         color: #FFF; }
-  .vapor-windows-95-taskbar .vapor-windows-95-taskbar-services {
+  .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-services {
     border: 1px solid;
     border-top: 1px solid #000;
     border-left: 1px solid #000;
@@ -893,11 +1206,11 @@
     text-align: center;
     cursor: pointer; }
 
-.vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs {
+.aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs {
   display: flex;
   height: 28px;
   width: 100%; }
-  .vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs .vapor-windows-95-tabbed-container-tabs-button {
+  .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button {
     border: 1px solid;
     border-top-color: #DFDFDF;
     border-left-color: #DFDFDF;
@@ -916,18 +1229,18 @@
     margin-left: 1px;
     padding-left: 4px;
     padding-right: 4px; }
-    .vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs .vapor-windows-95-tabbed-container-tabs-button:first-child {
+    .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button:first-child {
       margin-left: 2px; }
-    .vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs .vapor-windows-95-tabbed-container-tabs-button.is-active {
+    .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button.is-active {
       position: relative;
       left: 0;
       bottom: 1px;
       height: 29px;
       margin-left: -2px;
       z-index: 1; }
-      .vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs .vapor-windows-95-tabbed-container-tabs-button.is-active:first-child {
+      .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button.is-active:first-child {
         margin-left: 0px; }
-    .vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs .vapor-windows-95-tabbed-container-tabs-button button {
+    .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button button {
       background: none;
       color: inherit;
       border: none;
@@ -936,16 +1249,49 @@
       outline: none;
       padding: 2px;
       width: 100%; }
-      .vapor-windows-95-tabbed-container .vapor-windows-95-tabbed-container-tabs .vapor-windows-95-tabbed-container-tabs-button button:focus {
+      .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button button:focus {
         outline: 1px dashed #000; }
 
-.vapor-windows-95-modal .vapor-windows-95-modal-title-bar {
+.aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs {
+  display: flex;
+  height: 28px;
+  width: 100%; }
+  .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button {
+    background-color: #f8f4f1;
+    border: 1px solid;
+    border-color: #c9cac4;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    outline: 0; }
+    .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button.is-active {
+      position: relative;
+      height: 30px;
+      bottom: 3px;
+      border-top: 2px solid;
+      border-top-color: #efc47b;
+      z-index: 1; }
+    .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button button {
+      background: none;
+      color: inherit;
+      border: none;
+      font: inherit;
+      cursor: pointer;
+      outline: none;
+      padding: 2px;
+      width: 100%; }
+      .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button button:focus {
+        outline: 1px dashed #070707; }
+
+.aesthetic-windows-95-modal .aesthetic-windows-95-modal-title-bar {
   border: 1px solid;
   box-shadow: 1px 1px 0 0 #000;
   border-top: 1px solid #DFDFDF;
   border-left: 1px solid #DFDFDF;
   text-align: left;
-  color: #FFF;
   background: #000084;
   outline: 0;
   padding-left: 4px;
@@ -958,103 +1304,105 @@
   display: flex;
   justify-content: flex-start;
   align-items: center; }
-  .vapor-windows-95-modal .vapor-windows-95-modal-title-bar .vapor-windows-95-modal-title-bar-controls {
+  .aesthetic-windows-95-modal .aesthetic-windows-95-modal-title-bar .aesthetic-windows-95-modal-title-bar-text {
+    color: #FFF; }
+  .aesthetic-windows-95-modal .aesthetic-windows-95-modal-title-bar .aesthetic-windows-95-modal-title-bar-controls {
     margin-left: auto; }
 
-.vapor-windows-95-modal .vapor-windows-95-modal-content {
+.aesthetic-windows-95-modal .aesthetic-windows-95-modal-content {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px; }
 
-.vapor-font {
+.aesthetic-font {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter; }
-  .vapor-font h1, .vapor-font h2, .vapor-font h3, .vapor-font h4, .vapor-font h5, .vapor-font h6 {
+  .aesthetic-font h1, .aesthetic-font h2, .aesthetic-font h3, .aesthetic-font h4, .aesthetic-font h5, .aesthetic-font h6 {
     font-weight: lighter; }
 
-.vapor-font-cinzel {
+.aesthetic-font-cinzel {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Cinzel", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-cinzel h1, .vapor-font-cinzel h2, .vapor-font-cinzel h3, .vapor-font-cinzel h4, .vapor-font-cinzel h5, .vapor-font-cinzel h6 {
+  .aesthetic-font-cinzel h1, .aesthetic-font-cinzel h2, .aesthetic-font-cinzel h3, .aesthetic-font-cinzel h4, .aesthetic-font-cinzel h5, .aesthetic-font-cinzel h6 {
     font-weight: lighter; }
 
-.vapor-font-playfair {
+.aesthetic-font-playfair {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Playfair Display SC", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-playfair h1, .vapor-font-playfair h2, .vapor-font-playfair h3, .vapor-font-playfair h4, .vapor-font-playfair h5, .vapor-font-playfair h6 {
+  .aesthetic-font-playfair h1, .aesthetic-font-playfair h2, .aesthetic-font-playfair h3, .aesthetic-font-playfair h4, .aesthetic-font-playfair h5, .aesthetic-font-playfair h6 {
     font-weight: lighter; }
 
-.vapor-font-monoton {
+.aesthetic-font-monoton {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Monoton", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-monoton h1, .vapor-font-monoton h2, .vapor-font-monoton h3, .vapor-font-monoton h4, .vapor-font-monoton h5, .vapor-font-monoton h6 {
+  .aesthetic-font-monoton h1, .aesthetic-font-monoton h2, .aesthetic-font-monoton h3, .aesthetic-font-monoton h4, .aesthetic-font-monoton h5, .aesthetic-font-monoton h6 {
     font-weight: lighter; }
 
-.vapor-font-VT323 {
+.aesthetic-font-VT323 {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "VT323", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-VT323 h1, .vapor-font-VT323 h2, .vapor-font-VT323 h3, .vapor-font-VT323 h4, .vapor-font-VT323 h5, .vapor-font-VT323 h6 {
+  .aesthetic-font-VT323 h1, .aesthetic-font-VT323 h2, .aesthetic-font-VT323 h3, .aesthetic-font-VT323 h4, .aesthetic-font-VT323 h5, .aesthetic-font-VT323 h6 {
     font-weight: lighter; }
 
-.vapor-font-press-start {
+.aesthetic-font-press-start {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Press Start 2P", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-press-start h1, .vapor-font-press-start h2, .vapor-font-press-start h3, .vapor-font-press-start h4, .vapor-font-press-start h5, .vapor-font-press-start h6 {
+  .aesthetic-font-press-start h1, .aesthetic-font-press-start h2, .aesthetic-font-press-start h3, .aesthetic-font-press-start h4, .aesthetic-font-press-start h5, .aesthetic-font-press-start h6 {
     font-weight: lighter; }
 
-.vapor-font-limelight {
+.aesthetic-font-limelight {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Limelight", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-limelight h1, .vapor-font-limelight h2, .vapor-font-limelight h3, .vapor-font-limelight h4, .vapor-font-limelight h5, .vapor-font-limelight h6 {
+  .aesthetic-font-limelight h1, .aesthetic-font-limelight h2, .aesthetic-font-limelight h3, .aesthetic-font-limelight h4, .aesthetic-font-limelight h5, .aesthetic-font-limelight h6 {
     font-weight: lighter; }
 
-.vapor-font-share-tech-mono {
+.aesthetic-font-share-tech-mono {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Share Tech Mono", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-share-tech-mono h1, .vapor-font-share-tech-mono h2, .vapor-font-share-tech-mono h3, .vapor-font-share-tech-mono h4, .vapor-font-share-tech-mono h5, .vapor-font-share-tech-mono h6 {
+  .aesthetic-font-share-tech-mono h1, .aesthetic-font-share-tech-mono h2, .aesthetic-font-share-tech-mono h3, .aesthetic-font-share-tech-mono h4, .aesthetic-font-share-tech-mono h5, .aesthetic-font-share-tech-mono h6 {
     font-weight: lighter; }
 
-.vapor-font-six-caps {
+.aesthetic-font-six-caps {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Six Caps", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-six-caps h1, .vapor-font-six-caps h2, .vapor-font-six-caps h3, .vapor-font-six-caps h4, .vapor-font-six-caps h5, .vapor-font-six-caps h6 {
+  .aesthetic-font-six-caps h1, .aesthetic-font-six-caps h2, .aesthetic-font-six-caps h3, .aesthetic-font-six-caps h4, .aesthetic-font-six-caps h5, .aesthetic-font-six-caps h6 {
     font-weight: lighter; }
 
-.vapor-font-cutive-mono {
+.aesthetic-font-cutive-mono {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Cutive Mono", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-cutive-mono h1, .vapor-font-cutive-mono h2, .vapor-font-cutive-mono h3, .vapor-font-cutive-mono h4, .vapor-font-cutive-mono h5, .vapor-font-cutive-mono h6 {
+  .aesthetic-font-cutive-mono h1, .aesthetic-font-cutive-mono h2, .aesthetic-font-cutive-mono h3, .aesthetic-font-cutive-mono h4, .aesthetic-font-cutive-mono h5, .aesthetic-font-cutive-mono h6 {
     font-weight: lighter; }
 
-.vapor-font-spectral {
+.aesthetic-font-spectral {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Spectral SC", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-spectral h1, .vapor-font-spectral h2, .vapor-font-spectral h3, .vapor-font-spectral h4, .vapor-font-spectral h5, .vapor-font-spectral h6 {
+  .aesthetic-font-spectral h1, .aesthetic-font-spectral h2, .aesthetic-font-spectral h3, .aesthetic-font-spectral h4, .aesthetic-font-spectral h5, .aesthetic-font-spectral h6 {
     font-weight: lighter; }
 
-.vapor-font-mate {
+.aesthetic-font-mate {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "Mate SC", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-mate h1, .vapor-font-mate h2, .vapor-font-mate h3, .vapor-font-mate h4, .vapor-font-mate h5, .vapor-font-mate h6 {
+  .aesthetic-font-mate h1, .aesthetic-font-mate h2, .aesthetic-font-mate h3, .aesthetic-font-mate h4, .aesthetic-font-mate h5, .aesthetic-font-mate h6 {
     font-weight: lighter; }
 
-.vapor-font-im-fell-french-canon {
+.aesthetic-font-im-fell-french-canon {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter;
   font-family: "IM Fell French Canon SC", Times, Times New Roman, Georgia, serif; }
-  .vapor-font-im-fell-french-canon h1, .vapor-font-im-fell-french-canon h2, .vapor-font-im-fell-french-canon h3, .vapor-font-im-fell-french-canon h4, .vapor-font-im-fell-french-canon h5, .vapor-font-im-fell-french-canon h6 {
+  .aesthetic-font-im-fell-french-canon h1, .aesthetic-font-im-fell-french-canon h2, .aesthetic-font-im-fell-french-canon h3, .aesthetic-font-im-fell-french-canon h4, .aesthetic-font-im-fell-french-canon h5, .aesthetic-font-im-fell-french-canon h6 {
     font-weight: lighter; }
 
 .xp-modal-wrapper {
