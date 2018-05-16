@@ -1,21 +1,21 @@
-.vapor-windows-95-tabbed-container {
+.aesthetic-windows-95-tabbed-container {
 
-  .vapor-windows-95-tabbed-container-tabs {
+  .aesthetic-windows-95-tabbed-container-tabs {
 
     display: flex;
     height: 28px;
     width: 100%;
 
-    .vapor-windows-95-tabbed-container-tabs-button {
+    .aesthetic-windows-95-tabbed-container-tabs-button {
 
       @include windows-95-pop-out;
       border-top-left-radius: 4px;
       border-top-right-radius: 4px;
       border-bottom-color: transparent;
-      box-shadow: 1px 0 0 0 $vapor-windows-95-black;
+      box-shadow: 1px 0 0 0 $aesthetic-windows-95-black;
 
-      background-color: $vapor-windows-95-grey;
-      color: $vapor-windows-95-black;
+      background-color: $aesthetic-windows-95-grey;
+      color: $aesthetic-windows-95-black;
 
       height: 26px;
       text-align: center;
@@ -56,6 +56,56 @@
 
     }
   }
+}
 
+.aesthetic-windows-xp-tabbed-container {
+
+  .aesthetic-windows-xp-tabbed-container-tabs {
+
+    display: flex;
+    height: 28px;
+    width: 100%;
+
+    .aesthetic-windows-xp-tabbed-container-tabs-button {
+
+      background-color: $aesthetic-windows-xp-white;
+
+      border: 1px solid;
+      border-color: $aesthetic-windows-xp-border-light;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-color: transparent;
+
+      padding-left: 10px;
+      padding-right: 10px;
+
+      text-align: center;
+      outline: 0;
+
+      &.is-active {
+
+        position: relative;
+        height: 30px;
+        bottom: 3px;
+
+        border-top: 2px solid;
+        border-top-color: $aesthetic-windows-xp-light-orange;
+
+        z-index: 1;
+      }
+
+      button {
+        @include no-button-styles;
+        padding: 2px;
+        width: 100%;
+
+        &:focus {
+          @include windows-xp-focus-outline;
+        }
+      }
+
+    }
+
+  }
 
 }

@@ -1,4 +1,4 @@
-.vapor-windows-95-text-input {
+.aesthetic-windows-95-text-input {
   @include windows-95-push-in;
 
   &:focus {
@@ -6,32 +6,32 @@
   }
 }
 
-$vapor-windows-95-checkbox-size: 12px;
+$aesthetic-windows-95-checkbox-size: 12px;
 
-.vapor-windows-95-checkbox {
+.aesthetic-windows-95-checkbox {
 
   cursor: pointer;
   position: relative;
-  padding-left: calc(#{$vapor-windows-95-checkbox-size} + 7px);
+  padding-left: calc(#{$aesthetic-windows-95-checkbox-size} + 7px);
 
   &:focus, &:focus-within {
     @include windows-95-focus-outline;
   }
 
-  .vapor-windows-95-checkmark {
+  .aesthetic-windows-95-checkmark {
     cursor: pointer;
 
     position: absolute;
-    width: $vapor-windows-95-checkbox-size;
-    height: $vapor-windows-95-checkbox-size;
+    width: $aesthetic-windows-95-checkbox-size;
+    height: $aesthetic-windows-95-checkbox-size;
     top: 0;
     left: 0;
 
     @include windows-95-push-in;
-    background: $vapor-windows-95-white;
+    background: $aesthetic-windows-95-white;
   }
 
-  .vapor-windows-95-checkmark::after {
+  .aesthetic-windows-95-checkmark::after {
     display: none;
     content: '';
     position: absolute;
@@ -40,7 +40,7 @@ $vapor-windows-95-checkbox-size: 12px;
     background: transparent;
     top: 2px;
     left: 2px;
-    border: 3px solid $vapor-windows-95-black;
+    border: 3px solid $aesthetic-windows-95-black;
     border-top: none;
     border-right: none;
 
@@ -51,13 +51,13 @@ $vapor-windows-95-checkbox-size: 12px;
     opacity: 0;
   }
 
-  input[type="checkbox"]:checked + .vapor-windows-95-checkmark::after {
+  input[type="checkbox"]:checked + .aesthetic-windows-95-checkmark::after {
     display: block;
   }
 }
 
-.vapor-windows-95-radio {
-  @extend .vapor-windows-95-checkbox;
+.aesthetic-windows-95-radio {
+  @extend .aesthetic-windows-95-checkbox;
 
   border-radius: 25px;
 
@@ -65,14 +65,14 @@ $vapor-windows-95-checkbox-size: 12px;
     margin-bottom: 100px;
   }
 
-  .vapor-windows-95-checkmark {
+  .aesthetic-windows-95-checkmark {
     border-radius: 25px;
   }
 
-  .vapor-windows-95-checkmark::after {
+  .aesthetic-windows-95-checkmark::after {
     content: '';
     position: absolute;
-    background-color: $vapor-windows-95-black;
+    background-color: $aesthetic-windows-95-black;
     border-radius: 25px;
 
     top: 3px;
@@ -86,7 +86,102 @@ $vapor-windows-95-checkbox-size: 12px;
     opacity: 0;
   }
 
-  input[type="radio"]:checked + .vapor-windows-95-checkmark:after {
+  input[type="radio"]:checked + .aesthetic-windows-95-checkmark:after {
+    display: block;
+  }
+}
+
+$aesthetic-windows-xp-checkbox-size: 12px;
+
+.aesthetic-windows-xp-text-input {
+  border: 2px solid $aesthetic-windows-xp-light-blue;
+  background-color: $aesthetic-windows-xp-white;
+
+  &:focus {
+    @include windows-xp-focus-outline;
+  }
+}
+
+.aesthetic-windows-xp-checkbox {
+
+  cursor: pointer;
+  position: relative;
+  padding-left: calc(#{$aesthetic-windows-95-checkbox-size} + 7px);
+
+  &:focus, &:focus-within {
+    @include windows-xp-focus-outline;
+  }
+
+  .aesthetic-windows-xp-checkmark {
+    cursor: pointer;
+
+    position: absolute;
+    width: $aesthetic-windows-xp-checkbox-size;
+    height: $aesthetic-windows-xp-checkbox-size;
+    top: 0;
+    left: 0;
+
+    border: 1px solid $aesthetic-windows-xp-blue;
+
+    background: linear-gradient(to bottom right, $aesthetic-windows-xp-shadow 0%, $aesthetic-windows-xp-white 75%);
+  }
+
+  .aesthetic-windows-xp-checkmark::after {
+    display: none;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    background: transparent;
+    top: 2px;
+    left: 2px;
+    border: 3px solid $aesthetic-windows-xp-green;
+    border-top: none;
+    border-right: none;
+
+    transform: rotate(-45deg);
+  }
+
+  input[type="checkbox"] {
+    opacity: 0;
+  }
+
+  input[type="checkbox"]:checked + .aesthetic-windows-xp-checkmark::after {
+    display: block;
+  }
+}
+
+.aesthetic-windows-xp-radio {
+  @extend .aesthetic-windows-xp-checkbox;
+
+  border-radius: 25px;
+
+  &:nth-child(1) {
+    margin-bottom: 100px;
+  }
+
+  .aesthetic-windows-xp-checkmark {
+    border-radius: 25px;
+  }
+
+  .aesthetic-windows-xp-checkmark::after {
+    content: '';
+    position: absolute;
+    background-color: $aesthetic-windows-xp-green;
+    border-radius: 25px;
+
+    top: 3px;
+    left: 3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(0deg);
+  }
+
+  input[type="radio"] {
+    opacity: 0;
+  }
+
+  input[type="radio"]:checked + .aesthetic-windows-xp-checkmark:after {
     display: block;
   }
 }

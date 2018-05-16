@@ -7,7 +7,7 @@
 }
 
 // Default gradient
-.vapor-bg-gradient {
+.aesthetic-bg-gradient {
   @include gradient-no-repeat;
-  background: linear-gradient($vapor-purple, $vapor-light-blue);
+  background: linear-gradient($aesthetic-purple, $aesthetic-light-blue);
 }

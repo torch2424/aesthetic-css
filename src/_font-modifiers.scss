@@ -2,78 +2,78 @@
 
 // Font Outlines
 
-@mixin vapor-font-modifier-outline {
+@mixin aesthetic-font-modifier-outline {
   font-weight: bold;
-  color: $vapor-white;
+  color: $aesthetic-white;
 
   // How to do the outline:
   // https://stackoverflow.com/questions/4919076/outline-effect-to-text
 }
 
-.vapor-font-modifier-outline-black {
-  @include vapor-font-modifier-outline;
+.aesthetic-font-modifier-outline-black {
+  @include aesthetic-font-modifier-outline;
 
   text-shadow:
-    -1px -1px 1px $vapor-black,
-    1px -1px 1px $vapor-black,
-    -1px 1px 1px $vapor-black,
-    1px 1px 1px $vapor-black;
+    -1px -1px 1px $aesthetic-black,
+    1px -1px 1px $aesthetic-black,
+    -1px 1px 1px $aesthetic-black,
+    1px 1px 1px $aesthetic-black;
 }
 
-.vapor-font-modifier-outline-pink {
-  @include vapor-font-modifier-outline;
+.aesthetic-font-modifier-outline-pink {
+  @include aesthetic-font-modifier-outline;
 
   text-shadow:
-    -1px -1px 1px $vapor-pink,
-    1px -1px 1px $vapor-pink,
-    -1px 1px 1px $vapor-pink,
-    1px 1px 1px $vapor-pink;
+    -1px -1px 1px $aesthetic-pink,
+    1px -1px 1px $aesthetic-pink,
+    -1px 1px 1px $aesthetic-pink,
+    1px 1px 1px $aesthetic-pink;
 }
 
-.vapor-font-modifier-outline-purple {
-  @include vapor-font-modifier-outline;
+.aesthetic-font-modifier-outline-purple {
+  @include aesthetic-font-modifier-outline;
 
   text-shadow:
-    -1px -1px 1px $vapor-purple,
-    1px -1px 1px $vapor-purple,
-    -1px 1px 1px $vapor-purple,
-    1px 1px 1px $vapor-purple;
+    -1px -1px 1px $aesthetic-purple,
+    1px -1px 1px $aesthetic-purple,
+    -1px 1px 1px $aesthetic-purple,
+    1px 1px 1px $aesthetic-purple;
 }
 
 // Font Gradients
-@mixin vapor-font-modifier-gradient {
+@mixin aesthetic-font-modifier-gradient {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   display: inline;
 }
 
-.vapor-font-modifier-gradient-arizona {
-  @include vapor-font-modifier-gradient;
+.aesthetic-font-modifier-gradient-arizona {
+  @include aesthetic-font-modifier-gradient;
 
-  background-image: linear-gradient(to left, $vapor-arizona-pink, $vapor-arizona-lime, $vapor-arizona-green, $vapor-arizona-blue);
+  background-image: linear-gradient(to left, $aesthetic-arizona-pink, $aesthetic-arizona-lime, $aesthetic-arizona-green, $aesthetic-arizona-blue);
 }
 
-.vapor-font-modifier-gradient-pink-blue {
-  @include vapor-font-modifier-gradient;
+.aesthetic-font-modifier-gradient-pink-blue {
+  @include aesthetic-font-modifier-gradient;
 
-  background-image: linear-gradient(to right, $vapor-pink, $vapor-blue);
+  background-image: linear-gradient(to right, $aesthetic-pink, $aesthetic-blue);
 }
 
-.vapor-font-modifier-gradient-pink-green {
-  @include vapor-font-modifier-gradient;
+.aesthetic-font-modifier-gradient-pink-green {
+  @include aesthetic-font-modifier-gradient;
 
-  background-image: linear-gradient(to right, $vapor-pink, $vapor-green);
+  background-image: linear-gradient(to right, $aesthetic-pink, $aesthetic-green);
 }
 
-.vapor-font-modifier-gradient-green-pink {
-  @include vapor-font-modifier-gradient;
+.aesthetic-font-modifier-gradient-green-pink {
+  @include aesthetic-font-modifier-gradient;
 
-  background-image: linear-gradient(to right, $vapor-green, $vapor-pink);
+  background-image: linear-gradient(to right, $aesthetic-green, $aesthetic-pink);
 }
 
-.vapor-font-modifier-gradient-purple-blue {
-  @include vapor-font-modifier-gradient;
+.aesthetic-font-modifier-gradient-purple-blue {
+  @include aesthetic-font-modifier-gradient;
 
-  background-image: linear-gradient(to right, $vapor-purple, $vapor-blue);
+  background-image: linear-gradient(to right, $aesthetic-purple, $aesthetic-blue);
 }

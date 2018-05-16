@@ -1,4 +1,4 @@
-@keyframes vapor-windows-95-boot-infinite-loader {
+@keyframes aesthetic-windows-95-boot-infinite-loader {
   0% {
     transform: translate(-220%);
   }
@@ -7,29 +7,28 @@
   }
 }
 
-.vapor-windows-95-boot-loader {
+.aesthetic-windows-95-boot-loader {
   width: 100%;
   height: 20px;
-  background-color: $vapor-windows-95-gray;
+  background-color: $aesthetic-windows-95-gray;
   overflow: hidden;
   font-size: 0;
 }
 
-.vapor-windows-95-boot-loader > * {
+.aesthetic-windows-95-boot-loader > * {
   width: 75%;
   height: 100%;
   opacity: 0.5;
-  // TODO: Replace with windows 95 loading blue
-  background: linear-gradient(to right, $vapor-windows-95-grey 0%, blue 15%, blue 85%, $vapor-windows-95-gray 100%);
+  background: linear-gradient(to right, $aesthetic-windows-95-grey 0%, $aesthetic-windows-95-blue 15%, $aesthetic-windows-95-blue 85%, $aesthetic-windows-95-gray 100%);
   display: inline-block;
   margin-right: 1px;
-  animation: vapor-windows-95-boot-infinite-loader 4.5s infinite;
+  animation: aesthetic-windows-95-boot-infinite-loader 4.5s infinite;
   animation-timing-function: linear;
 }
 
 // Windows XP loading bar
 // https://codepen.io/duptitung/pen/XMVNyZ
-@keyframes vapor-windows-xp-infinite-loader {
+@keyframes aesthetic-windows-xp-infinite-loader {
   0% {
     transform: translate(-50px);
   }
@@ -38,7 +37,7 @@
   }
 }
 
-.vapor-windows-xp-loader {
+.aesthetic-windows-xp-loader {
   width: 150px;
   height: 10px;
   border: 2px solid #b2b2b2;
@@ -48,38 +47,37 @@
   font-size: 0;
 }
 
-.vapor-windows-xp-loader > * {
+.aesthetic-windows-xp-loader > * {
   width: 9px;
   height: 100%;
   background: linear-gradient(to bottom, #2838c7 0%,#5979ef 17%,#869ef3 32%,#869ef3 45%,#5979ef 59%,#2838c7 100%);
   display: inline-block;
   margin-right: 2px;
-  animation: vapor-windows-xp-infinite-loader 3.5s infinite;
+  animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;
   animation-timing-function: linear;
 }
 
-.vapor-windows-95-loader {
+.aesthetic-windows-95-loader {
   width: 150px;
   height: 20px;
-  border-top: 1px solid $vapor-windows-95-black;
-  border-left: 1px solid $vapor-windows-95-black;
-  border-right: 1px solid $vapor-windows-95-grey-border;
-  border-bottom: 1px solid $vapor-windows-95-grey-border;
+  border-top: 1px solid $aesthetic-windows-95-black;
+  border-left: 1px solid $aesthetic-windows-95-black;
+  border-right: 1px solid $aesthetic-windows-95-grey-border;
+  border-bottom: 1px solid $aesthetic-windows-95-grey-border;
   border-radius: 0px;
   padding: 1px 1px;
-  background-color: $vapor-windows-95-gray;
+  background-color: $aesthetic-windows-95-gray;
 
   overflow: hidden;
   font-size: 0;
 }
 
-.vapor-windows-95-loader > * {
+.aesthetic-windows-95-loader > * {
   width: 12px;
   height: 100%;
-  // TODO: Replace with windows 95 loading blue
-  background: blue;
+  background: $aesthetic-windows-95-blue;
   display: inline-block;
   margin-right: 1px;
-  animation: vapor-windows-xp-infinite-loader 3.5s infinite;
+  animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;
   animation-timing-function: linear;
 }

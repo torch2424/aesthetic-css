@@ -1,7 +1,14 @@
-.vapor-windows-95-container {
+.aesthetic-windows-95-container {
   @include windows-95-hover-over;
 
   display: block;
-  background-color: $vapor-windows-95-grey;
+  background-color: $aesthetic-windows-95-grey;
+  padding: 4px;
+}
+
+.aesthetic-windows-xp-container {
+  @include windows-xp-hover-over;
+  display: block;
+  background-color: $aesthetic-windows-xp-white;
   padding: 4px;
 }

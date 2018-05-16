@@ -1,12 +1,11 @@
-.vapor-windows-95-modal {
-  @extend .vapor-windows-95-container;
+.aesthetic-windows-95-modal {
+  @extend .aesthetic-windows-95-container;
 
-  .vapor-windows-95-modal-title-bar {
+  .aesthetic-windows-95-modal-title-bar {
     @include windows-95-hover-over;
 
     text-align: left;
-    color: $vapor-windows-95-white;
-    background: $vapor-windows-95-blue;
+    background: $aesthetic-windows-95-blue;
     outline: 0;
     padding-left: 4px;
     padding-top: 2px;
@@ -20,15 +19,71 @@
     justify-content: flex-start;
     align-items: center;
 
-    .vapor-windows-95-modal-title-bar-controls {
+    .aesthetic-windows-95-modal-title-bar-text {
+      color: $aesthetic-windows-95-white;
+    }
+
+    .aesthetic-windows-95-modal-title-bar-controls {
       margin-left: auto;
     }
   }
 
-  .vapor-windows-95-modal-content {
+  .aesthetic-windows-95-modal-content {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+.aesthetic-windows-xp-modal {
+
+  background: $aesthetic-windows-xp-beige;
+
+  border: 3px solid;
+  border-color: $aesthetic-windows-xp-dark-blue;
+  border-top-color: $aesthetic-windows-xp-light-modal-blue;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  outline: 0;
+
+  .aesthetic-windows-xp-modal-title-bar {
+
+    text-align: left;
+    color: $aesthetic-windows-xp-white;
+    background: linear-gradient(to bottom, $aesthetic-windows-xp-light-modal-blue 0%, $aesthetic-windows-xp-dark-blue 10%, $aesthetic-windows-xp-dark-blue 60%, $aesthetic-windows-xp-blue 80%, $aesthetic-windows-xp-dark-blue 100%);
+    outline: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    .aesthetic-windows-xp-modal-title-bar-text {
+      font-size: 0.85rem;
+      text-shadow: 1px 1px $aesthetic-windows-xp-black;
+      margin-left: 6px;
+    }
+
+    .aesthetic-windows-xp-modal-title-bar-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+
+      & > * {
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+    }
+  }
+
+  .aesthetic-windows-xp-modal-content {
+    background: $aesthetic-windows-xp-beige;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
