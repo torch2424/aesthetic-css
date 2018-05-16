@@ -93,6 +93,10 @@
     border-color: $aesthetic-windows-xp-white;
   }
 
+  &:focus, &:focus-within {
+    border-bottom-color: $aesthetic-windows-xp-white;
+  }
+
   button {
     padding: 1px;
 
