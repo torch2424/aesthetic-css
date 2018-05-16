@@ -295,47 +295,47 @@
 
 @keyframes flicker {
   0% {
-    opacity: 0.88292; }
+    opacity: 0.11322; }
   5% {
-    opacity: 0.9652; }
+    opacity: 0.17892; }
   10% {
-    opacity: 0.54645; }
+    opacity: 0.72069; }
   15% {
-    opacity: 0.15294; }
+    opacity: 0.10868; }
   20% {
-    opacity: 0.20174; }
+    opacity: 0.78758; }
   25% {
-    opacity: 0.36163; }
+    opacity: 0.31366; }
   30% {
-    opacity: 0.7422; }
+    opacity: 0.46304; }
   35% {
-    opacity: 0.09669; }
+    opacity: 0.39687; }
   40% {
-    opacity: 0.30214; }
+    opacity: 0.82516; }
   45% {
-    opacity: 0.82286; }
+    opacity: 0.81649; }
   50% {
-    opacity: 0.8152; }
+    opacity: 0.72541; }
   55% {
-    opacity: 0.29448; }
+    opacity: 0.00358; }
   60% {
-    opacity: 0.14269; }
+    opacity: 0.53299; }
   65% {
-    opacity: 0.19618; }
+    opacity: 0.11333; }
   70% {
-    opacity: 0.37443; }
+    opacity: 0.13293; }
   75% {
-    opacity: 0.73775; }
+    opacity: 0.55379; }
   80% {
-    opacity: 0.04082; }
+    opacity: 0.2873; }
   85% {
-    opacity: 0.32612; }
+    opacity: 0.53507; }
   90% {
-    opacity: 0.55455; }
+    opacity: 0.06962; }
   95% {
-    opacity: 0.13066; }
+    opacity: 0.19124; }
   100% {
-    opacity: 0.66129; } }
+    opacity: 0.19229; } }
 
 .aesthetic-effect-crt {
   display: inline-block;
@@ -388,79 +388,79 @@
 
 @keyframes aesthetic-effect-text-glitch-anim-1 {
   0% {
-    clip: rect(70px, 450px, 51px, 0); }
+    clip: rect(62px, 450px, 38px, 0); }
   5.88235% {
-    clip: rect(19px, 450px, 24px, 0); }
+    clip: rect(42px, 450px, 115px, 0); }
   11.76471% {
-    clip: rect(18px, 450px, 4px, 0); }
+    clip: rect(3px, 450px, 109px, 0); }
   17.64706% {
-    clip: rect(14px, 450px, 104px, 0); }
+    clip: rect(9px, 450px, 83px, 0); }
   23.52941% {
-    clip: rect(63px, 450px, 109px, 0); }
+    clip: rect(87px, 450px, 47px, 0); }
   29.41176% {
-    clip: rect(49px, 450px, 115px, 0); }
+    clip: rect(9px, 450px, 22px, 0); }
   35.29412% {
-    clip: rect(63px, 450px, 47px, 0); }
+    clip: rect(59px, 450px, 67px, 0); }
   41.17647% {
-    clip: rect(39px, 450px, 9px, 0); }
+    clip: rect(45px, 450px, 68px, 0); }
   47.05882% {
-    clip: rect(114px, 450px, 93px, 0); }
+    clip: rect(52px, 450px, 15px, 0); }
   52.94118% {
-    clip: rect(108px, 450px, 35px, 0); }
+    clip: rect(6px, 450px, 41px, 0); }
   58.82353% {
-    clip: rect(4px, 450px, 39px, 0); }
+    clip: rect(55px, 450px, 38px, 0); }
   64.70588% {
-    clip: rect(102px, 450px, 111px, 0); }
+    clip: rect(101px, 450px, 44px, 0); }
   70.58824% {
-    clip: rect(101px, 450px, 109px, 0); }
+    clip: rect(31px, 450px, 82px, 0); }
   76.47059% {
-    clip: rect(66px, 450px, 9px, 0); }
+    clip: rect(86px, 450px, 111px, 0); }
   82.35294% {
-    clip: rect(110px, 450px, 71px, 0); }
+    clip: rect(92px, 450px, 64px, 0); }
   88.23529% {
-    clip: rect(57px, 450px, 59px, 0); }
+    clip: rect(101px, 450px, 26px, 0); }
   94.11765% {
-    clip: rect(86px, 450px, 58px, 0); }
+    clip: rect(74px, 450px, 85px, 0); }
   100% {
-    clip: rect(47px, 450px, 75px, 0); } }
+    clip: rect(23px, 450px, 25px, 0); } }
 
 @keyframes aesthetic-effect-text-glitch-anim-2 {
   0% {
-    clip: rect(103px, 450px, 63px, 0); }
+    clip: rect(10px, 450px, 62px, 0); }
   5.88235% {
-    clip: rect(16px, 450px, 93px, 0); }
+    clip: rect(31px, 450px, 80px, 0); }
   11.76471% {
-    clip: rect(106px, 450px, 57px, 0); }
+    clip: rect(74px, 450px, 104px, 0); }
   17.64706% {
-    clip: rect(58px, 450px, 71px, 0); }
+    clip: rect(86px, 450px, 56px, 0); }
   23.52941% {
-    clip: rect(63px, 450px, 4px, 0); }
+    clip: rect(31px, 450px, 112px, 0); }
   29.41176% {
-    clip: rect(115px, 450px, 4px, 0); }
+    clip: rect(115px, 450px, 64px, 0); }
   35.29412% {
-    clip: rect(49px, 450px, 16px, 0); }
+    clip: rect(2px, 450px, 2px, 0); }
   41.17647% {
-    clip: rect(5px, 450px, 76px, 0); }
+    clip: rect(96px, 450px, 81px, 0); }
   47.05882% {
-    clip: rect(104px, 450px, 79px, 0); }
+    clip: rect(105px, 450px, 65px, 0); }
   52.94118% {
-    clip: rect(115px, 450px, 93px, 0); }
+    clip: rect(79px, 450px, 111px, 0); }
   58.82353% {
-    clip: rect(73px, 450px, 74px, 0); }
+    clip: rect(61px, 450px, 4px, 0); }
   64.70588% {
-    clip: rect(109px, 450px, 84px, 0); }
+    clip: rect(105px, 450px, 70px, 0); }
   70.58824% {
-    clip: rect(33px, 450px, 53px, 0); }
+    clip: rect(106px, 450px, 69px, 0); }
   76.47059% {
-    clip: rect(72px, 450px, 6px, 0); }
+    clip: rect(18px, 450px, 91px, 0); }
   82.35294% {
-    clip: rect(43px, 450px, 112px, 0); }
+    clip: rect(3px, 450px, 58px, 0); }
   88.23529% {
-    clip: rect(29px, 450px, 85px, 0); }
+    clip: rect(65px, 450px, 46px, 0); }
   94.11765% {
-    clip: rect(106px, 450px, 91px, 0); }
+    clip: rect(107px, 450px, 42px, 0); }
   100% {
-    clip: rect(84px, 450px, 101px, 0); } }
+    clip: rect(99px, 450px, 13px, 0); } }
   .aesthetic-effect-text-glitch::before, .aesthetic-effect-text-glitch::after {
     content: attr(data-glitch);
     position: absolute;
@@ -490,126 +490,126 @@
 
 @keyframes aesthetic-effect-element-glitch-animation-1 {
   0% {
-    transform: skew(calc(calc(145deg / 100 ) - calc(47deg / 100 )), calc(calc(70deg / 100 ) - calc(19deg / 100 )));
-    opacity: calc(24 / 75); }
+    transform: skew(calc(calc(43deg / 100 ) - calc(123deg / 100 )), calc(calc(14deg / 100 ) - calc(111deg / 100 )));
+    opacity: calc(46 / 75); }
   7% {
-    transform: skew(calc(calc(22deg / 100 ) - calc(24deg / 100 )), calc(calc(74deg / 100 ) - calc(57deg / 100 )));
-    opacity: calc(1 / 75); }
+    transform: skew(calc(calc(7deg / 100 ) - calc(85deg / 100 )), calc(calc(14deg / 100 ) - calc(115deg / 100 )));
+    opacity: calc(57 / 75); }
   10% {
-    transform: skew(calc(calc(134deg / 100 ) - calc(62deg / 100 )), calc(calc(76deg / 100 ) - calc(87deg / 100 )));
-    opacity: calc(32 / 75); }
+    transform: skew(calc(calc(61deg / 100 ) - calc(40deg / 100 )), calc(calc(21deg / 100 ) - calc(44deg / 100 )));
+    opacity: calc(1 / 75); }
   27% {
-    transform: skew(calc(calc(63deg / 100 ) - calc(99deg / 100 )), calc(calc(147deg / 100 ) - calc(6deg / 100 )));
-    opacity: calc(87 / 75); }
+    transform: skew(calc(calc(33deg / 100 ) - calc(84deg / 100 )), calc(calc(33deg / 100 ) - calc(135deg / 100 )));
+    opacity: calc(100 / 75); }
   30% {
-    transform: skew(calc(calc(62deg / 100 ) - calc(91deg / 100 )), calc(calc(129deg / 100 ) - calc(26deg / 100 )));
-    opacity: calc(89 / 75); }
+    transform: skew(calc(calc(56deg / 100 ) - calc(21deg / 100 )), calc(calc(129deg / 100 ) - calc(99deg / 100 )));
+    opacity: calc(31 / 75); }
   35% {
-    transform: skew(calc(calc(107deg / 100 ) - calc(15deg / 100 )), calc(calc(12deg / 100 ) - calc(140deg / 100 )));
-    opacity: calc(5 / 75); }
+    transform: skew(calc(calc(28deg / 100 ) - calc(48deg / 100 )), calc(calc(30deg / 100 ) - calc(11deg / 100 )));
+    opacity: calc(70 / 75); }
   52% {
-    transform: skew(calc(calc(118deg / 100 ) - calc(137deg / 100 )), calc(calc(35deg / 100 ) - calc(66deg / 100 )));
-    opacity: calc(56 / 75); }
+    transform: skew(calc(calc(96deg / 100 ) - calc(40deg / 100 )), calc(calc(124deg / 100 ) - calc(26deg / 100 )));
+    opacity: calc(60 / 75); }
   55% {
-    transform: skew(calc(calc(81deg / 100 ) - calc(148deg / 100 )), calc(calc(27deg / 100 ) - calc(135deg / 100 )));
-    opacity: calc(43 / 75); }
+    transform: skew(calc(calc(10deg / 100 ) - calc(104deg / 100 )), calc(calc(93deg / 100 ) - calc(120deg / 100 )));
+    opacity: calc(88 / 75); }
   50% {
-    transform: skew(calc(calc(117deg / 100 ) - calc(106deg / 100 )), calc(calc(80deg / 100 ) - calc(61deg / 100 )));
-    opacity: calc(53 / 75); }
+    transform: skew(calc(calc(133deg / 100 ) - calc(105deg / 100 )), calc(calc(39deg / 100 ) - calc(150deg / 100 )));
+    opacity: calc(5 / 75); }
   72% {
-    transform: skew(calc(calc(106deg / 100 ) - calc(20deg / 100 )), calc(calc(89deg / 100 ) - calc(50deg / 100 )));
-    opacity: calc(28 / 75); }
+    transform: skew(calc(calc(102deg / 100 ) - calc(48deg / 100 )), calc(calc(86deg / 100 ) - calc(140deg / 100 )));
+    opacity: calc(92 / 75); }
   75% {
-    transform: skew(calc(calc(55deg / 100 ) - calc(27deg / 100 )), calc(calc(5deg / 100 ) - calc(138deg / 100 )));
-    opacity: calc(80 / 75); }
+    transform: skew(calc(calc(45deg / 100 ) - calc(128deg / 100 )), calc(calc(28deg / 100 ) - calc(48deg / 100 )));
+    opacity: calc(41 / 75); }
   80% {
-    transform: skew(calc(calc(127deg / 100 ) - calc(66deg / 100 )), calc(calc(117deg / 100 ) - calc(85deg / 100 )));
-    opacity: calc(16 / 75); }
+    transform: skew(calc(calc(27deg / 100 ) - calc(64deg / 100 )), calc(calc(83deg / 100 ) - calc(91deg / 100 )));
+    opacity: calc(94 / 75); }
   100% {
-    transform: skew(calc(calc(146deg / 100 ) - calc(103deg / 100 )), calc(calc(57deg / 100 ) - calc(90deg / 100 )));
-    opacity: calc(68 / 75); } }
+    transform: skew(calc(calc(32deg / 100 ) - calc(10deg / 100 )), calc(calc(9deg / 100 ) - calc(14deg / 100 )));
+    opacity: calc(91 / 75); } }
 
 @keyframes aesthetic-effect-element-glitch-animation-2 {
   0% {
-    transform: skew(calc(calc(84deg / 100 ) - calc(105deg / 100 )), calc(calc(93deg / 100 ) - calc(62deg / 100 )));
-    opacity: calc(79 / 75); }
+    transform: skew(calc(calc(98deg / 100 ) - calc(3deg / 100 )), calc(calc(111deg / 100 ) - calc(45deg / 100 )));
+    opacity: calc(83 / 75); }
   7% {
-    transform: skew(calc(calc(13deg / 100 ) - calc(49deg / 100 )), calc(calc(29deg / 100 ) - calc(88deg / 100 )));
-    opacity: calc(11 / 75); }
+    transform: skew(calc(calc(19deg / 100 ) - calc(111deg / 100 )), calc(calc(78deg / 100 ) - calc(98deg / 100 )));
+    opacity: calc(21 / 75); }
   10% {
-    transform: skew(calc(calc(78deg / 100 ) - calc(65deg / 100 )), calc(calc(17deg / 100 ) - calc(64deg / 100 )));
-    opacity: calc(79 / 75); }
-  27% {
-    transform: skew(calc(calc(141deg / 100 ) - calc(127deg / 100 )), calc(calc(5deg / 100 ) - calc(75deg / 100 )));
-    opacity: calc(7 / 75); }
-  30% {
-    transform: skew(calc(calc(32deg / 100 ) - calc(73deg / 100 )), calc(calc(134deg / 100 ) - calc(15deg / 100 )));
+    transform: skew(calc(calc(88deg / 100 ) - calc(62deg / 100 )), calc(calc(58deg / 100 ) - calc(30deg / 100 )));
     opacity: calc(78 / 75); }
+  27% {
+    transform: skew(calc(calc(34deg / 100 ) - calc(117deg / 100 )), calc(calc(74deg / 100 ) - calc(127deg / 100 )));
+    opacity: calc(51 / 75); }
+  30% {
+    transform: skew(calc(calc(134deg / 100 ) - calc(113deg / 100 )), calc(calc(54deg / 100 ) - calc(9deg / 100 )));
+    opacity: calc(66 / 75); }
   35% {
-    transform: skew(calc(calc(91deg / 100 ) - calc(111deg / 100 )), calc(calc(56deg / 100 ) - calc(25deg / 100 )));
-    opacity: calc(72 / 75); }
+    transform: skew(calc(calc(52deg / 100 ) - calc(4deg / 100 )), calc(calc(85deg / 100 ) - calc(19deg / 100 )));
+    opacity: calc(59 / 75); }
   52% {
-    transform: skew(calc(calc(28deg / 100 ) - calc(114deg / 100 )), calc(calc(146deg / 100 ) - calc(109deg / 100 )));
-    opacity: calc(50 / 75); }
+    transform: skew(calc(calc(141deg / 100 ) - calc(45deg / 100 )), calc(calc(77deg / 100 ) - calc(77deg / 100 )));
+    opacity: calc(71 / 75); }
   55% {
-    transform: skew(calc(calc(12deg / 100 ) - calc(133deg / 100 )), calc(calc(39deg / 100 ) - calc(95deg / 100 )));
-    opacity: calc(98 / 75); }
+    transform: skew(calc(calc(85deg / 100 ) - calc(33deg / 100 )), calc(calc(87deg / 100 ) - calc(120deg / 100 )));
+    opacity: calc(71 / 75); }
   50% {
-    transform: skew(calc(calc(81deg / 100 ) - calc(118deg / 100 )), calc(calc(18deg / 100 ) - calc(80deg / 100 )));
-    opacity: calc(60 / 75); }
+    transform: skew(calc(calc(71deg / 100 ) - calc(91deg / 100 )), calc(calc(128deg / 100 ) - calc(64deg / 100 )));
+    opacity: calc(4 / 75); }
   72% {
-    transform: skew(calc(calc(54deg / 100 ) - calc(61deg / 100 )), calc(calc(117deg / 100 ) - calc(91deg / 100 )));
-    opacity: calc(31 / 75); }
+    transform: skew(calc(calc(143deg / 100 ) - calc(55deg / 100 )), calc(calc(50deg / 100 ) - calc(3deg / 100 )));
+    opacity: calc(60 / 75); }
   75% {
-    transform: skew(calc(calc(18deg / 100 ) - calc(135deg / 100 )), calc(calc(29deg / 100 ) - calc(71deg / 100 )));
-    opacity: calc(24 / 75); }
+    transform: skew(calc(calc(110deg / 100 ) - calc(60deg / 100 )), calc(calc(32deg / 100 ) - calc(3deg / 100 )));
+    opacity: calc(16 / 75); }
   80% {
-    transform: skew(calc(calc(92deg / 100 ) - calc(123deg / 100 )), calc(calc(81deg / 100 ) - calc(38deg / 100 )));
-    opacity: calc(30 / 75); }
+    transform: skew(calc(calc(1deg / 100 ) - calc(86deg / 100 )), calc(calc(6deg / 100 ) - calc(132deg / 100 )));
+    opacity: calc(100 / 75); }
   100% {
-    transform: skew(calc(calc(36deg / 100 ) - calc(114deg / 100 )), calc(calc(102deg / 100 ) - calc(94deg / 100 )));
-    opacity: calc(38 / 75); } }
+    transform: skew(calc(calc(98deg / 100 ) - calc(102deg / 100 )), calc(calc(95deg / 100 ) - calc(69deg / 100 )));
+    opacity: calc(73 / 75); } }
 
 @keyframes aesthetic-effect-element-glitch-animation-3 {
   0% {
-    transform: skew(calc(calc(142deg / 100 ) - calc(83deg / 100 )), calc(calc(7deg / 100 ) - calc(141deg / 100 )));
-    opacity: calc(46 / 75); }
+    transform: skew(calc(calc(47deg / 100 ) - calc(127deg / 100 )), calc(calc(95deg / 100 ) - calc(22deg / 100 )));
+    opacity: calc(4 / 75); }
   7% {
-    transform: skew(calc(calc(41deg / 100 ) - calc(49deg / 100 )), calc(calc(53deg / 100 ) - calc(59deg / 100 )));
-    opacity: calc(2 / 75); }
+    transform: skew(calc(calc(133deg / 100 ) - calc(99deg / 100 )), calc(calc(120deg / 100 ) - calc(83deg / 100 )));
+    opacity: calc(63 / 75); }
   10% {
-    transform: skew(calc(calc(113deg / 100 ) - calc(150deg / 100 )), calc(calc(42deg / 100 ) - calc(136deg / 100 )));
-    opacity: calc(36 / 75); }
-  27% {
-    transform: skew(calc(calc(82deg / 100 ) - calc(7deg / 100 )), calc(calc(11deg / 100 ) - calc(11deg / 100 )));
-    opacity: calc(96 / 75); }
-  30% {
-    transform: skew(calc(calc(54deg / 100 ) - calc(121deg / 100 )), calc(calc(78deg / 100 ) - calc(109deg / 100 )));
-    opacity: calc(58 / 75); }
-  35% {
-    transform: skew(calc(calc(90deg / 100 ) - calc(111deg / 100 )), calc(calc(54deg / 100 ) - calc(32deg / 100 )));
-    opacity: calc(84 / 75); }
-  52% {
-    transform: skew(calc(calc(41deg / 100 ) - calc(47deg / 100 )), calc(calc(9deg / 100 ) - calc(80deg / 100 )));
-    opacity: calc(1 / 75); }
-  55% {
-    transform: skew(calc(calc(62deg / 100 ) - calc(9deg / 100 )), calc(calc(143deg / 100 ) - calc(141deg / 100 )));
-    opacity: calc(23 / 75); }
-  50% {
-    transform: skew(calc(calc(131deg / 100 ) - calc(136deg / 100 )), calc(calc(5deg / 100 ) - calc(5deg / 100 )));
-    opacity: calc(65 / 75); }
-  72% {
-    transform: skew(calc(calc(132deg / 100 ) - calc(66deg / 100 )), calc(calc(56deg / 100 ) - calc(100deg / 100 )));
+    transform: skew(calc(calc(57deg / 100 ) - calc(129deg / 100 )), calc(calc(44deg / 100 ) - calc(60deg / 100 )));
     opacity: calc(86 / 75); }
+  27% {
+    transform: skew(calc(calc(140deg / 100 ) - calc(67deg / 100 )), calc(calc(11deg / 100 ) - calc(111deg / 100 )));
+    opacity: calc(16 / 75); }
+  30% {
+    transform: skew(calc(calc(93deg / 100 ) - calc(113deg / 100 )), calc(calc(122deg / 100 ) - calc(137deg / 100 )));
+    opacity: calc(70 / 75); }
+  35% {
+    transform: skew(calc(calc(69deg / 100 ) - calc(75deg / 100 )), calc(calc(95deg / 100 ) - calc(81deg / 100 )));
+    opacity: calc(2 / 75); }
+  52% {
+    transform: skew(calc(calc(100deg / 100 ) - calc(35deg / 100 )), calc(calc(41deg / 100 ) - calc(95deg / 100 )));
+    opacity: calc(40 / 75); }
+  55% {
+    transform: skew(calc(calc(62deg / 100 ) - calc(20deg / 100 )), calc(calc(54deg / 100 ) - calc(101deg / 100 )));
+    opacity: calc(83 / 75); }
+  50% {
+    transform: skew(calc(calc(140deg / 100 ) - calc(41deg / 100 )), calc(calc(99deg / 100 ) - calc(120deg / 100 )));
+    opacity: calc(97 / 75); }
+  72% {
+    transform: skew(calc(calc(31deg / 100 ) - calc(137deg / 100 )), calc(calc(92deg / 100 ) - calc(89deg / 100 )));
+    opacity: calc(13 / 75); }
   75% {
-    transform: skew(calc(calc(8deg / 100 ) - calc(20deg / 100 )), calc(calc(88deg / 100 ) - calc(103deg / 100 )));
-    opacity: calc(7 / 75); }
+    transform: skew(calc(calc(35deg / 100 ) - calc(86deg / 100 )), calc(calc(118deg / 100 ) - calc(96deg / 100 )));
+    opacity: calc(30 / 75); }
   80% {
-    transform: skew(calc(calc(74deg / 100 ) - calc(56deg / 100 )), calc(calc(46deg / 100 ) - calc(108deg / 100 )));
-    opacity: calc(71 / 75); }
+    transform: skew(calc(calc(104deg / 100 ) - calc(87deg / 100 )), calc(calc(147deg / 100 ) - calc(66deg / 100 )));
+    opacity: calc(24 / 75); }
   100% {
-    transform: skew(calc(calc(28deg / 100 ) - calc(129deg / 100 )), calc(calc(16deg / 100 ) - calc(132deg / 100 )));
-    opacity: calc(9 / 75); } }
+    transform: skew(calc(calc(128deg / 100 ) - calc(80deg / 100 )), calc(calc(104deg / 100 ) - calc(49deg / 100 )));
+    opacity: calc(6 / 75); } }
   .aesthetic-effect-element-glitch :nth-child(1) {
     opacity: 0.7; }
   .aesthetic-effect-element-glitch :nth-child(2) {
@@ -764,6 +764,8 @@
   border-color: #8aa2cb; }
   .aesthetic-windows-xp-button:hover, .aesthetic-windows-xp-button-title-bar:hover, .aesthetic-windows-xp-button-title-bar-close:hover {
     border-bottom-color: #efc47b; }
+  .aesthetic-windows-xp-button:focus, .aesthetic-windows-xp-button-title-bar:focus, .aesthetic-windows-xp-button-title-bar-close:focus, .aesthetic-windows-xp-button:focus-within, .aesthetic-windows-xp-button-title-bar:focus-within, .aesthetic-windows-xp-button-title-bar-close:focus-within {
+    border-bottom-color: #8aa2cb; }
   .aesthetic-windows-xp-button button, .aesthetic-windows-xp-button-title-bar button, .aesthetic-windows-xp-button-title-bar-close button {
     background: none;
     color: inherit;
@@ -775,6 +777,8 @@
     height: 100%; }
     .aesthetic-windows-xp-button button:focus, .aesthetic-windows-xp-button-title-bar button:focus, .aesthetic-windows-xp-button-title-bar-close button:focus {
       outline: 1px dashed #000; }
+    .aesthetic-windows-xp-button button:active, .aesthetic-windows-xp-button-title-bar button:active, .aesthetic-windows-xp-button-title-bar-close button:active {
+      background: #e3e0db; }
 
 .aesthetic-windows-xp-button-title-bar, .aesthetic-windows-xp-button-title-bar-close {
   width: 20px;
@@ -782,14 +786,21 @@
   padding: 1px;
   font-family: sans-serif;
   border-color: #f8f4f1;
-  background: linear-gradient(to bottom right, #8aa2cb 0%, #005cf5 25%, #005cf5 75%, #044cdc 100%); }
+  background: linear-gradient(to bottom right, #8aa2cb 0%, #005cf5 40%, #005cf5 75%, #044cdc 100%); }
   .aesthetic-windows-xp-button-title-bar:hover, .aesthetic-windows-xp-button-title-bar-close:hover {
     border-color: #f8f4f1; }
+  .aesthetic-windows-xp-button-title-bar:focus, .aesthetic-windows-xp-button-title-bar-close:focus, .aesthetic-windows-xp-button-title-bar:focus-within, .aesthetic-windows-xp-button-title-bar-close:focus-within {
+    border-bottom-color: #f8f4f1; }
   .aesthetic-windows-xp-button-title-bar button, .aesthetic-windows-xp-button-title-bar-close button {
     padding: 1px; }
+    .aesthetic-windows-xp-button-title-bar button:active, .aesthetic-windows-xp-button-title-bar-close button:active {
+      color: #c9cac4;
+      background: linear-gradient(to bottom right, #070707 0%, #044cdc 5%, #044cdc 50%, #005cf5 100%); }
 
 .aesthetic-windows-xp-button-title-bar-close {
-  background: linear-gradient(to bottom right, #efc47b 0%, #e26725 25%, #e26725 75%, #b7371a 100%); }
+  background: linear-gradient(to bottom right, #efc47b 0%, #e26725 40%, #e26725 75%, #b7371a 100%); }
+  .aesthetic-windows-xp-button-title-bar-close button:active {
+    background: linear-gradient(to bottom right, #070707 0%, #b7371a 5%, #b7371a 50%, #e26725 100%); }
 
 .aesthetic-windows-95-dropdown {
   position: relative;
@@ -968,7 +979,8 @@
     display: block; }
 
 .aesthetic-windows-xp-text-input {
-  border: 2px solid #8aa2cb; }
+  border: 2px solid #8aa2cb;
+  background-color: #f8f4f1; }
   .aesthetic-windows-xp-text-input:focus {
     outline: 1px dashed #070707; }
 
@@ -1101,7 +1113,7 @@
     padding-bottom: 3px;
     border: none;
     box-shadow: none;
-    background: transparent;
+    background: #f8f4f1;
     background-image: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -1120,23 +1132,27 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    background-color: #f8f4f1; }
+    background-color: #f8f4f1;
+    pointer-events: none; }
   .aesthetic-windows-xp-select .aesthetic-windows-xp-select-checkmark {
     position: absolute;
     top: 1px;
     right: 1px;
-    width: 15px;
+    width: 14px;
     height: 16px;
     transform: rotate(180deg);
-    background: linear-gradient(to top left, #f8f4f1 0%, #8aa2cb 50%);
+    background: linear-gradient(to top left, #f8f4f1 0%, #aeceff 50%);
     border: 1px solid #8aa2cb;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
     cursor: pointer;
     pointer-events: none;
     z-index: 1; }
     .aesthetic-windows-xp-select .aesthetic-windows-xp-select-checkmark:after {
       content: "^";
       font-family: sans-serif;
-      color: #044cdc;
+      color: #4b6485;
       font-weight: bold;
       width: 100px;
       height: 100px;
@@ -1145,7 +1161,7 @@
       height: 0;
       border: none;
       position: absolute;
-      top: 2px;
+      top: 1px;
       left: 2px;
       cursor: pointer;
       pointer-events: none; }
@@ -1315,6 +1331,104 @@
   padding-left: 10px;
   padding-right: 10px; }
 
+.aesthetic-windows-xp-modal {
+  background: #ece9d6;
+  border: 3px solid;
+  border-color: #044cdc;
+  border-top-color: #298cfe;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  outline: 0; }
+  .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar {
+    text-align: left;
+    color: #f8f4f1;
+    background: linear-gradient(to bottom, #298cfe 0%, #044cdc 10%, #044cdc 60%, #005cf5 80%, #044cdc 100%);
+    outline: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar .aesthetic-windows-xp-modal-title-bar-text {
+      font-size: 0.85rem;
+      text-shadow: 1px 1px #070707;
+      margin-left: 6px; }
+    .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar .aesthetic-windows-xp-modal-title-bar-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto; }
+      .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar .aesthetic-windows-xp-modal-title-bar-controls > * {
+        margin-left: 2px;
+        margin-right: 2px; }
+  .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-content {
+    background: #ece9d6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+@keyframes aesthetic-notification {
+  0% {
+    opacity: 0;
+    pointer-events: none; }
+  75% {
+    opacity: 0.75;
+    pointer-events: all; }
+  100% {
+    opacity: 1;
+    pointer-events: all; } }
+
+.aesthetic-notification, .aesthetic-windows-xp-notification {
+  display: none;
+  opacity: 0;
+  position: relative;
+  min-width: 200px;
+  min-height: 50px;
+  max-width: 100%;
+  z-index: 1000;
+  color: #FAFAFA;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+  padding: 10px; }
+  .aesthetic-notification.is-active, .is-active.aesthetic-windows-xp-notification {
+    display: block;
+    opacity: 1;
+    animation: aesthetic-notification 2s; }
+  .aesthetic-notification .dismiss, .aesthetic-windows-xp-notification .dismiss {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #020202; }
+  .aesthetic-notification .aesthetic-notification-content, .aesthetic-windows-xp-notification .aesthetic-notification-content {
+    text-overflow: wrap; }
+
+.aesthetic-windows-xp-notification {
+  border: 2px solid #070707;
+  box-shadow: 2px 2px 1px 0px #969892;
+  color: #070707;
+  background-color: #fffee7; }
+  .aesthetic-windows-xp-notification .dismiss {
+    background-color: #f8f4f1;
+    border-radius: 3px;
+    border: 2px solid #b7ad9b;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #b7ad9b; }
+
 .aesthetic-font {
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter; }
@@ -1404,128 +1518,3 @@
   font-family: "IM Fell French Canon SC", Times, Times New Roman, Georgia, serif; }
   .aesthetic-font-im-fell-french-canon h1, .aesthetic-font-im-fell-french-canon h2, .aesthetic-font-im-fell-french-canon h3, .aesthetic-font-im-fell-french-canon h4, .aesthetic-font-im-fell-french-canon h5, .aesthetic-font-im-fell-french-canon h6 {
     font-weight: lighter; }
-
-.xp-modal-wrapper {
-  margin-top: 8px;
-  display: flex;
-  justify-content: center; }
-
-.xp-modal {
-  background: #ece9d6;
-  border: 3px solid;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-color: #005cf5;
-  outline: 0;
-  width: 400px;
-  height: 400px; }
-
-.xp-title-bar {
-  text-align: left;
-  color: white;
-  background: #005cf5;
-  box-shadow: 1px;
-  outline: 0;
-  height: 20px;
-  width: 100%;
-  display: flex;
-  align-items: center; }
-
-.xp-title-text {
-  font-size: 12px;
-  margin-left: 6px; }
-
-.xp-close-button {
-  color: #ece9d6;
-  background: #e26725;
-  border: 1px solid;
-  border-radius: 4px;
-  text-align: center;
-  padding: 0;
-  width: 18px;
-  height: 18px;
-  font-size: 12px;
-  text-align: center;
-  justify-content: flex-end;
-  margin-left: auto;
-  margin-right: 2px;
-  margin-bottom: 6px;
-  margin-top: 4px; }
-
-.xp-modal-main {
-  background: #f8f4f1;
-  border: 1px solid;
-  border-top-color: #c9cac4;
-  border-left-color: #c9cac4;
-  border-bottom-color: grey;
-  border-right-color: grey;
-  box-shadow: 1px 1px 0 0 #c9cac4;
-  outline: 0;
-  display: flex;
-  margin-left: 6px;
-  width: 385px;
-  height: 300px; }
-
-.xp-ok-button {
-  color: #070707;
-  background: #f8f4f1;
-  border: 2px solid;
-  border-radius: 4px;
-  border-color: #8aa2cb;
-  text-align: center;
-  outline: 0;
-  width: 75px;
-  height: 20px;
-  margin-top: 14px;
-  margin-right: 10px;
-  margin-left: auto; }
-
-.xp-cancel-button {
-  color: #070707;
-  background: #f8f4f1;
-  border: 2px solid;
-  border-radius: 4px;
-  border-color: #8aa2cb;
-  text-align: center;
-  outline: 0;
-  width: 75px;
-  height: 20px;
-  margin-top: 14px;
-  margin-right: 10px; }
-
-.xp-button-cont {
-  display: flex;
-  height: 28px;
-  width: 100%; }
-
-.xp-tab-container {
-  display: flex;
-  height: 28px;
-  width: 100%; }
-
-.xp-tab-style {
-  color: #070707;
-  background: #f8f4f1;
-  border: 1px solid;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border: 1px solid;
-  border-color: #c9cac4;
-  text-align: center;
-  outline: 0;
-  height: 19px;
-  margin-top: 10px;
-  z-index: 0;
-  font-size: 10px;
-  padding-left: 10px;
-  padding-right: 10px; }
-
-.xp-tab-style:nth-child(1) {
-  margin-left: 6px;
-  z-index: 1;
-  border-top: 2px solid;
-  border-bottom-color: #f8f4f1;
-  border-top-color: #efc47b; }
-
-.system-text {
-  font-size: 12px; }
