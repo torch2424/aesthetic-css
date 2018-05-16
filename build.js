@@ -24,7 +24,6 @@ const mustacheData = {
   bootAnimation: argv.dev ? 'animation: boot-animation 0s;' : 'animation: boot-animation 7s;',
   highlightJsCss: fs.readFileSync('./demo/highlightJs.css', 'utf8').toString(),
   liveReload: argv.dev ? livereloadHtmlScript : '',
-  daniel: fs.readFileSync('./demo/daniel.html', 'utf8').toString(),
 }
 
 // Find all HTML Files within the demo directory, that are not our index or daniel

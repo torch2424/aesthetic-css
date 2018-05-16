@@ -59,6 +59,10 @@
     border-bottom-color: $aesthetic-windows-xp-light-orange;
   }
 
+  &:focus, &:focus-within {
+    border-bottom-color: $aesthetic-windows-xp-light-blue;
+  }
+
   button {
     @include no-button-styles;
 
@@ -67,6 +71,10 @@
 
     &:focus {
       @include windows-95-focus-outline;
+    }
+
+    &:active {
+      background: $aesthetic-windows-xp-white-dark;
     }
   }
 }
@@ -79,7 +87,7 @@
   padding: 1px;
   font-family: sans-serif;
   border-color: $aesthetic-windows-xp-white;
-  background: linear-gradient(to bottom right, $aesthetic-windows-xp-light-blue 0%, $aesthetic-windows-xp-blue 25%, $aesthetic-windows-xp-blue 75%, $aesthetic-windows-xp-dark-blue 100%);
+  background: linear-gradient(to bottom right, $aesthetic-windows-xp-light-blue 0%, $aesthetic-windows-xp-blue 40%, $aesthetic-windows-xp-blue 75%, $aesthetic-windows-xp-dark-blue 100%);
 
   &:hover {
     border-color: $aesthetic-windows-xp-white;
@@ -87,11 +95,23 @@
 
   button {
     padding: 1px;
+
+    &:active {
+      color: $aesthetic-windows-xp-shadow;
+
+      background: linear-gradient(to bottom right, $aesthetic-windows-xp-black 0%, $aesthetic-windows-xp-dark-blue 5%, $aesthetic-windows-xp-dark-blue 50%, $aesthetic-windows-xp-blue 100%);
+    }
   }
 }
 
 .aesthetic-windows-xp-button-title-bar-close {
   @extend .aesthetic-windows-xp-button-title-bar;
 
-  background: linear-gradient(to bottom right, $aesthetic-windows-xp-light-orange 0%, $aesthetic-windows-xp-orange 25%, $aesthetic-windows-xp-orange 75%, $aesthetic-windows-xp-dark-orange 100%);
+  background: linear-gradient(to bottom right, $aesthetic-windows-xp-light-orange 0%, $aesthetic-windows-xp-orange 40%, $aesthetic-windows-xp-orange 75%, $aesthetic-windows-xp-dark-orange 100%);
+
+  button {
+    &:active {
+      background: linear-gradient(to bottom right, $aesthetic-windows-xp-black 0%, $aesthetic-windows-xp-dark-orange 5%, $aesthetic-windows-xp-dark-orange 50%, $aesthetic-windows-xp-orange 100%);
+    }
+  }
 }

@@ -95,6 +95,7 @@ $aesthetic-windows-xp-checkbox-size: 12px;
 
 .aesthetic-windows-xp-text-input {
   border: 2px solid $aesthetic-windows-xp-light-blue;
+  background-color: $aesthetic-windows-xp-white;
 
   &:focus {
     @include windows-xp-focus-outline;
