@@ -13,6 +13,11 @@
     "livereload": "npx livereload ./dist",
     "watch": "npx watch 'npm run build:dev' ./src ./demo --interval=1"
   },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/torch2424/vapor.git"
