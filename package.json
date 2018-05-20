@@ -1,7 +1,7 @@
 {
-  "name": "vapor",
-  "version": "1.0.0",
-  "description": "The most A E S T H E T I C CSS Framework",
+  "name": "aesthetic-css",
+  "version": "0.0.2",
+  "description": "A vaporwave CSS framework",
   "main": "index.js",
   "scripts": {
     "dev": "npx run-p serve livereload watch",
@@ -20,14 +20,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/torch2424/vapor.git"
+    "url": "git+https://github.com/torch2424/aesthetic-css.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/torch2424/vapor/issues"
+    "url": "https://github.com/torch2424/aesthetic-css/issues"
   },
-  "homepage": "https://github.com/torch2424/vapor#readme",
+  "homepage": "https://torch2424.github.io/aesthetic-css/",
   "devDependencies": {
     "camelcase": "^5.0.0",
     "highlight.js": "^9.12.0",
