@@ -31,11 +31,16 @@
 
 .aesthetic-windows-95-button-title-bar {
   @extend .aesthetic-windows-95-button;
-  width: 14px;
-  font-size: 0.5rem;
-  padding: 1px;
+  width: 16px;
+  height: 16px;
+  font-size: 1.0rem;
+  padding: 0px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
   font-family: sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 
   button {
     padding: 1px;
