@@ -22,7 +22,7 @@
     color: $aesthetic-windows-95-white;
   }
 
-  .aesthetic-windows-95-dropdown-trigger:focus ~ .aesthetic-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown-menu.is-active {
     display: block
   }
 
@@ -91,7 +91,7 @@
     color: $aesthetic-windows-xp-white;
   }
 
-  .aesthetic-windows-xp-dropdown-trigger:focus ~ .aesthetic-windows-xp-dropdown-menu {
+  .aesthetic-windows-xp-dropdown-menu.is-active {
     display: block
   }
 
