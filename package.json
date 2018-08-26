@@ -1,12 +1,13 @@
 {
   "name": "aesthetic-css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A vaporwave CSS framework",
   "main": "index.js",
   "scripts": {
     "dev": "npx run-p serve livereload watch",
     "build": "npm run style:build && node build.js",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy:demo": "npm run build && gh-pages -d dist",
+    "deploy:lib": "npm run build && npx np",
     "build:dev": "npm run style:build && node build.js -d",
     "style:build": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o dist/",
     "serve": "npx http-server ./dist",
@@ -35,6 +36,7 @@
     "minimist": "^1.2.0",
     "mustache": "^2.3.0",
     "node-sass-chokidar": "^1.2.2",
+    "np": "^3.0.4",
     "npm-run-all": "^4.1.2",
     "recursive-readdir": "^2.2.2",
     "watch": "^1.0.2"
