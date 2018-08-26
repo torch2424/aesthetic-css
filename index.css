@@ -295,47 +295,47 @@
 
 @keyframes flicker {
   0% {
-    opacity: 0.5911; }
+    opacity: 0.98313; }
   5% {
-    opacity: 0.81197; }
+    opacity: 0.4336; }
   10% {
-    opacity: 0.79555; }
+    opacity: 0.1831; }
   15% {
-    opacity: 0.10355; }
+    opacity: 0.60501; }
   20% {
-    opacity: 0.72666; }
+    opacity: 0.72608; }
   25% {
-    opacity: 0.1975; }
+    opacity: 0.57724; }
   30% {
-    opacity: 0.26726; }
+    opacity: 0.49181; }
   35% {
-    opacity: 0.74497; }
+    opacity: 0.8343; }
   40% {
-    opacity: 0.85408; }
+    opacity: 0.81216; }
   45% {
-    opacity: 0.51647; }
+    opacity: 0.59875; }
   50% {
-    opacity: 0.03264; }
+    opacity: 0.19362; }
   55% {
-    opacity: 0.50256; }
+    opacity: 0.82417; }
   60% {
-    opacity: 0.51833; }
+    opacity: 0.01274; }
   65% {
-    opacity: 0.66949; }
+    opacity: 0.74332; }
   70% {
-    opacity: 0.36451; }
+    opacity: 0.16033; }
   75% {
-    opacity: 0.80765; }
+    opacity: 0.32126; }
   80% {
-    opacity: 0.44083; }
+    opacity: 0.73846; }
   85% {
-    opacity: 0.41467; }
+    opacity: 0.98183; }
   90% {
-    opacity: 0.48108; }
+    opacity: 0.96089; }
   95% {
-    opacity: 0.58442; }
+    opacity: 0.87139; }
   100% {
-    opacity: 0.26476; } }
+    opacity: 0.08474; } }
 
 .aesthetic-effect-crt {
   display: inline-block;
@@ -388,79 +388,79 @@
 
 @keyframes aesthetic-effect-text-glitch-anim-1 {
   0% {
-    clip: rect(53px, 450px, 112px, 0); }
+    clip: rect(34px, 450px, 31px, 0); }
   5.88235% {
-    clip: rect(87px, 450px, 99px, 0); }
+    clip: rect(115px, 450px, 59px, 0); }
   11.76471% {
-    clip: rect(77px, 450px, 26px, 0); }
+    clip: rect(37px, 450px, 63px, 0); }
   17.64706% {
-    clip: rect(2px, 450px, 42px, 0); }
+    clip: rect(54px, 450px, 115px, 0); }
   23.52941% {
-    clip: rect(59px, 450px, 58px, 0); }
+    clip: rect(21px, 450px, 76px, 0); }
   29.41176% {
-    clip: rect(71px, 450px, 43px, 0); }
+    clip: rect(71px, 450px, 19px, 0); }
   35.29412% {
-    clip: rect(57px, 450px, 107px, 0); }
+    clip: rect(8px, 450px, 46px, 0); }
   41.17647% {
-    clip: rect(83px, 450px, 8px, 0); }
+    clip: rect(56px, 450px, 34px, 0); }
   47.05882% {
-    clip: rect(17px, 450px, 56px, 0); }
+    clip: rect(89px, 450px, 72px, 0); }
   52.94118% {
-    clip: rect(63px, 450px, 12px, 0); }
+    clip: rect(113px, 450px, 45px, 0); }
   58.82353% {
-    clip: rect(49px, 450px, 52px, 0); }
+    clip: rect(63px, 450px, 99px, 0); }
   64.70588% {
-    clip: rect(18px, 450px, 24px, 0); }
+    clip: rect(105px, 450px, 101px, 0); }
   70.58824% {
-    clip: rect(19px, 450px, 110px, 0); }
+    clip: rect(88px, 450px, 13px, 0); }
   76.47059% {
-    clip: rect(4px, 450px, 58px, 0); }
+    clip: rect(84px, 450px, 71px, 0); }
   82.35294% {
-    clip: rect(104px, 450px, 100px, 0); }
+    clip: rect(34px, 450px, 61px, 0); }
   88.23529% {
-    clip: rect(85px, 450px, 44px, 0); }
+    clip: rect(29px, 450px, 93px, 0); }
   94.11765% {
-    clip: rect(94px, 450px, 39px, 0); }
+    clip: rect(62px, 450px, 100px, 0); }
   100% {
-    clip: rect(41px, 450px, 26px, 0); } }
+    clip: rect(79px, 450px, 43px, 0); } }
 
 @keyframes aesthetic-effect-text-glitch-anim-2 {
   0% {
-    clip: rect(31px, 450px, 58px, 0); }
+    clip: rect(52px, 450px, 2px, 0); }
   5.88235% {
-    clip: rect(28px, 450px, 13px, 0); }
+    clip: rect(59px, 450px, 41px, 0); }
   11.76471% {
-    clip: rect(63px, 450px, 108px, 0); }
+    clip: rect(36px, 450px, 25px, 0); }
   17.64706% {
-    clip: rect(104px, 450px, 93px, 0); }
+    clip: rect(45px, 450px, 16px, 0); }
   23.52941% {
-    clip: rect(80px, 450px, 96px, 0); }
+    clip: rect(103px, 450px, 84px, 0); }
   29.41176% {
-    clip: rect(29px, 450px, 109px, 0); }
+    clip: rect(42px, 450px, 82px, 0); }
   35.29412% {
-    clip: rect(46px, 450px, 8px, 0); }
+    clip: rect(41px, 450px, 5px, 0); }
   41.17647% {
-    clip: rect(74px, 450px, 53px, 0); }
+    clip: rect(63px, 450px, 48px, 0); }
   47.05882% {
-    clip: rect(55px, 450px, 50px, 0); }
+    clip: rect(73px, 450px, 7px, 0); }
   52.94118% {
-    clip: rect(112px, 450px, 85px, 0); }
+    clip: rect(56px, 450px, 54px, 0); }
   58.82353% {
-    clip: rect(114px, 450px, 105px, 0); }
+    clip: rect(51px, 450px, 60px, 0); }
   64.70588% {
-    clip: rect(105px, 450px, 19px, 0); }
+    clip: rect(94px, 450px, 72px, 0); }
   70.58824% {
-    clip: rect(26px, 450px, 50px, 0); }
+    clip: rect(92px, 450px, 107px, 0); }
   76.47059% {
-    clip: rect(112px, 450px, 107px, 0); }
+    clip: rect(91px, 450px, 58px, 0); }
   82.35294% {
-    clip: rect(8px, 450px, 23px, 0); }
+    clip: rect(100px, 450px, 86px, 0); }
   88.23529% {
-    clip: rect(2px, 450px, 17px, 0); }
+    clip: rect(57px, 450px, 16px, 0); }
   94.11765% {
-    clip: rect(56px, 450px, 34px, 0); }
+    clip: rect(11px, 450px, 12px, 0); }
   100% {
-    clip: rect(22px, 450px, 22px, 0); } }
+    clip: rect(90px, 450px, 67px, 0); } }
   .aesthetic-effect-text-glitch::before, .aesthetic-effect-text-glitch::after {
     content: attr(data-glitch);
     position: absolute;
@@ -490,126 +490,126 @@
 
 @keyframes aesthetic-effect-element-glitch-animation-1 {
   0% {
-    transform: skew(calc(calc(150deg / 100 ) - calc(100deg / 100 )), calc(calc(43deg / 100 ) - calc(52deg / 100 )));
-    opacity: calc(48 / 75); }
+    transform: skew(calc(calc(98deg / 100 ) - calc(26deg / 100 )), calc(calc(46deg / 100 ) - calc(128deg / 100 )));
+    opacity: calc(71 / 75); }
   7% {
-    transform: skew(calc(calc(131deg / 100 ) - calc(80deg / 100 )), calc(calc(78deg / 100 ) - calc(124deg / 100 )));
-    opacity: calc(93 / 75); }
+    transform: skew(calc(calc(139deg / 100 ) - calc(86deg / 100 )), calc(calc(51deg / 100 ) - calc(121deg / 100 )));
+    opacity: calc(60 / 75); }
   10% {
-    transform: skew(calc(calc(23deg / 100 ) - calc(103deg / 100 )), calc(calc(32deg / 100 ) - calc(35deg / 100 )));
-    opacity: calc(29 / 75); }
+    transform: skew(calc(calc(23deg / 100 ) - calc(41deg / 100 )), calc(calc(7deg / 100 ) - calc(65deg / 100 )));
+    opacity: calc(86 / 75); }
   27% {
-    transform: skew(calc(calc(117deg / 100 ) - calc(142deg / 100 )), calc(calc(40deg / 100 ) - calc(97deg / 100 )));
-    opacity: calc(83 / 75); }
+    transform: skew(calc(calc(9deg / 100 ) - calc(111deg / 100 )), calc(calc(84deg / 100 ) - calc(28deg / 100 )));
+    opacity: calc(34 / 75); }
   30% {
-    transform: skew(calc(calc(146deg / 100 ) - calc(6deg / 100 )), calc(calc(131deg / 100 ) - calc(94deg / 100 )));
-    opacity: calc(48 / 75); }
+    transform: skew(calc(calc(15deg / 100 ) - calc(108deg / 100 )), calc(calc(141deg / 100 ) - calc(96deg / 100 )));
+    opacity: calc(91 / 75); }
   35% {
-    transform: skew(calc(calc(138deg / 100 ) - calc(68deg / 100 )), calc(calc(121deg / 100 ) - calc(123deg / 100 )));
-    opacity: calc(84 / 75); }
+    transform: skew(calc(calc(45deg / 100 ) - calc(115deg / 100 )), calc(calc(54deg / 100 ) - calc(14deg / 100 )));
+    opacity: calc(78 / 75); }
   52% {
-    transform: skew(calc(calc(103deg / 100 ) - calc(130deg / 100 )), calc(calc(59deg / 100 ) - calc(2deg / 100 )));
-    opacity: calc(85 / 75); }
-  55% {
-    transform: skew(calc(calc(44deg / 100 ) - calc(29deg / 100 )), calc(calc(4deg / 100 ) - calc(61deg / 100 )));
-    opacity: calc(3 / 75); }
-  50% {
-    transform: skew(calc(calc(39deg / 100 ) - calc(56deg / 100 )), calc(calc(32deg / 100 ) - calc(44deg / 100 )));
-    opacity: calc(87 / 75); }
-  72% {
-    transform: skew(calc(calc(63deg / 100 ) - calc(93deg / 100 )), calc(calc(107deg / 100 ) - calc(133deg / 100 )));
-    opacity: calc(21 / 75); }
-  75% {
-    transform: skew(calc(calc(133deg / 100 ) - calc(109deg / 100 )), calc(calc(135deg / 100 ) - calc(131deg / 100 )));
+    transform: skew(calc(calc(20deg / 100 ) - calc(124deg / 100 )), calc(calc(50deg / 100 ) - calc(39deg / 100 )));
     opacity: calc(61 / 75); }
+  55% {
+    transform: skew(calc(calc(23deg / 100 ) - calc(80deg / 100 )), calc(calc(77deg / 100 ) - calc(57deg / 100 )));
+    opacity: calc(75 / 75); }
+  50% {
+    transform: skew(calc(calc(83deg / 100 ) - calc(1deg / 100 )), calc(calc(4deg / 100 ) - calc(61deg / 100 )));
+    opacity: calc(91 / 75); }
+  72% {
+    transform: skew(calc(calc(12deg / 100 ) - calc(122deg / 100 )), calc(calc(54deg / 100 ) - calc(56deg / 100 )));
+    opacity: calc(15 / 75); }
+  75% {
+    transform: skew(calc(calc(5deg / 100 ) - calc(78deg / 100 )), calc(calc(68deg / 100 ) - calc(83deg / 100 )));
+    opacity: calc(29 / 75); }
   80% {
-    transform: skew(calc(calc(126deg / 100 ) - calc(121deg / 100 )), calc(calc(101deg / 100 ) - calc(42deg / 100 )));
-    opacity: calc(89 / 75); }
+    transform: skew(calc(calc(29deg / 100 ) - calc(10deg / 100 )), calc(calc(111deg / 100 ) - calc(65deg / 100 )));
+    opacity: calc(93 / 75); }
   100% {
-    transform: skew(calc(calc(137deg / 100 ) - calc(109deg / 100 )), calc(calc(39deg / 100 ) - calc(84deg / 100 )));
-    opacity: calc(74 / 75); } }
+    transform: skew(calc(calc(144deg / 100 ) - calc(29deg / 100 )), calc(calc(115deg / 100 ) - calc(90deg / 100 )));
+    opacity: calc(33 / 75); } }
 
 @keyframes aesthetic-effect-element-glitch-animation-2 {
   0% {
-    transform: skew(calc(calc(48deg / 100 ) - calc(61deg / 100 )), calc(calc(23deg / 100 ) - calc(97deg / 100 )));
-    opacity: calc(71 / 75); }
+    transform: skew(calc(calc(131deg / 100 ) - calc(74deg / 100 )), calc(calc(50deg / 100 ) - calc(5deg / 100 )));
+    opacity: calc(96 / 75); }
   7% {
-    transform: skew(calc(calc(45deg / 100 ) - calc(147deg / 100 )), calc(calc(71deg / 100 ) - calc(20deg / 100 )));
-    opacity: calc(50 / 75); }
+    transform: skew(calc(calc(145deg / 100 ) - calc(63deg / 100 )), calc(calc(137deg / 100 ) - calc(3deg / 100 )));
+    opacity: calc(57 / 75); }
   10% {
-    transform: skew(calc(calc(9deg / 100 ) - calc(61deg / 100 )), calc(calc(13deg / 100 ) - calc(107deg / 100 )));
-    opacity: calc(43 / 75); }
+    transform: skew(calc(calc(43deg / 100 ) - calc(92deg / 100 )), calc(calc(46deg / 100 ) - calc(57deg / 100 )));
+    opacity: calc(22 / 75); }
   27% {
-    transform: skew(calc(calc(11deg / 100 ) - calc(66deg / 100 )), calc(calc(44deg / 100 ) - calc(75deg / 100 )));
-    opacity: calc(59 / 75); }
+    transform: skew(calc(calc(45deg / 100 ) - calc(59deg / 100 )), calc(calc(24deg / 100 ) - calc(96deg / 100 )));
+    opacity: calc(78 / 75); }
   30% {
-    transform: skew(calc(calc(26deg / 100 ) - calc(138deg / 100 )), calc(calc(117deg / 100 ) - calc(35deg / 100 )));
-    opacity: calc(41 / 75); }
+    transform: skew(calc(calc(16deg / 100 ) - calc(39deg / 100 )), calc(calc(77deg / 100 ) - calc(137deg / 100 )));
+    opacity: calc(65 / 75); }
   35% {
-    transform: skew(calc(calc(150deg / 100 ) - calc(78deg / 100 )), calc(calc(98deg / 100 ) - calc(142deg / 100 )));
-    opacity: calc(86 / 75); }
+    transform: skew(calc(calc(30deg / 100 ) - calc(144deg / 100 )), calc(calc(137deg / 100 ) - calc(66deg / 100 )));
+    opacity: calc(64 / 75); }
   52% {
-    transform: skew(calc(calc(91deg / 100 ) - calc(65deg / 100 )), calc(calc(36deg / 100 ) - calc(11deg / 100 )));
-    opacity: calc(16 / 75); }
+    transform: skew(calc(calc(142deg / 100 ) - calc(9deg / 100 )), calc(calc(75deg / 100 ) - calc(149deg / 100 )));
+    opacity: calc(5 / 75); }
   55% {
-    transform: skew(calc(calc(88deg / 100 ) - calc(97deg / 100 )), calc(calc(66deg / 100 ) - calc(75deg / 100 )));
-    opacity: calc(77 / 75); }
+    transform: skew(calc(calc(116deg / 100 ) - calc(43deg / 100 )), calc(calc(19deg / 100 ) - calc(10deg / 100 )));
+    opacity: calc(48 / 75); }
   50% {
-    transform: skew(calc(calc(60deg / 100 ) - calc(146deg / 100 )), calc(calc(66deg / 100 ) - calc(62deg / 100 )));
-    opacity: calc(11 / 75); }
+    transform: skew(calc(calc(77deg / 100 ) - calc(68deg / 100 )), calc(calc(94deg / 100 ) - calc(139deg / 100 )));
+    opacity: calc(55 / 75); }
   72% {
-    transform: skew(calc(calc(36deg / 100 ) - calc(30deg / 100 )), calc(calc(75deg / 100 ) - calc(148deg / 100 )));
-    opacity: calc(1 / 75); }
+    transform: skew(calc(calc(25deg / 100 ) - calc(32deg / 100 )), calc(calc(75deg / 100 ) - calc(6deg / 100 )));
+    opacity: calc(82 / 75); }
   75% {
-    transform: skew(calc(calc(78deg / 100 ) - calc(75deg / 100 )), calc(calc(134deg / 100 ) - calc(101deg / 100 )));
-    opacity: calc(40 / 75); }
+    transform: skew(calc(calc(37deg / 100 ) - calc(128deg / 100 )), calc(calc(99deg / 100 ) - calc(46deg / 100 )));
+    opacity: calc(4 / 75); }
   80% {
-    transform: skew(calc(calc(115deg / 100 ) - calc(99deg / 100 )), calc(calc(112deg / 100 ) - calc(88deg / 100 )));
-    opacity: calc(44 / 75); }
+    transform: skew(calc(calc(39deg / 100 ) - calc(17deg / 100 )), calc(calc(110deg / 100 ) - calc(12deg / 100 )));
+    opacity: calc(54 / 75); }
   100% {
-    transform: skew(calc(calc(10deg / 100 ) - calc(75deg / 100 )), calc(calc(35deg / 100 ) - calc(6deg / 100 )));
-    opacity: calc(37 / 75); } }
+    transform: skew(calc(calc(22deg / 100 ) - calc(115deg / 100 )), calc(calc(94deg / 100 ) - calc(10deg / 100 )));
+    opacity: calc(90 / 75); } }
 
 @keyframes aesthetic-effect-element-glitch-animation-3 {
   0% {
-    transform: skew(calc(calc(49deg / 100 ) - calc(81deg / 100 )), calc(calc(4deg / 100 ) - calc(57deg / 100 )));
-    opacity: calc(41 / 75); }
+    transform: skew(calc(calc(48deg / 100 ) - calc(68deg / 100 )), calc(calc(91deg / 100 ) - calc(67deg / 100 )));
+    opacity: calc(45 / 75); }
   7% {
-    transform: skew(calc(calc(60deg / 100 ) - calc(50deg / 100 )), calc(calc(49deg / 100 ) - calc(39deg / 100 )));
-    opacity: calc(78 / 75); }
+    transform: skew(calc(calc(82deg / 100 ) - calc(147deg / 100 )), calc(calc(73deg / 100 ) - calc(87deg / 100 )));
+    opacity: calc(27 / 75); }
   10% {
-    transform: skew(calc(calc(13deg / 100 ) - calc(126deg / 100 )), calc(calc(108deg / 100 ) - calc(32deg / 100 )));
-    opacity: calc(72 / 75); }
+    transform: skew(calc(calc(21deg / 100 ) - calc(84deg / 100 )), calc(calc(62deg / 100 ) - calc(14deg / 100 )));
+    opacity: calc(8 / 75); }
   27% {
-    transform: skew(calc(calc(36deg / 100 ) - calc(114deg / 100 )), calc(calc(45deg / 100 ) - calc(28deg / 100 )));
-    opacity: calc(11 / 75); }
+    transform: skew(calc(calc(102deg / 100 ) - calc(143deg / 100 )), calc(calc(107deg / 100 ) - calc(124deg / 100 )));
+    opacity: calc(93 / 75); }
   30% {
-    transform: skew(calc(calc(125deg / 100 ) - calc(104deg / 100 )), calc(calc(57deg / 100 ) - calc(34deg / 100 )));
-    opacity: calc(75 / 75); }
+    transform: skew(calc(calc(115deg / 100 ) - calc(111deg / 100 )), calc(calc(60deg / 100 ) - calc(110deg / 100 )));
+    opacity: calc(6 / 75); }
   35% {
-    transform: skew(calc(calc(27deg / 100 ) - calc(54deg / 100 )), calc(calc(30deg / 100 ) - calc(9deg / 100 )));
-    opacity: calc(57 / 75); }
+    transform: skew(calc(calc(90deg / 100 ) - calc(51deg / 100 )), calc(calc(36deg / 100 ) - calc(132deg / 100 )));
+    opacity: calc(94 / 75); }
   52% {
-    transform: skew(calc(calc(4deg / 100 ) - calc(30deg / 100 )), calc(calc(52deg / 100 ) - calc(127deg / 100 )));
-    opacity: calc(29 / 75); }
+    transform: skew(calc(calc(48deg / 100 ) - calc(129deg / 100 )), calc(calc(23deg / 100 ) - calc(16deg / 100 )));
+    opacity: calc(88 / 75); }
   55% {
-    transform: skew(calc(calc(25deg / 100 ) - calc(38deg / 100 )), calc(calc(61deg / 100 ) - calc(71deg / 100 )));
-    opacity: calc(32 / 75); }
+    transform: skew(calc(calc(20deg / 100 ) - calc(120deg / 100 )), calc(calc(6deg / 100 ) - calc(15deg / 100 )));
+    opacity: calc(57 / 75); }
   50% {
-    transform: skew(calc(calc(33deg / 100 ) - calc(73deg / 100 )), calc(calc(43deg / 100 ) - calc(22deg / 100 )));
-    opacity: calc(41 / 75); }
+    transform: skew(calc(calc(48deg / 100 ) - calc(128deg / 100 )), calc(calc(127deg / 100 ) - calc(23deg / 100 )));
+    opacity: calc(71 / 75); }
   72% {
-    transform: skew(calc(calc(66deg / 100 ) - calc(98deg / 100 )), calc(calc(150deg / 100 ) - calc(68deg / 100 )));
-    opacity: calc(42 / 75); }
+    transform: skew(calc(calc(63deg / 100 ) - calc(56deg / 100 )), calc(calc(54deg / 100 ) - calc(60deg / 100 )));
+    opacity: calc(6 / 75); }
   75% {
-    transform: skew(calc(calc(98deg / 100 ) - calc(134deg / 100 )), calc(calc(57deg / 100 ) - calc(43deg / 100 )));
-    opacity: calc(47 / 75); }
+    transform: skew(calc(calc(116deg / 100 ) - calc(113deg / 100 )), calc(calc(56deg / 100 ) - calc(28deg / 100 )));
+    opacity: calc(50 / 75); }
   80% {
-    transform: skew(calc(calc(73deg / 100 ) - calc(139deg / 100 )), calc(calc(81deg / 100 ) - calc(22deg / 100 )));
-    opacity: calc(62 / 75); }
+    transform: skew(calc(calc(57deg / 100 ) - calc(14deg / 100 )), calc(calc(56deg / 100 ) - calc(24deg / 100 )));
+    opacity: calc(83 / 75); }
   100% {
-    transform: skew(calc(calc(76deg / 100 ) - calc(99deg / 100 )), calc(calc(71deg / 100 ) - calc(150deg / 100 )));
-    opacity: calc(50 / 75); } }
+    transform: skew(calc(calc(80deg / 100 ) - calc(110deg / 100 )), calc(calc(98deg / 100 ) - calc(48deg / 100 )));
+    opacity: calc(59 / 75); } }
   .aesthetic-effect-element-glitch :nth-child(1) {
     opacity: 0.7; }
   .aesthetic-effect-element-glitch :nth-child(2) {
@@ -745,11 +745,16 @@
     outline: none; }
 
 .aesthetic-windows-95-button-title-bar {
-  width: 14px;
-  font-size: 0.5rem;
-  padding: 1px;
+  width: 16px;
+  height: 16px;
+  font-size: 1.0rem;
+  padding: 0px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
   font-family: sans-serif;
-  font-weight: bold; }
+  font-weight: normal; }
   .aesthetic-windows-95-button-title-bar button {
     padding: 1px; }
 
@@ -819,7 +824,7 @@
     outline: 1px dashed #000;
     background-color: #000084;
     color: #FFF; }
-  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-trigger:focus ~ .aesthetic-windows-95-dropdown-menu {
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu.is-active {
     display: block; }
   .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu {
     border: 1px solid;
@@ -872,7 +877,7 @@
     outline: 1px dashed #000;
     background-color: #005cf5;
     color: #f8f4f1; }
-  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-trigger:focus ~ .aesthetic-windows-xp-dropdown-menu {
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu.is-active {
     display: block; }
   .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu {
     border: 1px solid;
@@ -1311,10 +1316,10 @@
   background: #000084;
   outline: 0;
   padding-left: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-right: 4px;
-  height: 20px;
+  height: 24px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
