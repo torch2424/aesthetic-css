@@ -37,8 +37,7 @@ A vaporwave css framework
 
 # Example Elements
 
-<img src="./readme/buttonExample.png" alt="Button Element Example]" width="150px"/> <img src="./readme/textInputExample.png" alt="Text Input Example" width="150px"/> <img src="./readme/windows95Example.png" alt="Windows 95 Modal Example" width="300px"/> <img src="./readme/windowsXpExample.png" alt="Windows XP Modal Example" width="300px"/> <img src="./readme/crtExample.png" alt="C R T Example" width="300px"/>
-
+<img src="./readme/buttonExample.png" alt="Button Element Example]" width="150px"/> <img src="./readme/textInputExample.png" alt="Text Input Example" width="150px"/> <img src="./readme/crtExample.png" alt="C R T Example" width="300px"/> <img src="./readme/windows95Example.png" alt="Windows 95 Modal Example" width="300px"/> <img src="./readme/windowsXpExample.png" alt="Windows XP Modal Example" width="300px"/> 
 # Installation
 
 ### npm
