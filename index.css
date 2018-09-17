@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Cinzel");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC");
-@import url("https://fonts.googleapis.com/css?family=Monoton");
-@import url("https://fonts.googleapis.com/css?family=VT323");
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
-@import url("https://fonts.googleapis.com/css?family=Limelight");
-@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
-@import url("https://fonts.googleapis.com/css?family=Six+Caps");
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Spectral+SC");
-@import url("https://fonts.googleapis.com/css?family=Mate+SC");
-@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC");
 .aesthetic-bg-gradient {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -295,47 +283,47 @@
 
 @keyframes flicker {
   0% {
-    opacity: 0.98313; }
+    opacity: 0.25574; }
   5% {
-    opacity: 0.4336; }
+    opacity: 0.98112; }
   10% {
-    opacity: 0.1831; }
+    opacity: 0.4589; }
   15% {
-    opacity: 0.60501; }
+    opacity: 0.56088; }
   20% {
-    opacity: 0.72608; }
+    opacity: 0.62893; }
   25% {
-    opacity: 0.57724; }
+    opacity: 0.8904; }
   30% {
-    opacity: 0.49181; }
+    opacity: 0.22394; }
   35% {
-    opacity: 0.8343; }
+    opacity: 0.0068; }
   40% {
-    opacity: 0.81216; }
+    opacity: 0.08057; }
   45% {
-    opacity: 0.59875; }
+    opacity: 0.33324; }
   50% {
-    opacity: 0.19362; }
+    opacity: 0.76471; }
   55% {
-    opacity: 0.82417; }
+    opacity: 0.83905; }
   60% {
-    opacity: 0.01274; }
+    opacity: 0.8586; }
   65% {
-    opacity: 0.74332; }
+    opacity: 0.3863; }
   70% {
-    opacity: 0.16033; }
+    opacity: 0.5222; }
   75% {
-    opacity: 0.32126; }
+    opacity: 0.72954; }
   80% {
-    opacity: 0.73846; }
+    opacity: 0.81072; }
   85% {
-    opacity: 0.98183; }
+    opacity: 0.77832; }
   90% {
-    opacity: 0.96089; }
+    opacity: 0.26068; }
   95% {
-    opacity: 0.87139; }
+    opacity: 0.97441; }
   100% {
-    opacity: 0.08474; } }
+    opacity: 0.339; } }
 
 .aesthetic-effect-crt {
   display: inline-block;
@@ -388,79 +376,79 @@
 
 @keyframes aesthetic-effect-text-glitch-anim-1 {
   0% {
-    clip: rect(34px, 450px, 31px, 0); }
+    clip: rect(109px, 450px, 35px, 0); }
   5.88235% {
-    clip: rect(115px, 450px, 59px, 0); }
+    clip: rect(86px, 450px, 88px, 0); }
   11.76471% {
-    clip: rect(37px, 450px, 63px, 0); }
+    clip: rect(1px, 450px, 45px, 0); }
   17.64706% {
-    clip: rect(54px, 450px, 115px, 0); }
+    clip: rect(7px, 450px, 52px, 0); }
   23.52941% {
-    clip: rect(21px, 450px, 76px, 0); }
+    clip: rect(36px, 450px, 87px, 0); }
   29.41176% {
-    clip: rect(71px, 450px, 19px, 0); }
+    clip: rect(16px, 450px, 56px, 0); }
   35.29412% {
-    clip: rect(8px, 450px, 46px, 0); }
+    clip: rect(26px, 450px, 110px, 0); }
   41.17647% {
-    clip: rect(56px, 450px, 34px, 0); }
+    clip: rect(45px, 450px, 52px, 0); }
   47.05882% {
-    clip: rect(89px, 450px, 72px, 0); }
+    clip: rect(26px, 450px, 10px, 0); }
   52.94118% {
-    clip: rect(113px, 450px, 45px, 0); }
+    clip: rect(82px, 450px, 51px, 0); }
   58.82353% {
-    clip: rect(63px, 450px, 99px, 0); }
+    clip: rect(41px, 450px, 35px, 0); }
   64.70588% {
-    clip: rect(105px, 450px, 101px, 0); }
+    clip: rect(110px, 450px, 112px, 0); }
   70.58824% {
-    clip: rect(88px, 450px, 13px, 0); }
+    clip: rect(33px, 450px, 97px, 0); }
   76.47059% {
-    clip: rect(84px, 450px, 71px, 0); }
+    clip: rect(100px, 450px, 5px, 0); }
   82.35294% {
-    clip: rect(34px, 450px, 61px, 0); }
+    clip: rect(107px, 450px, 80px, 0); }
   88.23529% {
-    clip: rect(29px, 450px, 93px, 0); }
+    clip: rect(2px, 450px, 111px, 0); }
   94.11765% {
-    clip: rect(62px, 450px, 100px, 0); }
+    clip: rect(82px, 450px, 67px, 0); }
   100% {
-    clip: rect(79px, 450px, 43px, 0); } }
+    clip: rect(86px, 450px, 91px, 0); } }
 
 @keyframes aesthetic-effect-text-glitch-anim-2 {
   0% {
-    clip: rect(52px, 450px, 2px, 0); }
+    clip: rect(103px, 450px, 69px, 0); }
   5.88235% {
-    clip: rect(59px, 450px, 41px, 0); }
+    clip: rect(55px, 450px, 114px, 0); }
   11.76471% {
-    clip: rect(36px, 450px, 25px, 0); }
+    clip: rect(43px, 450px, 105px, 0); }
   17.64706% {
-    clip: rect(45px, 450px, 16px, 0); }
+    clip: rect(82px, 450px, 39px, 0); }
   23.52941% {
-    clip: rect(103px, 450px, 84px, 0); }
+    clip: rect(83px, 450px, 48px, 0); }
   29.41176% {
-    clip: rect(42px, 450px, 82px, 0); }
+    clip: rect(87px, 450px, 15px, 0); }
   35.29412% {
-    clip: rect(41px, 450px, 5px, 0); }
+    clip: rect(84px, 450px, 109px, 0); }
   41.17647% {
-    clip: rect(63px, 450px, 48px, 0); }
+    clip: rect(101px, 450px, 61px, 0); }
   47.05882% {
-    clip: rect(73px, 450px, 7px, 0); }
+    clip: rect(100px, 450px, 92px, 0); }
   52.94118% {
-    clip: rect(56px, 450px, 54px, 0); }
+    clip: rect(13px, 450px, 29px, 0); }
   58.82353% {
-    clip: rect(51px, 450px, 60px, 0); }
+    clip: rect(42px, 450px, 72px, 0); }
   64.70588% {
-    clip: rect(94px, 450px, 72px, 0); }
+    clip: rect(75px, 450px, 53px, 0); }
   70.58824% {
-    clip: rect(92px, 450px, 107px, 0); }
+    clip: rect(102px, 450px, 66px, 0); }
   76.47059% {
-    clip: rect(91px, 450px, 58px, 0); }
+    clip: rect(71px, 450px, 115px, 0); }
   82.35294% {
-    clip: rect(100px, 450px, 86px, 0); }
+    clip: rect(16px, 450px, 46px, 0); }
   88.23529% {
-    clip: rect(57px, 450px, 16px, 0); }
+    clip: rect(44px, 450px, 89px, 0); }
   94.11765% {
-    clip: rect(11px, 450px, 12px, 0); }
+    clip: rect(17px, 450px, 28px, 0); }
   100% {
-    clip: rect(90px, 450px, 67px, 0); } }
+    clip: rect(95px, 450px, 39px, 0); } }
   .aesthetic-effect-text-glitch::before, .aesthetic-effect-text-glitch::after {
     content: attr(data-glitch);
     position: absolute;
@@ -477,152 +465,6 @@
     text-shadow: 2px 0 blue;
     animation: aesthetic-effect-text-glitch-anim-2 3s infinite linear alternate-reverse; }
 
-@keyframes aesthetic-effect-element-glitch-background {
-  0% {
-    background-color: red; }
-  100% {
-    background-color: blue; } }
-
-.aesthetic-effect-element-glitch {
-  position: relative;
-  display: inline-block;
-  animation: aesthetic-effect-element-glitch-background 0.25s infinite; }
-
-@keyframes aesthetic-effect-element-glitch-animation-1 {
-  0% {
-    transform: skew(calc(calc(98deg / 100 ) - calc(26deg / 100 )), calc(calc(46deg / 100 ) - calc(128deg / 100 )));
-    opacity: calc(71 / 75); }
-  7% {
-    transform: skew(calc(calc(139deg / 100 ) - calc(86deg / 100 )), calc(calc(51deg / 100 ) - calc(121deg / 100 )));
-    opacity: calc(60 / 75); }
-  10% {
-    transform: skew(calc(calc(23deg / 100 ) - calc(41deg / 100 )), calc(calc(7deg / 100 ) - calc(65deg / 100 )));
-    opacity: calc(86 / 75); }
-  27% {
-    transform: skew(calc(calc(9deg / 100 ) - calc(111deg / 100 )), calc(calc(84deg / 100 ) - calc(28deg / 100 )));
-    opacity: calc(34 / 75); }
-  30% {
-    transform: skew(calc(calc(15deg / 100 ) - calc(108deg / 100 )), calc(calc(141deg / 100 ) - calc(96deg / 100 )));
-    opacity: calc(91 / 75); }
-  35% {
-    transform: skew(calc(calc(45deg / 100 ) - calc(115deg / 100 )), calc(calc(54deg / 100 ) - calc(14deg / 100 )));
-    opacity: calc(78 / 75); }
-  52% {
-    transform: skew(calc(calc(20deg / 100 ) - calc(124deg / 100 )), calc(calc(50deg / 100 ) - calc(39deg / 100 )));
-    opacity: calc(61 / 75); }
-  55% {
-    transform: skew(calc(calc(23deg / 100 ) - calc(80deg / 100 )), calc(calc(77deg / 100 ) - calc(57deg / 100 )));
-    opacity: calc(75 / 75); }
-  50% {
-    transform: skew(calc(calc(83deg / 100 ) - calc(1deg / 100 )), calc(calc(4deg / 100 ) - calc(61deg / 100 )));
-    opacity: calc(91 / 75); }
-  72% {
-    transform: skew(calc(calc(12deg / 100 ) - calc(122deg / 100 )), calc(calc(54deg / 100 ) - calc(56deg / 100 )));
-    opacity: calc(15 / 75); }
-  75% {
-    transform: skew(calc(calc(5deg / 100 ) - calc(78deg / 100 )), calc(calc(68deg / 100 ) - calc(83deg / 100 )));
-    opacity: calc(29 / 75); }
-  80% {
-    transform: skew(calc(calc(29deg / 100 ) - calc(10deg / 100 )), calc(calc(111deg / 100 ) - calc(65deg / 100 )));
-    opacity: calc(93 / 75); }
-  100% {
-    transform: skew(calc(calc(144deg / 100 ) - calc(29deg / 100 )), calc(calc(115deg / 100 ) - calc(90deg / 100 )));
-    opacity: calc(33 / 75); } }
-
-@keyframes aesthetic-effect-element-glitch-animation-2 {
-  0% {
-    transform: skew(calc(calc(131deg / 100 ) - calc(74deg / 100 )), calc(calc(50deg / 100 ) - calc(5deg / 100 )));
-    opacity: calc(96 / 75); }
-  7% {
-    transform: skew(calc(calc(145deg / 100 ) - calc(63deg / 100 )), calc(calc(137deg / 100 ) - calc(3deg / 100 )));
-    opacity: calc(57 / 75); }
-  10% {
-    transform: skew(calc(calc(43deg / 100 ) - calc(92deg / 100 )), calc(calc(46deg / 100 ) - calc(57deg / 100 )));
-    opacity: calc(22 / 75); }
-  27% {
-    transform: skew(calc(calc(45deg / 100 ) - calc(59deg / 100 )), calc(calc(24deg / 100 ) - calc(96deg / 100 )));
-    opacity: calc(78 / 75); }
-  30% {
-    transform: skew(calc(calc(16deg / 100 ) - calc(39deg / 100 )), calc(calc(77deg / 100 ) - calc(137deg / 100 )));
-    opacity: calc(65 / 75); }
-  35% {
-    transform: skew(calc(calc(30deg / 100 ) - calc(144deg / 100 )), calc(calc(137deg / 100 ) - calc(66deg / 100 )));
-    opacity: calc(64 / 75); }
-  52% {
-    transform: skew(calc(calc(142deg / 100 ) - calc(9deg / 100 )), calc(calc(75deg / 100 ) - calc(149deg / 100 )));
-    opacity: calc(5 / 75); }
-  55% {
-    transform: skew(calc(calc(116deg / 100 ) - calc(43deg / 100 )), calc(calc(19deg / 100 ) - calc(10deg / 100 )));
-    opacity: calc(48 / 75); }
-  50% {
-    transform: skew(calc(calc(77deg / 100 ) - calc(68deg / 100 )), calc(calc(94deg / 100 ) - calc(139deg / 100 )));
-    opacity: calc(55 / 75); }
-  72% {
-    transform: skew(calc(calc(25deg / 100 ) - calc(32deg / 100 )), calc(calc(75deg / 100 ) - calc(6deg / 100 )));
-    opacity: calc(82 / 75); }
-  75% {
-    transform: skew(calc(calc(37deg / 100 ) - calc(128deg / 100 )), calc(calc(99deg / 100 ) - calc(46deg / 100 )));
-    opacity: calc(4 / 75); }
-  80% {
-    transform: skew(calc(calc(39deg / 100 ) - calc(17deg / 100 )), calc(calc(110deg / 100 ) - calc(12deg / 100 )));
-    opacity: calc(54 / 75); }
-  100% {
-    transform: skew(calc(calc(22deg / 100 ) - calc(115deg / 100 )), calc(calc(94deg / 100 ) - calc(10deg / 100 )));
-    opacity: calc(90 / 75); } }
-
-@keyframes aesthetic-effect-element-glitch-animation-3 {
-  0% {
-    transform: skew(calc(calc(48deg / 100 ) - calc(68deg / 100 )), calc(calc(91deg / 100 ) - calc(67deg / 100 )));
-    opacity: calc(45 / 75); }
-  7% {
-    transform: skew(calc(calc(82deg / 100 ) - calc(147deg / 100 )), calc(calc(73deg / 100 ) - calc(87deg / 100 )));
-    opacity: calc(27 / 75); }
-  10% {
-    transform: skew(calc(calc(21deg / 100 ) - calc(84deg / 100 )), calc(calc(62deg / 100 ) - calc(14deg / 100 )));
-    opacity: calc(8 / 75); }
-  27% {
-    transform: skew(calc(calc(102deg / 100 ) - calc(143deg / 100 )), calc(calc(107deg / 100 ) - calc(124deg / 100 )));
-    opacity: calc(93 / 75); }
-  30% {
-    transform: skew(calc(calc(115deg / 100 ) - calc(111deg / 100 )), calc(calc(60deg / 100 ) - calc(110deg / 100 )));
-    opacity: calc(6 / 75); }
-  35% {
-    transform: skew(calc(calc(90deg / 100 ) - calc(51deg / 100 )), calc(calc(36deg / 100 ) - calc(132deg / 100 )));
-    opacity: calc(94 / 75); }
-  52% {
-    transform: skew(calc(calc(48deg / 100 ) - calc(129deg / 100 )), calc(calc(23deg / 100 ) - calc(16deg / 100 )));
-    opacity: calc(88 / 75); }
-  55% {
-    transform: skew(calc(calc(20deg / 100 ) - calc(120deg / 100 )), calc(calc(6deg / 100 ) - calc(15deg / 100 )));
-    opacity: calc(57 / 75); }
-  50% {
-    transform: skew(calc(calc(48deg / 100 ) - calc(128deg / 100 )), calc(calc(127deg / 100 ) - calc(23deg / 100 )));
-    opacity: calc(71 / 75); }
-  72% {
-    transform: skew(calc(calc(63deg / 100 ) - calc(56deg / 100 )), calc(calc(54deg / 100 ) - calc(60deg / 100 )));
-    opacity: calc(6 / 75); }
-  75% {
-    transform: skew(calc(calc(116deg / 100 ) - calc(113deg / 100 )), calc(calc(56deg / 100 ) - calc(28deg / 100 )));
-    opacity: calc(50 / 75); }
-  80% {
-    transform: skew(calc(calc(57deg / 100 ) - calc(14deg / 100 )), calc(calc(56deg / 100 ) - calc(24deg / 100 )));
-    opacity: calc(83 / 75); }
-  100% {
-    transform: skew(calc(calc(80deg / 100 ) - calc(110deg / 100 )), calc(calc(98deg / 100 ) - calc(48deg / 100 )));
-    opacity: calc(59 / 75); } }
-  .aesthetic-effect-element-glitch :nth-child(1) {
-    opacity: 0.7; }
-  .aesthetic-effect-element-glitch :nth-child(2) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: aesthetic-effect-element-glitch-animation-2 2.5s infinite; }
-  .aesthetic-effect-element-glitch :nth-child(3) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: aesthetic-effect-element-glitch-animation-3 1s infinite; }
-
 .aesthetic-windows-95-container, .aesthetic-windows-95-modal {
   border: 1px solid;
   box-shadow: 1px 1px 0 0 #000;
@@ -630,6 +472,15 @@
   border-left: 1px solid #DFDFDF;
   display: block;
   background-color: #BFBFBF;
+  padding: 4px; }
+
+.aesthetic-windows-95-container-indent {
+  border: 1px solid;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  background-color: #FFF;
   padding: 4px; }
 
 .aesthetic-windows-xp-container {
@@ -1438,88 +1289,4 @@
   font-family: Times, Times New Roman, Georgia, serif;
   font-weight: lighter; }
   .aesthetic-font h1, .aesthetic-font h2, .aesthetic-font h3, .aesthetic-font h4, .aesthetic-font h5, .aesthetic-font h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-cinzel {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Cinzel", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-cinzel h1, .aesthetic-font-cinzel h2, .aesthetic-font-cinzel h3, .aesthetic-font-cinzel h4, .aesthetic-font-cinzel h5, .aesthetic-font-cinzel h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-playfair {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Playfair Display SC", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-playfair h1, .aesthetic-font-playfair h2, .aesthetic-font-playfair h3, .aesthetic-font-playfair h4, .aesthetic-font-playfair h5, .aesthetic-font-playfair h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-monoton {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Monoton", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-monoton h1, .aesthetic-font-monoton h2, .aesthetic-font-monoton h3, .aesthetic-font-monoton h4, .aesthetic-font-monoton h5, .aesthetic-font-monoton h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-VT323 {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "VT323", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-VT323 h1, .aesthetic-font-VT323 h2, .aesthetic-font-VT323 h3, .aesthetic-font-VT323 h4, .aesthetic-font-VT323 h5, .aesthetic-font-VT323 h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-press-start {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Press Start 2P", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-press-start h1, .aesthetic-font-press-start h2, .aesthetic-font-press-start h3, .aesthetic-font-press-start h4, .aesthetic-font-press-start h5, .aesthetic-font-press-start h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-limelight {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Limelight", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-limelight h1, .aesthetic-font-limelight h2, .aesthetic-font-limelight h3, .aesthetic-font-limelight h4, .aesthetic-font-limelight h5, .aesthetic-font-limelight h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-share-tech-mono {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Share Tech Mono", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-share-tech-mono h1, .aesthetic-font-share-tech-mono h2, .aesthetic-font-share-tech-mono h3, .aesthetic-font-share-tech-mono h4, .aesthetic-font-share-tech-mono h5, .aesthetic-font-share-tech-mono h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-six-caps {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Six Caps", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-six-caps h1, .aesthetic-font-six-caps h2, .aesthetic-font-six-caps h3, .aesthetic-font-six-caps h4, .aesthetic-font-six-caps h5, .aesthetic-font-six-caps h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-cutive-mono {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Cutive Mono", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-cutive-mono h1, .aesthetic-font-cutive-mono h2, .aesthetic-font-cutive-mono h3, .aesthetic-font-cutive-mono h4, .aesthetic-font-cutive-mono h5, .aesthetic-font-cutive-mono h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-spectral {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Spectral SC", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-spectral h1, .aesthetic-font-spectral h2, .aesthetic-font-spectral h3, .aesthetic-font-spectral h4, .aesthetic-font-spectral h5, .aesthetic-font-spectral h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-mate {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "Mate SC", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-mate h1, .aesthetic-font-mate h2, .aesthetic-font-mate h3, .aesthetic-font-mate h4, .aesthetic-font-mate h5, .aesthetic-font-mate h6 {
-    font-weight: lighter; }
-
-.aesthetic-font-im-fell-french-canon {
-  font-family: Times, Times New Roman, Georgia, serif;
-  font-weight: lighter;
-  font-family: "IM Fell French Canon SC", Times, Times New Roman, Georgia, serif; }
-  .aesthetic-font-im-fell-french-canon h1, .aesthetic-font-im-fell-french-canon h2, .aesthetic-font-im-fell-french-canon h3, .aesthetic-font-im-fell-french-canon h4, .aesthetic-font-im-fell-french-canon h5, .aesthetic-font-im-fell-french-canon h6 {
     font-weight: lighter; }
