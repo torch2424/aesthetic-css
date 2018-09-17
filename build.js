@@ -18,9 +18,17 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
 </script>
 `;
 
+// Get all of the aesthetic css
+const vaporCss = fs.readFileSync('./dist/index.css', 'utf8').toString();
+
+// Log out the size of the CSS
+console.log(`
+  A E S T H E T I C CSS Size: ${Buffer.byteLength(vaporCss, 'utf8') / 1024 }KB
+`);
+
 // Our mustace data object
 const mustacheData = {
-  vaporCss: fs.readFileSync('./dist/index.css', 'utf8').toString(),
+  vaporCss: vaporCss,
   bootAnimation: argv.dev ? 'animation: boot-animation 0s;' : 'animation: boot-animation 7s;',
   highlightJsCss: fs.readFileSync('./demo/highlightJs.css', 'utf8').toString(),
   liveReload: argv.dev ? livereloadHtmlScript : '',
