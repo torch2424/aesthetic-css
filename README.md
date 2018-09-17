@@ -1,9 +1,7 @@
-# *A E S T H E T I C*
+# *A E S T H E T I C   C S S*
 
 <!--- Badges -->
 
-[![Build Status](https://travis-ci.org/torch2424/aesthetic-css.svg?branch=master)](https://travis-ci.org/torch2424/aesthetic-css)
-![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/aesthetic-css.svg)
 ![npm](https://img.shields.io/npm/dt/aesthetic-css.svg)
 ![GitHub](https://img.shields.io/github/license/torch2424/aesthetic-css.svg)
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/torch2424)
