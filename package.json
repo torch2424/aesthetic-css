@@ -1,6 +1,6 @@
 {
   "name": "aesthetic-css",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "A vaporwave CSS framework",
   "main": "index.js",
   "scripts": {
