@@ -6,6 +6,12 @@
   padding: 4px;
 }
 
+.aesthetic-windows-95-container-indent {
+  @include windows-95-push-in; 
+  background-color: $aesthetic-windows-95-white;
+  padding: 4px;
+}
+
 .aesthetic-windows-xp-container {
   @include windows-xp-hover-over;
   display: block;

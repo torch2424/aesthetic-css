@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container {
+
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.table-of-contents, .table-of-contents ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.crt-image {
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color-container {
+  display: block;
+}
+
+.color-container h3 + div[class] {
+  width: 50px;
+  height: 25px;
+  border: 1px solid #020202;
+}
+
+.margin-top {
+  margin-top: 10px;
+}
+
+.taskbar-wrapper .aesthetic-windows-95-taskbar {
+  margin-top: 75px;
+  margin-bottom: 10px;
+}
+
+.dropdown-wrapper .snippet-container {
+  margin-top: 125px;
+}
+
+@keyframes boot-animation {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  75% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.boot-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  pointer-events: none;
+
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+
+  {{{bootAnimation}}}
+  background-color: black;
+  z-index: 10000;
+}
+
+.boot-animation * {
+  color: #FFF;
+}
+
+.snippet-container {
+  padding: 5px;
+
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  background-color: #fbf1c7;
+
+  overflow: auto;
+}
+
+.snippet-container pre {
+  margin: 0px;
+  display: inline-flex;
+}
+

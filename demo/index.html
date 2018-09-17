@@ -25,119 +25,7 @@
 
         {{{highlightJsCss}}}
 
-        html {
-          height: 100%;
-        }
-
-        body {
-          height: 100%;
-          min-height: 100vh;
-        }
-
-        .center {
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-
-        .container {
-
-          padding: 10px;
-          margin-top: 10px;
-          margin-bottom: 10px;
-          max-width: 800px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        .header {
-          text-align: center;
-        }
-
-        .crt-image {
-          width: 100%;
-          max-width: 400px;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        .color-container {
-            display: block;
-        }
-
-        .color-container h3 + div[class] {
-          width: 50px;
-          height: 25px;
-          border: 1px solid #020202;
-        }
-
-        .margin-top {
-          margin-top: 10px;
-        }
-
-        .aesthetic-windows-95-taskbar-wrapper .aesthetic-windows-95-taskbar {
-          margin-top: 75px;
-          margin-bottom: 10px;
-        }
-
-        .dropdown-wrapper .snippet-container {
-          margin-top: 125px;
-        }
-
-        @keyframes boot-animation {
-          0% {
-            opacity: 1;
-            pointer-events: all;
-          }
-          75% {
-            opacity: 1;
-            pointer-events: all;
-          }
-          100% {
-            opacity: 0;
-            pointer-events: none;
-          }
-        }
-
-        .boot-animation {
-          position: fixed;
-          top: 0;
-          left: 0;
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-
-          pointer-events: none;
-
-          width: 100vw;
-          height: 100vh;
-          opacity: 0;
-
-          {{{bootAnimation}}}
-          background-color: black;
-          z-index: 10000;
-        }
-
-        .boot-animation * {
-          color: #FFF;
-        }
-
-        .snippet-container {
-          padding: 5px;
-
-          border-top: 1px solid #000;
-          border-left: 1px solid #000;
-          border-right: 1px solid #DFDFDF;
-          border-bottom: 1px solid #DFDFDF;
-          background-color: #fbf1c7;
-        }
-
-        .snippet-container pre {
-          margin: 0px;
-          display: inline-flex;
-        }
+        {{{demoCss}}}
       </style>
 
       <!-- Livereload script for development -->
@@ -177,70 +65,53 @@
     <div class="container aesthetic-windows-95-container">
       <div class="header">
         <h1>A E S T H E T I C</h1>
-        <p><i>A vaporwave CSS framework</i></p>
+        <p><i>A vaporwave CSS framework.</i></p>
         <a href="https://github.com/torch2424/aesthetic" target="_blank">Fork me on <i>G I T H U B</i></a>
       </div>
 
-      <h1>ELEMENTS</h1>
+      <h1>Table of Contents</h1>
+      <ul class="table-of-contents">
+        {{{tableOfContents}}}
+      </ul>
+
+      <h1>Elements</h1>
       <div>
 
-        <!-- https://giphy.com/gifs/zsmE8wKNUDsc0/media -->
-        {{{elementsWindowsXpModal}}}
+        {{{elementsButton}}}
 
-        {{{elementsWindowsXpTabs}}}
+        {{{elementsTextInput}}}
 
-        {{{elementsWindowsXpSelect}}}
+        {{{elementsSelect}}}
 
-        {{{elementsWindowsXpTextInput}}}
+        {{{elementsCheckbox}}}
 
-        {{{elementsWindowsXpCheckbox}}}
+        {{{elementsRadio}}}
 
-        {{{elementsWindowsXpRadio}}}
-        
-        <div class="dropdown-wrapper">
-          {{{elementsWindowsXpDropdowns}}}
-        </div>
+        {{{elementsLoaders}}}
 
-        {{{elementsWindowsXpContainer}}}
-
-        {{{elementsWindowsXpButton}}}
+        {{{elementsContainer}}}
 
         {{{elementsNotification}}}
 
-        {{{elementsWindowsXpNotification}}}
-
-        {{{elementsWindows95Tabs}}}
-
-        <!-- https://giphy.com/gifs/piece-screens-startup-edl5t7nDVPtC/media -->
-        {{{elementsWindows95Modal}}}
-
-        {{{elementsWindows95Button}}}
-
-        <div class="aesthetic-windows-95-taskbar-wrapper">
-          {{{elementsWindows95Taskbar}}}
-        </div>
-
-        {{{elementsWindows95Select}}}
-
-        {{{elementsWindows95Loaders}}}
-
-        {{{elementsWindowsXpLoaders}}}
-        
         <div class="dropdown-wrapper">
-          {{{elementsWindows95Dropdowns}}}
+          {{{elementsDropdowns}}}
         </div>
 
-        {{{elementsWindows95TextInput}}}
+        {{{elementsTabs}}}
 
-        {{{elementsWindows95Checkbox}}}
+        <!-- https://giphy.com/gifs/zsmE8wKNUDsc0/media -->
+        <!-- https://giphy.com/gifs/piece-screens-startup-edl5t7nDVPtC/media -->
+        {{{elementsModal}}}
 
-        {{{elementsWindows95Radio}}}
-
-        {{{elementsWindows95Container}}}
+        <div class="taskbar-wrapper">
+          {{{elementsTaskbar}}}
+        </div>
 
       </div>
 
-      <h1>EFFECTS</h1>
+      <hr />
+
+      <h1>Effects</h1>
       <div>
 
         <!-- Giphy Link: https://giphy.com/gifs/bored-cowboy-bebop-gQbVzXQQbGO7C -->
@@ -250,16 +121,17 @@
 
       </div>
 
-      <h1>COLORS</h1>
+      <hr />
+
+      <h1>Colors</h1>
       <p>Colors have both a font and background color class. To use the font color, use the class: "aesthetic-COLOR_NAME_HERE-color". To use the background color, use the class: "aesthetic-COLOR_NAME_HERE-bg-color"</p>
       <div class="color-container">
         {{{colorsColors}}}
       </div>
 
-      <h1>FONTS</h1>
-      {{{fontsFonts}}}
+      <hr />
 
-      <h1>FONT MODIFIERS</h1>
+      <h1>Fonts</h1>
       {{{fontsFontModifiers}}}
 
     </div>
