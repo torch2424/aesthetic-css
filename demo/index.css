@@ -18,9 +18,11 @@ body {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 90vw;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .header {
@@ -30,6 +32,12 @@ body {
 .table-of-contents, .table-of-contents ul {
   margin: 0px;
   padding: 0px;
+
+  list-style-type: none;
+}
+
+amp-video {
+  max-width: 400px;
 }
 
 .crt-image {
@@ -93,7 +101,6 @@ body {
   height: 100vh;
   opacity: 0;
 
-  {{{bootAnimation}}}
   background-color: black;
   z-index: 10000;
 }
