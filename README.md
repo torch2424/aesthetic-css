@@ -25,6 +25,8 @@ A vaporwave css framework
 * [Contributing](#contributing)
   * [Installation](#installation-1)
   * [Npm Scripts &amp; CLI Commands](#npm-scripts--cli-commands)
+* [Reference Material](#reference-material)
+* [Authors](#authors)
 * [License](#license)
 
 # Features
@@ -34,6 +36,8 @@ A vaporwave css framework
 * Framework fits in ~40KB (as of 9/17/18) 👌
 
 * Written with [SASS](https://sass-lang.com/), only import what you need 😍
+
+* Compatible with [AMPHTML](https://github.com/ampproject/amphtml) ⚡
 
 # Example Elements
 
@@ -59,6 +63,8 @@ For example:
 `@import "../node_modules/aesthetic-css/src/variables";`
 
 # Suggested Fonts
+
+
 
 ### Google Fonts
 
@@ -107,6 +113,22 @@ npm run livereload
 # Watch the files for changes, and build
 npm run watch
 ```
+
+# Reference Material
+
+* [felixrieseberg/windows95](https://github.com/felixrieseberg/windows95)
+* [httpsters](http://httpsters.me)
+* [r/VaporwaveAesthetics/](https://www.reddit.com/r/VaporwaveAesthetics/)
+* [HTML Nostalgia: 10 Things From the 90s](https://icons8.com/articles/html-nostalgia-10-things-from-the-90s/)
+* [5 ESSENTIAL VAPORWAVE FONTS](https://www.hipsthetic.com/5-essential-vaporwave-fonts/)
+* [windows_98.css](https://github.com/contra/windows_98.css)
+* [seapunk vaporwave colourlovers](http://www.colourlovers.com/palette/3636765/seapunk_vaporwave)
+* [Text Glitch Effect](https://css-tricks.com/glitch-effect-text-images-svg/)
+* [Windows 95 In your Browser](https://win95.ajf.me/)
+
+# Authors
+
+[Aaron Turner](https://github.com/torch2424) and [Daniel Gomez](https://github.com/echo-exe)
 
 # License
 
