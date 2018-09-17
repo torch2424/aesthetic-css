@@ -21,7 +21,7 @@ A vaporwave css framework
   * [html link](#html-link)
 * [Importing Modules](#importing-modules)
 * [Suggested Fonts](#suggested-fonts)
-* [Google Fonts](#google-fonts)
+  * [Google Fonts](#google-fonts)
 * [Contributing](#contributing)
   * [Installation](#installation-1)
   * [Npm Scripts &amp; CLI Commands](#npm-scripts--cli-commands)
