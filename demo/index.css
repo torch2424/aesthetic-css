@@ -40,11 +40,8 @@ amp-video {
   max-width: 400px;
 }
 
-.crt-image {
-  width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+.crt-wrapper {
+  overflow: hidden;
 }
 
 .color-container {

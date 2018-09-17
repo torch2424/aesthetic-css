@@ -8,17 +8,40 @@
 
 A vaporwave css framework
 
-[Demo / Debugger](https://torch2424.github.io/aesthetic-css/)
+[Demo / Documentation](https://torch2424.github.io/aesthetic-css/)
 
 ![Aesthetic CSS Load Intro](./readme/aestheticLoop.gif)
 
 # Table Of Contents
 
+* [Features](#features)
+* [Example Elements](#example-elements)
+* [Installation](#installation)
+  * [npm](#npm)
+  * [html link](#html-link)
+* [Importing Modules](#importing-modules)
+* [Suggested Fonts](#suggested-fonts)
+* [Google Fonts](#google-fonts)
+* [Contributing](#contributing)
+  * [Installation](#installation-1)
+  * [Npm Scripts &amp; CLI Commands](#npm-scripts--cli-commands)
+* [License](#license)
+
 # Features
 
-* 
+* Includes Elements, Colors, and Effects ✨
+
+* Framework fits in ~40KB (as of 9/17/18) 👌
+
+* Written with [SASS](https://sass-lang.com/), only import what you need 😍
 
 # Example Elements
+
+![Button Element Example](./readme/buttonExample)
+![Text Input Example](./readme/textInputExample)
+![Windows 95 Modal Example](./readme/windows95Example)
+![Windows XP Modal Example](./readme/windowsXpExample)
+![C R T Example](./readme/crtExample)
 
 # Installation
 
@@ -66,6 +89,29 @@ Feel free to fork and submit PRs! Any help is much appreciated, and would be a t
 Just your standard node app. Install Node with [nvm](https://github.com/creationix/nvm), `git clone` the project, and `npm install`, and you should be good to go!
 
 ### Npm Scripts & CLI Commands
+
+```
+# Watch for changes and serve the project. You want to use this for development/contributing.
+npm run dev
+
+# Build the demo, and the Sass to css
+npm run build
+
+# Runs npm run build, but includes the livereload script. Used in npm run dev
+npm run build:dev
+
+# Only builds the Sass to css
+npm run style:build
+
+# Run the http server for development
+npm run serve
+
+# Run the livereload server to livereload the http server
+npm run livereload
+
+# Watch the files for changes, and build
+npm run watch
+```
 
 # License
 
