@@ -1,9 +1,30 @@
-# aesthetic
+# *A E S T H E T I C*
+
 A vaporwave css framework
+
+[Demo / Debugger](https://torch2424.github.io/aesthetic-css/)
+
+![Aesthetic CSS Load Intro](./readme/aestheticLoop.gif)
+
+# Installation
+
+### npm
+
+`npm install --save aesthetic-css`
+
+### html link
+
+Feel free to download the latest `aesthetic.css` from the master branch, or one of our [releases](https://github.com/torch2424/aesthetic-css/releases).
+
+`<link rel="stylesheet" type="text/css" href="aesthetics.css">`
 
 # Importing Modules
 
-Similar to [Bulma's Modularity](https://bulma.io/documentation/overview/modular/)
+Similar to [Bulma's Modularity](https://bulma.io/documentation/overview/modular/), you can import specific [sass](https://sass-lang.com/) files from the [src directory](./src).
+
+For example:
+
+`@import "../node_modules/aesthetic-css/src/variables";`
 
 # Suggested Fonts
 
@@ -21,3 +42,17 @@ Similar to [Bulma's Modularity](https://bulma.io/documentation/overview/modular/
 * [Spectral SC](https://fonts.google.com/specimen/Spectral+SC)
 * [Matte SC](https://fonts.google.com/specimen/Mate+SC)
 * [Im Fell French Cannon SC]( https://fonts.google.com/specimen/IM+Fell+French+Canon+SC)
+
+# Contributing
+
+Feel free to fork and submit PRs! Any help is much appreciated, and would be a ton of fun! I would appreciate opening an issue, or replying to an already open issue to express intent of trying to solve the issue, and we discuss.
+
+### Installation
+
+Just your standard node app. Install Node with [nvm](https://github.com/creationix/nvm), `git clone` the project, and `npm install`, and you should be good to go!
+
+### Npm Scripts & CLI Commands
+
+# License
+
+Licensed under [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/). 🐦

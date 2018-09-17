@@ -1,0 +1,1292 @@
+.aesthetic-bg-gradient {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(#C774E8, #94D0FF); }
+
+.aesthetic-white-color {
+  color: #FAFAFA; }
+
+.aesthetic-white-bg-color {
+  background-color: #FAFAFA; }
+
+.aesthetic-black-color {
+  color: #020202; }
+
+.aesthetic-black-bg-color {
+  background-color: #020202; }
+
+.aesthetic-25-transparent-color {
+  color: rgba(0, 0, 0, 0.25); }
+
+.aesthetic-25-transparent-bg-color {
+  background-color: rgba(0, 0, 0, 0.25); }
+
+.aesthetic-50-transparent-color {
+  color: rgba(0, 0, 0, 0.5); }
+
+.aesthetic-50-transparent-bg-color {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.aesthetic-75-transparent-color {
+  color: rgba(0, 0, 0, 0.75); }
+
+.aesthetic-75-transparent-bg-color {
+  background-color: rgba(0, 0, 0, 0.75); }
+
+.aesthetic-purple-color {
+  color: #C774E8; }
+
+.aesthetic-purple-bg-color {
+  background-color: #C774E8; }
+
+.aesthetic-light-purple-color {
+  color: #AD8CFF; }
+
+.aesthetic-light-purple-bg-color {
+  background-color: #AD8CFF; }
+
+.aesthetic-pink-color {
+  color: #FF6AD5; }
+
+.aesthetic-pink-bg-color {
+  background-color: #FF6AD5; }
+
+.aesthetic-blue-color {
+  color: #8795E8; }
+
+.aesthetic-blue-bg-color {
+  background-color: #8795E8; }
+
+.aesthetic-light-blue-color {
+  color: #94D0FF; }
+
+.aesthetic-light-blue-bg-color {
+  background-color: #94D0FF; }
+
+.aesthetic-green-color {
+  color: #10D7AE; }
+
+.aesthetic-green-bg-color {
+  background-color: #10D7AE; }
+
+.aesthetic-arizona-pink-color {
+  color: #FA7785; }
+
+.aesthetic-arizona-pink-bg-color {
+  background-color: #FA7785; }
+
+.aesthetic-arizona-black-color {
+  color: #24211A; }
+
+.aesthetic-arizona-black-bg-color {
+  background-color: #24211A; }
+
+.aesthetic-arizona-lime-color {
+  color: #D5D87D; }
+
+.aesthetic-arizona-lime-bg-color {
+  background-color: #D5D87D; }
+
+.aesthetic-arizona-green-color {
+  color: #B1D4B6; }
+
+.aesthetic-arizona-green-bg-color {
+  background-color: #B1D4B6; }
+
+.aesthetic-arizona-blue-color {
+  color: #53CBBF; }
+
+.aesthetic-arizona-blue-bg-color {
+  background-color: #53CBBF; }
+
+.aesthetic-pepsi-blue-color {
+  color: #123DFF; }
+
+.aesthetic-pepsi-blue-bg-color {
+  background-color: #123DFF; }
+
+.aesthetic-pepsi-red-color {
+  color: #E11C2D; }
+
+.aesthetic-pepsi-red-bg-color {
+  background-color: #E11C2D; }
+
+.aesthetic-pepsi-white-color {
+  color: #FFFFFF; }
+
+.aesthetic-pepsi-white-bg-color {
+  background-color: #FFFFFF; }
+
+.aesthetic-pepsi-cola-color {
+  color: #490104; }
+
+.aesthetic-pepsi-cola-bg-color {
+  background-color: #490104; }
+
+.aesthetic-pepsi-grey-color {
+  color: #C0C0C0; }
+
+.aesthetic-pepsi-grey-bg-color {
+  background-color: #C0C0C0; }
+
+.aesthetic-windows-95-grey-color {
+  color: #BFBFBF; }
+
+.aesthetic-windows-95-grey-bg-color {
+  background-color: #BFBFBF; }
+
+.aesthetic-windows-95-grey-border-color {
+  color: #DFDFDF; }
+
+.aesthetic-windows-95-grey-border-bg-color {
+  background-color: #DFDFDF; }
+
+.aesthetic-windows-95-green-color {
+  color: #218763; }
+
+.aesthetic-windows-95-green-bg-color {
+  background-color: #218763; }
+
+.aesthetic-windows-95-blue-color {
+  color: #000084; }
+
+.aesthetic-windows-95-blue-bg-color {
+  background-color: #000084; }
+
+.aesthetic-windows-xp-green-color {
+  color: #419642; }
+
+.aesthetic-windows-xp-green-bg-color {
+  background-color: #419642; }
+
+.aesthetic-windows-xp-blue-color {
+  color: #005cf5; }
+
+.aesthetic-windows-xp-blue-bg-color {
+  background-color: #005cf5; }
+
+.aesthetic-windows-xp-light-blue-color {
+  color: #8aa2cb; }
+
+.aesthetic-windows-xp-light-blue-bg-color {
+  background-color: #8aa2cb; }
+
+.aesthetic-windows-xp-dark-blue-color {
+  color: #044cdc; }
+
+.aesthetic-windows-xp-dark-blue-bg-color {
+  background-color: #044cdc; }
+
+.aesthetic-windows-xp-orange-color {
+  color: #e26725; }
+
+.aesthetic-windows-xp-orange-bg-color {
+  background-color: #e26725; }
+
+.aesthetic-windows-xp-light-orange-color {
+  color: #efc47b; }
+
+.aesthetic-windows-xp-light-orange-bg-color {
+  background-color: #efc47b; }
+
+.aesthetic-windows-xp-dark-orange-color {
+  color: #b7371a; }
+
+.aesthetic-windows-xp-dark-orange-bg-color {
+  background-color: #b7371a; }
+
+.aesthetic-windows-xp-beige-color {
+  color: #ece9d6; }
+
+.aesthetic-windows-xp-beige-bg-color {
+  background-color: #ece9d6; }
+
+.aesthetic-windows-xp-white-color {
+  color: #f8f4f1; }
+
+.aesthetic-windows-xp-white-bg-color {
+  background-color: #f8f4f1; }
+
+.aesthetic-windows-xp-black-color {
+  color: #070707; }
+
+.aesthetic-windows-xp-black-bg-color {
+  background-color: #070707; }
+
+.aesthetic-windows-xp-border-light-color {
+  color: #c9cac4; }
+
+.aesthetic-windows-xp-border-light-bg-color {
+  background-color: #c9cac4; }
+
+.aesthetic-windows-xp-border-dark-color {
+  color: #808080; }
+
+.aesthetic-windows-xp-border-dark-bg-color {
+  background-color: #808080; }
+
+.aesthetic-windows-xp-shadow-color {
+  color: #c9cac4; }
+
+.aesthetic-windows-xp-shadow-bg-color {
+  background-color: #c9cac4; }
+
+.aesthetic-font-modifier-outline-black {
+  font-weight: bold;
+  color: #FAFAFA;
+  text-shadow: -1px -1px 1px #020202, 1px -1px 1px #020202, -1px 1px 1px #020202, 1px 1px 1px #020202; }
+
+.aesthetic-font-modifier-outline-pink {
+  font-weight: bold;
+  color: #FAFAFA;
+  text-shadow: -1px -1px 1px #FF6AD5, 1px -1px 1px #FF6AD5, -1px 1px 1px #FF6AD5, 1px 1px 1px #FF6AD5; }
+
+.aesthetic-font-modifier-outline-purple {
+  font-weight: bold;
+  color: #FAFAFA;
+  text-shadow: -1px -1px 1px #C774E8, 1px -1px 1px #C774E8, -1px 1px 1px #C774E8, 1px 1px 1px #C774E8; }
+
+.aesthetic-font-modifier-gradient-arizona {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  background-image: linear-gradient(to left, #FA7785, #D5D87D, #B1D4B6, #53CBBF); }
+
+.aesthetic-font-modifier-gradient-pink-blue {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  background-image: linear-gradient(to right, #FF6AD5, #8795E8); }
+
+.aesthetic-font-modifier-gradient-pink-green {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  background-image: linear-gradient(to right, #FF6AD5, #10D7AE); }
+
+.aesthetic-font-modifier-gradient-green-pink {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  background-image: linear-gradient(to right, #10D7AE, #FF6AD5); }
+
+.aesthetic-font-modifier-gradient-purple-blue {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline;
+  background-image: linear-gradient(to right, #C774E8, #8795E8); }
+
+@keyframes flicker {
+  0% {
+    opacity: 0.64516; }
+  5% {
+    opacity: 0.14498; }
+  10% {
+    opacity: 0.45859; }
+  15% {
+    opacity: 0.96701; }
+  20% {
+    opacity: 0.39187; }
+  25% {
+    opacity: 0.75238; }
+  30% {
+    opacity: 0.15513; }
+  35% {
+    opacity: 0.09817; }
+  40% {
+    opacity: 0.1101; }
+  45% {
+    opacity: 0.38346; }
+  50% {
+    opacity: 0.23513; }
+  55% {
+    opacity: 0.51059; }
+  60% {
+    opacity: 0.32321; }
+  65% {
+    opacity: 0.97128; }
+  70% {
+    opacity: 0.1675; }
+  75% {
+    opacity: 0.95425; }
+  80% {
+    opacity: 0.04611; }
+  85% {
+    opacity: 0.25029; }
+  90% {
+    opacity: 0.02162; }
+  95% {
+    opacity: 0.04055; }
+  100% {
+    opacity: 0.4636; } }
+
+.aesthetic-effect-crt {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #121010; }
+  .aesthetic-effect-crt::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    animation: flicker 0.15s infinite; }
+  .aesthetic-effect-crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none; }
+
+/*
+  (TEXT) PARAMS
+  =================
+  1. Namespace
+  2. Intensity
+  3. Text color
+  5. Highlight #1 color
+  6. Highlight #2 color
+  7. Width (px)
+  8. Height (px)
+*/
+.aesthetic-effect-text-glitch {
+  color: white;
+  position: relative; }
+
+@keyframes aesthetic-effect-text-glitch-anim-1 {
+  0% {
+    clip: rect(29px, 450px, 29px, 0); }
+  5.88235% {
+    clip: rect(90px, 450px, 75px, 0); }
+  11.76471% {
+    clip: rect(102px, 450px, 42px, 0); }
+  17.64706% {
+    clip: rect(70px, 450px, 74px, 0); }
+  23.52941% {
+    clip: rect(46px, 450px, 35px, 0); }
+  29.41176% {
+    clip: rect(93px, 450px, 110px, 0); }
+  35.29412% {
+    clip: rect(112px, 450px, 24px, 0); }
+  41.17647% {
+    clip: rect(74px, 450px, 20px, 0); }
+  47.05882% {
+    clip: rect(71px, 450px, 65px, 0); }
+  52.94118% {
+    clip: rect(23px, 450px, 38px, 0); }
+  58.82353% {
+    clip: rect(57px, 450px, 20px, 0); }
+  64.70588% {
+    clip: rect(108px, 450px, 108px, 0); }
+  70.58824% {
+    clip: rect(1px, 450px, 19px, 0); }
+  76.47059% {
+    clip: rect(53px, 450px, 15px, 0); }
+  82.35294% {
+    clip: rect(109px, 450px, 41px, 0); }
+  88.23529% {
+    clip: rect(4px, 450px, 31px, 0); }
+  94.11765% {
+    clip: rect(42px, 450px, 103px, 0); }
+  100% {
+    clip: rect(97px, 450px, 87px, 0); } }
+
+@keyframes aesthetic-effect-text-glitch-anim-2 {
+  0% {
+    clip: rect(65px, 450px, 54px, 0); }
+  5.88235% {
+    clip: rect(14px, 450px, 24px, 0); }
+  11.76471% {
+    clip: rect(34px, 450px, 19px, 0); }
+  17.64706% {
+    clip: rect(98px, 450px, 71px, 0); }
+  23.52941% {
+    clip: rect(53px, 450px, 10px, 0); }
+  29.41176% {
+    clip: rect(36px, 450px, 50px, 0); }
+  35.29412% {
+    clip: rect(88px, 450px, 98px, 0); }
+  41.17647% {
+    clip: rect(60px, 450px, 59px, 0); }
+  47.05882% {
+    clip: rect(95px, 450px, 108px, 0); }
+  52.94118% {
+    clip: rect(7px, 450px, 66px, 0); }
+  58.82353% {
+    clip: rect(44px, 450px, 42px, 0); }
+  64.70588% {
+    clip: rect(113px, 450px, 38px, 0); }
+  70.58824% {
+    clip: rect(18px, 450px, 33px, 0); }
+  76.47059% {
+    clip: rect(39px, 450px, 70px, 0); }
+  82.35294% {
+    clip: rect(79px, 450px, 106px, 0); }
+  88.23529% {
+    clip: rect(64px, 450px, 63px, 0); }
+  94.11765% {
+    clip: rect(44px, 450px, 99px, 0); }
+  100% {
+    clip: rect(8px, 450px, 11px, 0); } }
+  .aesthetic-effect-text-glitch::before, .aesthetic-effect-text-glitch::after {
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    clip: rect(0, 0, 0, 0); }
+  .aesthetic-effect-text-glitch::after {
+    left: 2px;
+    text-shadow: -1px 0 red;
+    animation: aesthetic-effect-text-glitch-anim-1 2s infinite linear alternate-reverse; }
+  .aesthetic-effect-text-glitch::before {
+    left: -2px;
+    text-shadow: 2px 0 blue;
+    animation: aesthetic-effect-text-glitch-anim-2 3s infinite linear alternate-reverse; }
+
+.aesthetic-windows-95-container, .aesthetic-windows-95-modal {
+  border: 1px solid;
+  box-shadow: 1px 1px 0 0 #000;
+  border-top: 1px solid #DFDFDF;
+  border-left: 1px solid #DFDFDF;
+  display: block;
+  background-color: #BFBFBF;
+  padding: 4px; }
+
+.aesthetic-windows-95-container-indent {
+  border: 1px solid;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  background-color: #FFF;
+  padding: 4px; }
+
+.aesthetic-windows-xp-container {
+  border: 1px solid;
+  box-shadow: 1px 1px 0 0 #c9cac4;
+  border-top: 1px solid #c9cac4;
+  border-left: 1px solid #c9cac4;
+  border-bottom: 1px solid #808080;
+  border-right: 1px solid #808080;
+  display: block;
+  background-color: #f8f4f1;
+  padding: 4px; }
+
+@keyframes aesthetic-windows-95-boot-infinite-loader {
+  0% {
+    transform: translate(-220%); }
+  100% {
+    transform: translate(160%); } }
+
+.aesthetic-windows-95-boot-loader {
+  width: 100%;
+  height: 20px;
+  background-color: #BFBFBF;
+  overflow: hidden;
+  font-size: 0; }
+
+.aesthetic-windows-95-boot-loader > * {
+  width: 75%;
+  height: 100%;
+  opacity: 0.5;
+  background: linear-gradient(to right, #BFBFBF 0%, #000084 15%, #000084 85%, #BFBFBF 100%);
+  display: inline-block;
+  margin-right: 1px;
+  animation: aesthetic-windows-95-boot-infinite-loader 4.5s infinite;
+  animation-timing-function: linear; }
+
+@keyframes aesthetic-windows-xp-infinite-loader {
+  0% {
+    transform: translate(-50px); }
+  100% {
+    transform: translate(160px); } }
+
+.aesthetic-windows-xp-loader {
+  width: 150px;
+  height: 10px;
+  border: 2px solid #b2b2b2;
+  border-radius: 7px;
+  padding: 2px 1px;
+  overflow: hidden;
+  font-size: 0; }
+
+.aesthetic-windows-xp-loader > * {
+  width: 9px;
+  height: 100%;
+  background: linear-gradient(to bottom, #2838c7 0%, #5979ef 17%, #869ef3 32%, #869ef3 45%, #5979ef 59%, #2838c7 100%);
+  display: inline-block;
+  margin-right: 2px;
+  animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;
+  animation-timing-function: linear; }
+
+.aesthetic-windows-95-loader {
+  width: 150px;
+  height: 20px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  border-radius: 0px;
+  padding: 1px 1px;
+  background-color: #BFBFBF;
+  overflow: hidden;
+  font-size: 0; }
+
+.aesthetic-windows-95-loader > * {
+  width: 12px;
+  height: 100%;
+  background: #000084;
+  display: inline-block;
+  margin-right: 1px;
+  animation: aesthetic-windows-xp-infinite-loader 3.5s infinite;
+  animation-timing-function: linear; }
+
+.aesthetic-windows-95-button, .aesthetic-windows-95-button-title-bar, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start {
+  border: 1px solid;
+  border-top-color: #DFDFDF;
+  border-left-color: #DFDFDF;
+  border-bottom-color: #808080;
+  border-right-color: #808080;
+  box-shadow: 1px 1px 0 0 #000;
+  color: #000;
+  background-color: #BFBFBF;
+  text-align: center;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px; }
+  .aesthetic-windows-95-button button, .aesthetic-windows-95-button-title-bar button, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start button {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: 2px;
+    width: 100%; }
+    .aesthetic-windows-95-button button:focus, .aesthetic-windows-95-button-title-bar button:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start button:focus {
+      outline: 1px dashed #000; }
+  .aesthetic-windows-95-button:active, .aesthetic-windows-95-button-title-bar:active, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px #000; }
+  .aesthetic-windows-95-button:focus, .aesthetic-windows-95-button-title-bar:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start:focus {
+    outline: none; }
+
+.aesthetic-windows-95-button-title-bar {
+  width: 16px;
+  height: 16px;
+  font-size: 1.0rem;
+  padding: 0px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-family: sans-serif;
+  font-weight: normal; }
+  .aesthetic-windows-95-button-title-bar button {
+    padding: 1px; }
+
+.aesthetic-windows-xp-button, .aesthetic-windows-xp-button-title-bar, .aesthetic-windows-xp-button-title-bar-close {
+  width: 75px;
+  height: 20px;
+  text-align: center;
+  color: #070707;
+  background: #f8f4f1;
+  border: 2px solid;
+  border-radius: 4px;
+  border-color: #8aa2cb; }
+  .aesthetic-windows-xp-button:hover, .aesthetic-windows-xp-button-title-bar:hover, .aesthetic-windows-xp-button-title-bar-close:hover {
+    border-bottom-color: #efc47b; }
+  .aesthetic-windows-xp-button:focus, .aesthetic-windows-xp-button-title-bar:focus, .aesthetic-windows-xp-button-title-bar-close:focus, .aesthetic-windows-xp-button:focus-within, .aesthetic-windows-xp-button-title-bar:focus-within, .aesthetic-windows-xp-button-title-bar-close:focus-within {
+    border-bottom-color: #8aa2cb; }
+  .aesthetic-windows-xp-button button, .aesthetic-windows-xp-button-title-bar button, .aesthetic-windows-xp-button-title-bar-close button {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 100%; }
+    .aesthetic-windows-xp-button button:focus, .aesthetic-windows-xp-button-title-bar button:focus, .aesthetic-windows-xp-button-title-bar-close button:focus {
+      outline: 1px dashed #000; }
+    .aesthetic-windows-xp-button button:active, .aesthetic-windows-xp-button-title-bar button:active, .aesthetic-windows-xp-button-title-bar-close button:active {
+      background: #e3e0db; }
+
+.aesthetic-windows-xp-button-title-bar, .aesthetic-windows-xp-button-title-bar-close {
+  width: 20px;
+  color: #f8f4f1;
+  padding: 1px;
+  font-family: sans-serif;
+  border-color: #f8f4f1;
+  background: linear-gradient(to bottom right, #8aa2cb 0%, #005cf5 40%, #005cf5 75%, #044cdc 100%); }
+  .aesthetic-windows-xp-button-title-bar:hover, .aesthetic-windows-xp-button-title-bar-close:hover {
+    border-color: #f8f4f1; }
+  .aesthetic-windows-xp-button-title-bar:focus, .aesthetic-windows-xp-button-title-bar-close:focus, .aesthetic-windows-xp-button-title-bar:focus-within, .aesthetic-windows-xp-button-title-bar-close:focus-within {
+    border-bottom-color: #f8f4f1; }
+  .aesthetic-windows-xp-button-title-bar button, .aesthetic-windows-xp-button-title-bar-close button {
+    padding: 1px; }
+    .aesthetic-windows-xp-button-title-bar button:active, .aesthetic-windows-xp-button-title-bar-close button:active {
+      color: #c9cac4;
+      background: linear-gradient(to bottom right, #070707 0%, #044cdc 5%, #044cdc 50%, #005cf5 100%); }
+
+.aesthetic-windows-xp-button-title-bar-close {
+  background: linear-gradient(to bottom right, #efc47b 0%, #e26725 40%, #e26725 75%, #b7371a 100%); }
+  .aesthetic-windows-xp-button-title-bar-close button:active {
+    background: linear-gradient(to bottom right, #070707 0%, #b7371a 5%, #b7371a 50%, #e26725 100%); }
+
+.aesthetic-windows-95-dropdown {
+  position: relative;
+  display: inline-block; }
+  .aesthetic-windows-95-dropdown:focus-within .aesthetic-windows-95-dropdown-menu {
+    display: block; }
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-trigger {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: 1px 4px; }
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-trigger:focus {
+    outline: 1px dashed #000;
+    background-color: #000084;
+    color: #FFF; }
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu.is-active {
+    display: block; }
+  .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu {
+    border: 1px solid;
+    box-shadow: 1px 1px 0 0 #000;
+    border-top: 1px solid #DFDFDF;
+    border-left: 1px solid #DFDFDF;
+    display: none;
+    position: absolute;
+    margin: 0;
+    list-style-type: none;
+    background-color: #BFBFBF;
+    min-width: 150px;
+    padding: 4px;
+    z-index: 1; }
+    .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu:hover, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu:focus, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu:focus-within {
+      display: block; }
+    .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu hr {
+      border-color: #dbdcd8; }
+    .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      cursor: pointer; }
+      .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item button {
+        background: none;
+        color: inherit;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: none; }
+      .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item:hover, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item:focus, .aesthetic-windows-95-dropdown .aesthetic-windows-95-dropdown-menu .aesthetic-windows-95-dropdown-menu-item:focus-within {
+        outline: 1px dashed #000;
+        background-color: #000084;
+        color: #FFF; }
+
+.aesthetic-windows-xp-dropdown {
+  position: relative;
+  display: inline-block; }
+  .aesthetic-windows-xp-dropdown:focus-within .aesthetic-windows-xp-dropdown-menu {
+    display: block; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-trigger {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    padding: 1px 4px; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-trigger:focus {
+    outline: 1px dashed #000;
+    background-color: #005cf5;
+    color: #f8f4f1; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu.is-active {
+    display: block; }
+  .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu {
+    border: 1px solid;
+    box-shadow: 1px 1px 0 0 #c9cac4;
+    border-top: 1px solid #c9cac4;
+    border-left: 1px solid #c9cac4;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    box-shadow: 2px 2px 1px 0px #969892;
+    display: none;
+    position: absolute;
+    margin: 0;
+    list-style-type: none;
+    background-color: #f8f4f1;
+    min-width: 150px;
+    padding: 4px;
+    z-index: 1; }
+    .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu:hover, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu:focus, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu:focus-within {
+      display: block; }
+    .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu hr {
+      border-color: #dbdcd8; }
+    .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      cursor: pointer; }
+      .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item button {
+        background: none;
+        color: inherit;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: none; }
+      .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item:hover, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item:focus, .aesthetic-windows-xp-dropdown .aesthetic-windows-xp-dropdown-menu .aesthetic-windows-xp-dropdown-menu-item:focus-within {
+        outline: 1px dashed #070707;
+        background-color: #005cf5;
+        color: #f8f4f1; }
+
+.aesthetic-windows-95-text-input {
+  border: 1px solid;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF; }
+  .aesthetic-windows-95-text-input:focus {
+    outline: 1px dashed #000; }
+
+.aesthetic-windows-95-checkbox, .aesthetic-windows-95-radio {
+  cursor: pointer;
+  position: relative;
+  padding-left: calc(12px + 7px); }
+  .aesthetic-windows-95-checkbox:focus, .aesthetic-windows-95-radio:focus, .aesthetic-windows-95-checkbox:focus-within, .aesthetic-windows-95-radio:focus-within {
+    outline: 1px dashed #000; }
+  .aesthetic-windows-95-checkbox .aesthetic-windows-95-checkmark, .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark {
+    cursor: pointer;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    border: 1px solid;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    background: #FFF; }
+  .aesthetic-windows-95-checkbox .aesthetic-windows-95-checkmark::after, .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark::after {
+    display: none;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    background: transparent;
+    top: 2px;
+    left: 2px;
+    border: 3px solid #000;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg); }
+  .aesthetic-windows-95-checkbox input[type="checkbox"], .aesthetic-windows-95-radio input[type="checkbox"] {
+    opacity: 0; }
+  .aesthetic-windows-95-checkbox input[type="checkbox"]:checked + .aesthetic-windows-95-checkmark::after, .aesthetic-windows-95-radio input[type="checkbox"]:checked + .aesthetic-windows-95-checkmark::after {
+    display: block; }
+
+.aesthetic-windows-95-radio {
+  border-radius: 25px; }
+  .aesthetic-windows-95-radio:nth-child(1) {
+    margin-bottom: 100px; }
+  .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark {
+    border-radius: 25px; }
+  .aesthetic-windows-95-radio .aesthetic-windows-95-checkmark::after {
+    content: '';
+    position: absolute;
+    background-color: #000;
+    border-radius: 25px;
+    top: 3px;
+    left: 3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(0deg); }
+  .aesthetic-windows-95-radio input[type="radio"] {
+    opacity: 0; }
+  .aesthetic-windows-95-radio input[type="radio"]:checked + .aesthetic-windows-95-checkmark:after {
+    display: block; }
+
+.aesthetic-windows-xp-text-input {
+  border: 2px solid #8aa2cb;
+  background-color: #f8f4f1; }
+  .aesthetic-windows-xp-text-input:focus {
+    outline: 1px dashed #070707; }
+
+.aesthetic-windows-xp-checkbox, .aesthetic-windows-xp-radio {
+  cursor: pointer;
+  position: relative;
+  padding-left: calc(12px + 7px); }
+  .aesthetic-windows-xp-checkbox:focus, .aesthetic-windows-xp-radio:focus, .aesthetic-windows-xp-checkbox:focus-within, .aesthetic-windows-xp-radio:focus-within {
+    outline: 1px dashed #070707; }
+  .aesthetic-windows-xp-checkbox .aesthetic-windows-xp-checkmark, .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark {
+    cursor: pointer;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    border: 1px solid #005cf5;
+    background: linear-gradient(to bottom right, #c9cac4 0%, #f8f4f1 75%); }
+  .aesthetic-windows-xp-checkbox .aesthetic-windows-xp-checkmark::after, .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark::after {
+    display: none;
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    background: transparent;
+    top: 2px;
+    left: 2px;
+    border: 3px solid #419642;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg); }
+  .aesthetic-windows-xp-checkbox input[type="checkbox"], .aesthetic-windows-xp-radio input[type="checkbox"] {
+    opacity: 0; }
+  .aesthetic-windows-xp-checkbox input[type="checkbox"]:checked + .aesthetic-windows-xp-checkmark::after, .aesthetic-windows-xp-radio input[type="checkbox"]:checked + .aesthetic-windows-xp-checkmark::after {
+    display: block; }
+
+.aesthetic-windows-xp-radio {
+  border-radius: 25px; }
+  .aesthetic-windows-xp-radio:nth-child(1) {
+    margin-bottom: 100px; }
+  .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark {
+    border-radius: 25px; }
+  .aesthetic-windows-xp-radio .aesthetic-windows-xp-checkmark::after {
+    content: '';
+    position: absolute;
+    background-color: #419642;
+    border-radius: 25px;
+    top: 3px;
+    left: 3px;
+    width: 3px;
+    height: 3px;
+    transform: rotate(0deg); }
+  .aesthetic-windows-xp-radio input[type="radio"] {
+    opacity: 0; }
+  .aesthetic-windows-xp-radio input[type="radio"]:checked + .aesthetic-windows-xp-checkmark:after {
+    display: block; }
+
+.aesthetic-windows-95-select {
+  border: 1px solid;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #DFDFDF;
+  border-bottom: 1px solid #DFDFDF;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-color: #FFF;
+  cursor: pointer; }
+  .aesthetic-windows-95-select select {
+    cursor: pointer;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline;
+    margin-left: -5px;
+    width: calc(100% + 5px); }
+    .aesthetic-windows-95-select select:focus, .aesthetic-windows-95-select select:focus-within {
+      outline: 1px dashed #000;
+      background-color: #000084;
+      color: #FFF; }
+  .aesthetic-windows-95-select .aesthetic-windows-95-select-checkmark {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 15px;
+    height: 16px;
+    background: linear-gradient(to bottom right, #FFF 0%, #BFBFBF 2%, #BFBFBF 94%, #000 100%);
+    border-top: 2px solid #DFDFDF;
+    border-left: 2px solid #DFDFDF;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    pointer-events: none; }
+    .aesthetic-windows-95-select .aesthetic-windows-95-select-checkmark:after {
+      content: " ";
+      width: 100px;
+      height: 100px;
+      z-index: 100;
+      width: 0;
+      height: 0;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 7px solid #000;
+      margin-top: -3px;
+      position: absolute;
+      top: 50%;
+      right: 4px;
+      z-index: 2;
+      cursor: pointer;
+      pointer-events: none; }
+
+.aesthetic-windows-xp-select {
+  border: 2px solid #8aa2cb;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-color: #FFF;
+  cursor: pointer; }
+  .aesthetic-windows-xp-select select {
+    cursor: pointer;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border: none;
+    box-shadow: none;
+    background: #f8f4f1;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline;
+    margin-left: -5px;
+    width: calc(102% + 5px); }
+    .aesthetic-windows-xp-select select:focus, .aesthetic-windows-xp-select select:focus-within {
+      outline: 1px dashed #070707;
+      background-color: #005cf5;
+      color: #f8f4f1; }
+  .aesthetic-windows-xp-select:after {
+    content: " ";
+    width: 21px;
+    height: 25px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #f8f4f1;
+    pointer-events: none; }
+  .aesthetic-windows-xp-select .aesthetic-windows-xp-select-checkmark {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 14px;
+    height: 16px;
+    transform: rotate(180deg);
+    background: linear-gradient(to top left, #f8f4f1 0%, #aeceff 50%);
+    border: 1px solid #8aa2cb;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 1; }
+    .aesthetic-windows-xp-select .aesthetic-windows-xp-select-checkmark:after {
+      content: "^";
+      font-family: sans-serif;
+      color: #4b6485;
+      font-weight: bold;
+      width: 100px;
+      height: 100px;
+      z-index: 100;
+      width: 0;
+      height: 0;
+      border: none;
+      position: absolute;
+      top: 1px;
+      left: 2px;
+      cursor: pointer;
+      pointer-events: none; }
+
+.aesthetic-windows-95-taskbar {
+  position: relative;
+  background-color: #BFBFBF;
+  border-top: 1px solid #DFDFDF;
+  width: 100%;
+  height: 4vh;
+  display: flex;
+  padding: 5px; }
+  .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu {
+    border: 1px solid;
+    border-top-color: #DFDFDF;
+    border-left-color: #DFDFDF;
+    border-bottom-color: #808080;
+    border-right-color: #808080;
+    box-shadow: 1px 1px 0 0 #000;
+    display: none;
+    position: absolute;
+    bottom: calc(100% - 5px);
+    left: 10px;
+    background-color: #BFBFBF;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+    .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu.is-active {
+      display: block; }
+    .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item {
+      padding-top: 1px;
+      padding-bottom: 1px;
+      padding-left: 10px;
+      cursor: pointer; }
+      .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item button {
+        background: none;
+        color: inherit;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: none; }
+      .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item:hover, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item:focus, .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-start-menu .aesthetic-windows-95-taskbar-start-menu-item:focus-within {
+        outline: 1px dashed #000;
+        background-color: #000084;
+        color: #FFF; }
+  .aesthetic-windows-95-taskbar .aesthetic-windows-95-taskbar-services {
+    border: 1px solid;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer; }
+
+.aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs {
+  display: flex;
+  height: 28px;
+  width: 100%; }
+  .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button {
+    border: 1px solid;
+    border-top-color: #DFDFDF;
+    border-left-color: #DFDFDF;
+    border-bottom-color: #808080;
+    border-right-color: #808080;
+    box-shadow: 1px 1px 0 0 #000;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-color: transparent;
+    box-shadow: 1px 0 0 0 #000;
+    background-color: #BFBFBF;
+    color: #000;
+    height: 26px;
+    text-align: center;
+    z-index: 0;
+    margin-left: 1px;
+    padding-left: 4px;
+    padding-right: 4px; }
+    .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button:first-child {
+      margin-left: 2px; }
+    .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button.is-active {
+      position: relative;
+      left: 0;
+      bottom: 1px;
+      height: 29px;
+      margin-left: -2px;
+      z-index: 1; }
+      .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button.is-active:first-child {
+        margin-left: 0px; }
+    .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button button {
+      background: none;
+      color: inherit;
+      border: none;
+      font: inherit;
+      cursor: pointer;
+      outline: none;
+      padding: 2px;
+      width: 100%; }
+      .aesthetic-windows-95-tabbed-container .aesthetic-windows-95-tabbed-container-tabs .aesthetic-windows-95-tabbed-container-tabs-button button:focus {
+        outline: 1px dashed #000; }
+
+.aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs {
+  display: flex;
+  height: 28px;
+  width: 100%; }
+  .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button {
+    background-color: #f8f4f1;
+    border: 1px solid;
+    border-color: #c9cac4;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-color: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    outline: 0; }
+    .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button.is-active {
+      position: relative;
+      height: 30px;
+      bottom: 3px;
+      border-top: 2px solid;
+      border-top-color: #efc47b;
+      z-index: 1; }
+    .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button button {
+      background: none;
+      color: inherit;
+      border: none;
+      font: inherit;
+      cursor: pointer;
+      outline: none;
+      padding: 2px;
+      width: 100%; }
+      .aesthetic-windows-xp-tabbed-container .aesthetic-windows-xp-tabbed-container-tabs .aesthetic-windows-xp-tabbed-container-tabs-button button:focus {
+        outline: 1px dashed #070707; }
+
+.aesthetic-windows-95-modal .aesthetic-windows-95-modal-title-bar {
+  border: 1px solid;
+  box-shadow: 1px 1px 0 0 #000;
+  border-top: 1px solid #DFDFDF;
+  border-left: 1px solid #DFDFDF;
+  text-align: left;
+  background: #000084;
+  outline: 0;
+  padding-left: 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 4px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  .aesthetic-windows-95-modal .aesthetic-windows-95-modal-title-bar .aesthetic-windows-95-modal-title-bar-text {
+    color: #FFF; }
+  .aesthetic-windows-95-modal .aesthetic-windows-95-modal-title-bar .aesthetic-windows-95-modal-title-bar-controls {
+    margin-left: auto; }
+
+.aesthetic-windows-95-modal .aesthetic-windows-95-modal-content {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.aesthetic-windows-xp-modal {
+  background: #ece9d6;
+  border: 3px solid;
+  border-color: #044cdc;
+  border-top-color: #298cfe;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  outline: 0; }
+  .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar {
+    text-align: left;
+    color: #f8f4f1;
+    background: linear-gradient(to bottom, #298cfe 0%, #044cdc 10%, #044cdc 60%, #005cf5 80%, #044cdc 100%);
+    outline: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+    .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar .aesthetic-windows-xp-modal-title-bar-text {
+      font-size: 0.85rem;
+      text-shadow: 1px 1px #070707;
+      margin-left: 6px; }
+    .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar .aesthetic-windows-xp-modal-title-bar-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto; }
+      .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-title-bar .aesthetic-windows-xp-modal-title-bar-controls > * {
+        margin-left: 2px;
+        margin-right: 2px; }
+  .aesthetic-windows-xp-modal .aesthetic-windows-xp-modal-content {
+    background: #ece9d6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+@keyframes aesthetic-notification {
+  0% {
+    opacity: 0;
+    pointer-events: none; }
+  75% {
+    opacity: 0.75;
+    pointer-events: all; }
+  100% {
+    opacity: 1;
+    pointer-events: all; } }
+
+.aesthetic-notification, .aesthetic-windows-xp-notification {
+  display: none;
+  opacity: 0;
+  position: relative;
+  min-width: 200px;
+  min-height: 50px;
+  max-width: 100%;
+  z-index: 1000;
+  color: #FAFAFA;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+  padding: 10px; }
+  .aesthetic-notification.is-active, .is-active.aesthetic-windows-xp-notification {
+    display: block;
+    opacity: 1;
+    animation: aesthetic-notification 2s; }
+  .aesthetic-notification .dismiss, .aesthetic-windows-xp-notification .dismiss {
+    background: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #020202; }
+  .aesthetic-notification .aesthetic-notification-content, .aesthetic-windows-xp-notification .aesthetic-notification-content {
+    text-overflow: wrap; }
+
+.aesthetic-windows-xp-notification {
+  border: 2px solid #070707;
+  box-shadow: 2px 2px 1px 0px #969892;
+  color: #070707;
+  background-color: #fffee7; }
+  .aesthetic-windows-xp-notification .dismiss {
+    background-color: #f8f4f1;
+    border-radius: 3px;
+    border: 2px solid #b7ad9b;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #b7ad9b; }
+
+.aesthetic-font {
+  font-family: Times, Times New Roman, Georgia, serif;
+  font-weight: lighter; }
+  .aesthetic-font h1, .aesthetic-font h2, .aesthetic-font h3, .aesthetic-font h4, .aesthetic-font h5, .aesthetic-font h6 {
+    font-weight: lighter; }
