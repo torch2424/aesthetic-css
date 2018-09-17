@@ -37,11 +37,11 @@ A vaporwave css framework
 
 # Example Elements
 
-![Button Element Example](./readme/buttonExample)
-![Text Input Example](./readme/textInputExample)
-![Windows 95 Modal Example](./readme/windows95Example)
-![Windows XP Modal Example](./readme/windowsXpExample)
-![C R T Example](./readme/crtExample)
+![Button Element Example](./readme/buttonExample.png)
+![Text Input Example](./readme/textInputExample.png)
+![Windows 95 Modal Example](./readme/windows95Example.png)
+![Windows XP Modal Example](./readme/windowsXpExample.png)
+![C R T Example](./readme/crtExample.png)
 
 # Installation
 
