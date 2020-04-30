@@ -52,7 +52,9 @@ A vaporwave css framework
 
 Feel free to download the latest `aesthetic.css` from the master branch, or one of our [releases](https://github.com/torch2424/aesthetic-css/releases).
 
-`<link rel="stylesheet" type="text/css" href="aesthetics.css">`
+```html
+<link rel="stylesheet" type="text/css" href="aesthetic.css">
+```
 
 # Importing Modules
 
@@ -91,7 +93,7 @@ Just your standard node app. Install Node with [nvm](https://github.com/creation
 
 ### Npm Scripts & CLI Commands
 
-```
+```bash
 # Watch for changes and serve the project. You want to use this for development/contributing.
 npm run dev
 
