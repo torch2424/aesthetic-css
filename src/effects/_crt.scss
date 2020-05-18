@@ -56,3 +56,9 @@ $screen-background: #121010;
     pointer-events: none;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .aesthetic-effect-crt::after {
+    animation: none !important;
+  }
+}
