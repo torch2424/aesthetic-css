@@ -4,7 +4,6 @@
 
 ![npm](https://img.shields.io/npm/dt/aesthetic-css.svg)
 ![GitHub](https://img.shields.io/github/license/torch2424/aesthetic-css.svg)
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/torch2424)
 
 A vaporwave css framework
 
