@@ -33,7 +33,7 @@
   "devDependencies": {
     "camelcase": "^5.0.0",
     "highlight.js": "^9.12.0",
-    "livereload": "^0.7.0",
+    "livereload": "^0.9.1",
     "minimist": "^1.2.0",
     "mustache": "^2.3.0",
     "node-sass-chokidar": "^1.2.2",
