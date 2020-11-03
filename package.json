@@ -9,7 +9,7 @@
     "deploy:demo": "npm run build && gh-pages -d dist",
     "deploy:lib": "npm run build && npx np",
     "build:dev": "npm run style:build && node build.js -d",
-    "style:build": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o dist/",
+    "style:build": "npx node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o dist/",
     "serve": "npx http-server ./dist",
     "livereload": "npx livereload ./dist",
     "watch": "npx watch 'npm run build:dev' ./src ./demo --interval=1"
