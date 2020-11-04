@@ -90,8 +90,6 @@ Feel free to fork and submit PRs! Any help is much appreciated, and would be a t
 
 Just your standard node app. Install Node with [nvm](https://github.com/creationix/nvm), `git clone` the project, and `npm install`, and you should be good to go!
 
-**NOTE:** `node v.14.x.x` works with the current codebase (node-sass doesn't fully support v.15 yet)
-
 ### Npm Scripts & CLI Commands
 
 ```bash
