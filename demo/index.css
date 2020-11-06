@@ -63,8 +63,9 @@ amp-video {
   margin-bottom: 10px;
 }
 
-.dropdown-wrapper .snippet-container {
-  margin-top: 125px;
+.dropdown-wrapper .aesthetic-windows-95-dropdown,
+.dropdown-wrapper .aesthetic-windows-xp-dropdown {
+  margin-bottom: 100px;
 }
 
 @keyframes boot-animation {
